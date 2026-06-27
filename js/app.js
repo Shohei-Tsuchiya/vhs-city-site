@@ -92,7 +92,10 @@ function renderCards(container, items, mode) {
 
 function render() {
   const liveItems = filterItems(latestStatus.live || []);
-  const upcomingItems = filterItems(latestStatus.upcoming || []).filter(isRelevantUpcoming);
+  const liveMemberKeys = new Set(liveItems.map((item) => item.memberKey));
+  const upcomingItems = filterItems(latestStatus.upcoming || [])
+    .filter(isRelevantUpcoming)
+    .filter((item) => !liveMemberKeys.has(item.memberKey));
 
   liveCount.textContent = String(liveItems.length);
   upcomingCount.textContent = String(upcomingItems.length);

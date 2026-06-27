@@ -132,7 +132,10 @@ async function fetchVideosByIds(videoIds) {
 
 const UPCOMING_GRACE_MS = 30 * 60 * 1000;
 const LIVE_START_GRACE_MS = 10 * 60 * 1000;
-const LIVE_STALE_MS = 20 * 60 * 1000;
+// actualStartTime 確定前の API 遅延を許容（予定時刻から最大6時間）
+const LIVE_SCHEDULED_ONLY_MS = 6 * 60 * 60 * 1000;
+// 開始後に concurrentViewers が未返却の短い猶予
+const LIVE_POST_START_NO_VIEWERS_MS = 30 * 60 * 1000;
 
 function isValidLive(video) {
   if (video.snippet?.liveBroadcastContent !== 'live') return false;
@@ -141,19 +144,27 @@ function isValidLive(video) {
   if (!details) return false;
   if (details.actualEndTime) return false;
 
-  // concurrentViewers は配信中のみ返る
+  // concurrentViewers は配信中のみ返る（"0" も有効）
   if (details.concurrentViewers !== undefined) return true;
 
-  const startMs = new Date(
-    details.actualStartTime || details.scheduledStartTime || 0
-  ).getTime();
-  if (Number.isNaN(startMs) || startMs === 0) return false;
+  const now = Date.now();
 
-  const elapsed = Date.now() - startMs;
-  if (elapsed < -LIVE_START_GRACE_MS) return false;
+  if (details.actualStartTime) {
+    const sinceStart = now - new Date(details.actualStartTime).getTime();
+    if (Number.isNaN(sinceStart)) return false;
+    // 視聴者数が消えた = 終了済みの可能性が高い（開始直後の API 遅延のみ許容）
+    return sinceStart <= LIVE_POST_START_NO_VIEWERS_MS;
+  }
 
-  // live のまま残る終了済み配信は concurrentViewers が消える
-  return elapsed <= LIVE_STALE_MS;
+  if (details.scheduledStartTime) {
+    const elapsed = now - new Date(details.scheduledStartTime).getTime();
+    if (Number.isNaN(elapsed)) return false;
+    if (elapsed < -LIVE_START_GRACE_MS) return false;
+    // actualStartTime の反映待ち（配信開始直後にここを通ることが多い）
+    return elapsed <= LIVE_SCHEDULED_ONLY_MS;
+  }
+
+  return false;
 }
 
 function isValidUpcoming(video) {
@@ -311,6 +322,9 @@ async function main() {
       return ta - tb;
     }),
   };
+
+  const liveMemberKeys = new Set(status.live.map((item) => item.memberKey));
+  status.upcoming = status.upcoming.filter((item) => !liveMemberKeys.has(item.memberKey));
 
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
   writeJson(join(DATA, 'status.json'), status);
