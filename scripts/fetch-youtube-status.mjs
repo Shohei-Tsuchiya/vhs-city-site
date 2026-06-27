@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * YouTube 配信状況を取得し data/status.json を更新する。
- * API クォータ節約のため、1 回の実行で少数メンバーだけポーリングする。
+ * RSS で最新動画 ID を取得し、videos.list で一括判定（search API 不使用）。
  */
 
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
@@ -13,14 +13,9 @@ const ROOT = join(__dirname, '..');
 const DATA = join(ROOT, 'data');
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
-const MEMBERS_PER_RUN = Number(process.env.MEMBERS_PER_RUN || 1);
-const MAX_DAILY_SEARCHES = Number(process.env.MAX_DAILY_SEARCHES || 94);
-
-function getQuotaDate() {
-  return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'America/Los_Angeles',
-  }).format(new Date());
-}
+const RSS_ENTRIES_PER_CHANNEL = Number(process.env.RSS_ENTRIES_PER_CHANNEL || 3);
+const RSS_CONCURRENCY = Number(process.env.RSS_CONCURRENCY || 8);
+const VIDEOS_LIST_CHUNK = 50;
 
 if (!API_KEY) {
   console.error('YOUTUBE_API_KEY が設定されていません');
@@ -85,140 +80,106 @@ async function resolveChannelId(member, cache) {
   return channelId;
 }
 
-async function searchBroadcast(channelId, eventType) {
-  const data = await apiGet('search', {
-    part: 'snippet',
+function parseRssVideoIds(xml, limit) {
+  const ids = [];
+  const regex = /<yt:videoId>([^<]+)<\/yt:videoId>/g;
+  let match;
+  while ((match = regex.exec(xml)) !== null && ids.length < limit) {
+    ids.push(match[1]);
+  }
+  return ids;
+}
+
+async function fetchRssVideoIds(channelId) {
+  const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'VHS-City-Site/1.0 (fan dashboard)' },
+  });
+
+  if (!res.ok) {
+    throw new Error(`RSS fetch failed (${res.status})`);
+  }
+
+  const xml = await res.text();
+  return parseRssVideoIds(xml, RSS_ENTRIES_PER_CHANNEL);
+}
+
+async function mapPool(items, concurrency, mapper) {
+  const results = [];
+  for (let i = 0; i < items.length; i += concurrency) {
+    const chunk = items.slice(i, i + concurrency);
+    const chunkResults = await Promise.all(chunk.map(mapper));
+    results.push(...chunkResults);
+  }
+  return results;
+}
+
+async function fetchVideosByIds(videoIds) {
+  const uniqueIds = [...new Set(videoIds)];
+  const videos = [];
+
+  for (let i = 0; i < uniqueIds.length; i += VIDEOS_LIST_CHUNK) {
+    const chunk = uniqueIds.slice(i, i + VIDEOS_LIST_CHUNK);
+    const data = await apiGet('videos', {
+      part: 'snippet,liveStreamingDetails,status',
+      id: chunk.join(','),
+    });
+    videos.push(...(data.items || []));
+  }
+
+  return videos;
+}
+
+function buildStreamEntry(member, channelId, video) {
+  const scheduledStart =
+    video.liveStreamingDetails?.scheduledStartTime ||
+    video.snippet?.publishedAt ||
+    null;
+
+  return {
+    memberKey: `${member.groupId}:${member.name}`,
+    name: member.name,
+    groupId: member.groupId,
+    groupName: member.groupName,
+    groupColor: member.groupColor,
     channelId,
-    eventType,
-    type: 'video',
-    maxResults: '3',
-    order: 'date',
-  });
-
-  return (data.items || []).map((item) => ({
-    videoId: item.id?.videoId,
-    title: item.snippet?.title,
+    handle: member.handle || null,
+    videoId: video.id,
+    title: video.snippet?.title || 'タイトル未取得',
     thumbnail:
-      item.snippet?.thumbnails?.medium?.url ||
-      item.snippet?.thumbnails?.default?.url,
-    scheduledStart: item.snippet?.publishedAt,
-    url: `https://www.youtube.com/watch?v=${item.id?.videoId}`,
-  }));
-}
-
-function upsertByKey(list, entry, keyFn) {
-  const key = keyFn(entry);
-  const index = list.findIndex((item) => keyFn(item) === key);
-  if (index === -1) {
-    list.push(entry);
-    return;
-  }
-  list[index] = entry;
-}
-
-function removeStale(list, memberKey, maxAgeMs) {
-  const now = Date.now();
-  return list.filter((item) => {
-    if (item.memberKey !== memberKey) return true;
-    if (!item.checkedAt) return false;
-    return now - new Date(item.checkedAt).getTime() < maxAgeMs;
-  });
-}
-
-async function checkLive(member, channelId, status, base) {
-  const memberKey = base.memberKey;
-  const liveItems = await searchBroadcast(channelId, 'live');
-  status.live = removeStale(status.live, memberKey, 45 * 60 * 1000);
-  if (liveItems.length > 0) {
-    for (const item of liveItems) {
-      upsertByKey(
-        status.live,
-        { ...base, ...item, status: 'live' },
-        (x) => `${x.memberKey}:${x.videoId}`
-      );
-    }
-  } else {
-    status.live = status.live.filter((item) => item.memberKey !== memberKey);
-  }
-}
-
-async function checkUpcoming(member, channelId, status, base) {
-  const memberKey = base.memberKey;
-  const upcomingItems = await searchBroadcast(channelId, 'upcoming');
-  status.upcoming = removeStale(status.upcoming, memberKey, 6 * 60 * 60 * 1000);
-  if (upcomingItems.length > 0) {
-    for (const item of upcomingItems) {
-      upsertByKey(
-        status.upcoming,
-        { ...base, ...item, status: 'upcoming' },
-        (x) => `${x.memberKey}:${x.videoId}`
-      );
-    }
-  } else {
-    status.upcoming = status.upcoming.filter((item) => item.memberKey !== memberKey);
-  }
+      video.snippet?.thumbnails?.medium?.url ||
+      video.snippet?.thumbnails?.default?.url ||
+      null,
+    scheduledStart,
+    url: `https://www.youtube.com/watch?v=${video.id}`,
+    checkedAt: new Date().toISOString(),
+  };
 }
 
 async function main() {
   const membersConfig = readJson(join(DATA, 'members.json'), { groups: [] });
   const allMembers = flattenMembers(membersConfig.groups);
-  const fetchState = readJson(join(DATA, 'fetch-state.json'), {
-    nextIndex: 0,
-    phase: 'live',
-    quotaDate: null,
-    dailySearchCount: 0,
-  });
   const channelCache = readJson(join(DATA, 'channel-cache.json'), {});
-  const status = readJson(join(DATA, 'status.json'), {
-    updatedAt: null,
-    live: [],
-    upcoming: [],
-  });
 
   if (allMembers.length === 0) {
     console.log('メンバーが登録されていません');
     return;
   }
 
-  const quotaDate = getQuotaDate();
-  if (fetchState.quotaDate !== quotaDate) {
-    fetchState.quotaDate = quotaDate;
-    fetchState.dailySearchCount = 0;
-  }
+  const memberByChannel = new Map();
+  const videoToMember = new Map();
+  let channelResolveCalls = 0;
+  let rssOk = 0;
+  let rssFailed = 0;
 
-  if (fetchState.dailySearchCount >= MAX_DAILY_SEARCHES) {
-    console.log(
-      `Daily search limit reached (${fetchState.dailySearchCount}/${MAX_DAILY_SEARCHES}). Skipping.`
-    );
-    return;
-  }
-
-  const phase = fetchState.phase === 'upcoming' ? 'upcoming' : 'live';
-  const memberIndex = fetchState.nextIndex % allMembers.length;
-  const batch = [{ member: allMembers[memberIndex], index: memberIndex }];
-
-  if (phase === 'upcoming') {
-    fetchState.phase = 'live';
-    fetchState.nextIndex = (fetchState.nextIndex + 1) % allMembers.length;
-  } else {
-    fetchState.phase = 'upcoming';
-  }
-
-  console.log(
-    `Phase=${phase}, checking ${batch.length} member(s): ${batch.map((b) => b.member.name).join(', ')}`
-  );
-
-  for (const { member } of batch) {
-    if (fetchState.dailySearchCount >= MAX_DAILY_SEARCHES) {
-      console.log('Daily search limit reached during batch. Stopping.');
-      break;
-    }
-
-    const memberKey = `${member.groupId}:${member.name}`;
+  for (const member of allMembers) {
     let channelId;
-
     try {
+      const hadCache =
+        Boolean(member.channelId) ||
+        Boolean(member.handle && channelCache[member.handle.toLowerCase()]);
       channelId = await resolveChannelId(member, channelCache);
+      if (!hadCache && channelId) channelResolveCalls += 1;
     } catch (error) {
       console.warn(`Channel resolve failed for ${member.name}: ${error.message}`);
       continue;
@@ -229,43 +190,89 @@ async function main() {
       continue;
     }
 
-    const base = {
-      memberKey,
-      name: member.name,
-      groupId: member.groupId,
-      groupName: member.groupName,
-      groupColor: member.groupColor,
-      channelId,
-      handle: member.handle || null,
-      checkedAt: new Date().toISOString(),
-    };
+    memberByChannel.set(channelId, member);
+  }
 
+  const channelIds = [...memberByChannel.keys()];
+  console.log(`Resolved ${channelIds.length} channel(s)`);
+
+  const rssResults = await mapPool(channelIds, RSS_CONCURRENCY, async (channelId) => {
+    const member = memberByChannel.get(channelId);
     try {
-      if (phase === 'live') {
-        await checkLive(member, channelId, status, base);
-      } else {
-        await checkUpcoming(member, channelId, status, base);
-      }
-      fetchState.dailySearchCount += 1;
+      const videoIds = await fetchRssVideoIds(channelId);
+      rssOk += 1;
+      return { channelId, member, videoIds };
     } catch (error) {
-      console.warn(`${phase} search failed for ${member.name}: ${error.message}`);
+      rssFailed += 1;
+      console.warn(`RSS failed for ${member.name}: ${error.message}`);
+      return { channelId, member, videoIds: [] };
+    }
+  });
+
+  const allVideoIds = [];
+  for (const { channelId, member, videoIds } of rssResults) {
+    for (const videoId of videoIds) {
+      allVideoIds.push(videoId);
+      if (!videoToMember.has(videoId)) {
+        videoToMember.set(videoId, { member, channelId });
+      }
     }
   }
 
-  status.updatedAt = new Date().toISOString();
-  status.live.sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja'));
-  status.upcoming.sort((a, b) => {
-    const ta = new Date(a.scheduledStart || 0).getTime();
-    const tb = new Date(b.scheduledStart || 0).getTime();
-    return ta - tb;
-  });
+  console.log(
+    `RSS: ok=${rssOk}, failed=${rssFailed}, videoIds=${allVideoIds.length}`
+  );
 
-  writeJson(join(DATA, 'fetch-state.json'), fetchState);
+  const live = [];
+  const upcoming = [];
+  let videosListCalls = 0;
+
+  if (allVideoIds.length > 0) {
+    videosListCalls = Math.ceil(allVideoIds.length / VIDEOS_LIST_CHUNK);
+    const videos = await fetchVideosByIds(allVideoIds);
+
+    for (const video of videos) {
+      const mapping = videoToMember.get(video.id);
+      if (!mapping) continue;
+
+      const broadcast = video.snippet?.liveBroadcastContent;
+      if (broadcast !== 'live' && broadcast !== 'upcoming') continue;
+
+      const entry = buildStreamEntry(mapping.member, mapping.channelId, video);
+      entry.status = broadcast;
+
+      if (broadcast === 'live') {
+        live.push(entry);
+      } else {
+        upcoming.push(entry);
+      }
+    }
+  }
+
+  const dedupe = (items) => {
+    const map = new Map();
+    for (const item of items) {
+      map.set(item.memberKey, item);
+    }
+    return [...map.values()];
+  };
+
+  const status = {
+    updatedAt: new Date().toISOString(),
+    live: dedupe(live).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
+    upcoming: dedupe(upcoming).sort((a, b) => {
+      const ta = new Date(a.scheduledStart || 0).getTime();
+      const tb = new Date(b.scheduledStart || 0).getTime();
+      return ta - tb;
+    }),
+  };
+
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
   writeJson(join(DATA, 'status.json'), status);
 
+  const queriesThisRun = channelResolveCalls + videosListCalls;
   console.log(
-    `Done. live=${status.live.length}, upcoming=${status.upcoming.length}, searchesToday=${fetchState.dailySearchCount}/${MAX_DAILY_SEARCHES}`
+    `Done. live=${status.live.length}, upcoming=${status.upcoming.length}, apiCalls=${queriesThisRun} (channels=${channelResolveCalls}, videos.list=${videosListCalls})`
   );
 }
 

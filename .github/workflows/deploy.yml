@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # 20分おき = 72回/日 × search 1回 = 72 (上限95の余裕内)
-    - cron: '*/20 * * * *'
+    # 5分おき = 288回/日 × videos.list 約2回 = 約576 units (Search 不使用)
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -35,7 +35,6 @@ jobs:
           path: |
             data/status.json
             data/channel-cache.json
-            data/fetch-state.json
           key: vhs-youtube-status
           restore-keys: |
             vhs-youtube-status
@@ -43,8 +42,7 @@ jobs:
       - name: Fetch YouTube status
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          MEMBERS_PER_RUN: '1'
-          MAX_DAILY_SEARCHES: '94'
+          RSS_ENTRIES_PER_CHANNEL: '3'
         run: node scripts/fetch-youtube-status.mjs
 
       - name: Setup Pages

@@ -81,23 +81,22 @@ npx --yes serve .
 
 ## API クォータについて
 
-Google Cloud で設定した上限に合わせて動作します。
+**search API は使わず**、RSS + `videos.list` で全メンバーを一括チェックします。
 
-| 枠 | 設定値 | アプリ側の対策 |
-|----|--------|----------------|
-| Search Queries per day | 95 | 1 回 1 search（配信中と予定を交互に取得） |
-| Queries per day | 9,500 | チャンネル ID はキャッシュし `channels.list` を最小化 |
+| 処理 | API 消費 |
+|------|----------|
+| チャンネル RSS 取得 | **0**（無料） |
+| `videos.list`（最大50件/回） | **1 unit/回** |
+| チャンネル ID 解決（初回のみ） | **1 unit/人** |
 
 現在のスケジュール:
 
-- **20 分おき** に **1 名** をチェック
-- 配信中 → 次回は配信予定 → 次のメンバーへ、と交互に実行
-- 1 日あたり search 約 **72 回**（上限 95 に対して余裕あり）
-- 全メンバーが live + upcoming 両方更新されるまで約 **20 時間**
+- **5 分おき** に **全メンバー** をチェック
+- 1 回あたり `videos.list` 約 **2 回**（動画 ID 約90件）
+- 1 日あたり Queries 約 **600 units**（上限 9,500 に対して十分余裕）
+- **Search Queries はほぼ 0**
 
-手動で Actions を何度も走らせると search 枠を消費します。`MAX_DAILY_SEARCHES=94` でアプリ側も打ち止めにします。
-
-クォータや間隔を変えた場合は `.github/workflows/deploy.yml` の `cron` / `MEMBERS_PER_RUN` / `MAX_DAILY_SEARCHES` を調整してください。
+配信開始からサイト反映まで、おおむね **5〜10 分以内** です。
 
 ## 構成
 
