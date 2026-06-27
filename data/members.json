@@ -1,0 +1,75 @@
+{
+  "groups": [
+    {
+      "id": "aogiri",
+      "name": "あおぎり高校",
+      "color": "#e85d75",
+      "members": [
+        { "name": "音霊魂子", "handle": "tamako0212" },
+        { "name": "石狩あかり", "handle": "akari0415" },
+        { "name": "山黒音玄", "handle": "nekuro0412" },
+        { "name": "栗駒こまる", "handle": "komaru0814" },
+        { "name": "千代浦蝶美", "handle": "chiyomi0721" },
+        { "name": "我部りえる", "handle": "rieru0830" },
+        { "name": "エトラ", "handle": "etrachannel" },
+        { "name": "春雨麗女", "handle": "harusame_aogiri" },
+        { "name": "ぷわぷわぽぷら", "handle": "popura0119" },
+        { "name": "嫁ノ萌実", "handle": "moenach" },
+        { "name": "月赴ゐぶき", "handle": "ibuki0831" },
+        { "name": "うる虎がーる", "handle": "urutoragaru" },
+        { "name": "八十科むじな", "handle": "mujina_aogiri" }
+      ]
+    },
+    {
+      "id": "yugiri",
+      "name": "ゆうぎり高校",
+      "color": "#7c9cff",
+      "members": [
+        { "name": "運命メイナ", "handle": "DestinyMeina" },
+        { "name": "天羅洲テラス", "handle": "AmarasuTerasu" },
+        { "name": "LN_へるぷ.exe", "handle": "LN_Help_exe" },
+        { "name": "篠崎シャノン", "handle": "ShinozakiShanon" },
+        { "name": "宮霧りりい", "handle": "MiyakiriLily" }
+      ]
+    },
+    {
+      "id": "bebop",
+      "name": "ビバップ高校",
+      "color": "#f5a623",
+      "members": [
+        { "name": "花宮れいな", "handle": "hanamiya_reina" },
+        { "name": "紡木たかひ", "handle": "takahi_tsumugi" },
+        { "name": "夜乃くろむ", "handle": "yoruno_chrom" },
+        { "name": "紡木すず", "handle": "suzu_tsumugi" },
+        { "name": "紡木こかげ", "handle": "kokage_tsumugi" },
+        { "name": "紡木あかり", "handle": "akari_tsumugi" }
+      ]
+    },
+    {
+      "id": "goraku",
+      "name": "娯楽組",
+      "color": "#50c878",
+      "members": [
+        { "name": "夢野あくび", "handle": "yumenoakubi" },
+        { "name": "甘音あむ", "handle": "amaneamu" },
+        { "name": "龍巻ちゃん", "handle": "tatsumakichan" }
+      ]
+    },
+    {
+      "id": "partner",
+      "name": "パートナークリエイター",
+      "color": "#c084fc",
+      "members": [
+        { "name": "従井ノラ", "channelId": "UCQYy35PowPpc6ImRH1TQgcw", "handle": "nora_shitagai" }
+      ]
+    },
+    {
+      "id": "official",
+      "name": "VHS City 公式",
+      "color": "#f0f0f0",
+      "members": [
+        { "name": "VHS Cityの日常", "handle": "VtuberHighSchoolCity" }
+      ]
+    }
+  ]
+}

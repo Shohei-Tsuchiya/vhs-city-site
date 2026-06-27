@@ -1,0 +1,65 @@
+name: Deploy VHS City Site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Restore status cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/status.json
+            data/channel-cache.json
+            data/fetch-state.json
+          key: vhs-youtube-status
+          restore-keys: |
+            vhs-youtube-status
+
+      - name: Fetch YouTube status
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          MEMBERS_PER_RUN: '2'
+        run: node scripts/fetch-youtube-status.mjs
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

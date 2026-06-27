@@ -1,0 +1,8 @@
+{
+  "name": "vhs-city-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node --env-file=.env scripts/fetch-youtube-status.mjs"
+  }
+}
