@@ -93,7 +93,9 @@
       "name": "VHS City 公式",
       "color": "#f0f0f0",
       "members": [
-        { "name": "VHS Cityの日常", "handle": "VtuberHighSchoolCity" }
+        { "name": "VHS Cityの日常", "handle": "VtuberHighSchoolCity" },
+        { "name": "あおぎり高校公式", "handle": "aogiri1027" },
+        { "name": "ビバップ高校公式", "handle": "VebopProject_official" }
       ]
     }
   ]
