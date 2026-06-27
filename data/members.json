@@ -9,15 +9,15 @@
         { "name": "石狩あかり", "handle": "akari0415" },
         { "name": "山黒音玄", "handle": "nekuro0412" },
         { "name": "栗駒こまる", "handle": "komaru0814" },
-        { "name": "千代浦蝶美", "handle": "chiyomi0721" },
+        { "name": "千代浦蝶美", "handle": "chiyomi0812" },
         { "name": "我部りえる", "handle": "rieru0830" },
         { "name": "エトラ", "handle": "etrachannel" },
-        { "name": "春雨麗女", "handle": "harusame_aogiri" },
+        { "name": "春雨麗女", "handle": "urame0711" },
         { "name": "ぷわぷわぽぷら", "handle": "popura0119" },
-        { "name": "嫁ノ萌実", "handle": "moenach" },
+        { "name": "萌実", "handle": "Moemi_chan" },
         { "name": "月赴ゐぶき", "handle": "ibuki0831" },
-        { "name": "うる虎がーる", "handle": "urutoragaru" },
-        { "name": "八十科むじな", "handle": "mujina_aogiri" }
+        { "name": "うる虎がーる", "handle": "urutoragaru0831" },
+        { "name": "八十科むじな", "handle": "mujina0831" }
       ]
     },
     {
@@ -37,12 +37,15 @@
       "name": "ビバップ高校",
       "color": "#f5a623",
       "members": [
-        { "name": "花宮れいな", "handle": "hanamiya_reina" },
-        { "name": "紡木たかひ", "handle": "takahi_tsumugi" },
-        { "name": "夜乃くろむ", "handle": "yoruno_chrom" },
-        { "name": "紡木すず", "handle": "suzu_tsumugi" },
-        { "name": "紡木こかげ", "handle": "kokage_tsumugi" },
-        { "name": "紡木あかり", "handle": "akari_tsumugi" }
+        { "name": "アカシ・ニコ", "handle": "niko_brdc" },
+        { "name": "永久不滅ゆるる", "handle": "yururu_coisqa" },
+        { "name": "明鏡止水ふわり", "handle": "fuwari_coisqa" },
+        { "name": "甘葛すもあ", "handle": "sumoa_meiwaku" },
+        { "name": "泡喰はわこ", "handle": "hawako_meiwaku" },
+        { "name": "常勝無敗ぐぬぬ", "handle": "gununu_meiwaku" },
+        { "name": "二藍しぃあ", "handle": "shia_morinyan" },
+        { "name": "微睡いちの", "handle": "ichino_morinyan" },
+        { "name": "数寄屋橋れんげ", "handle": "renge_morinyan" }
       ]
     },
     {
@@ -50,9 +53,31 @@
       "name": "娯楽組",
       "color": "#50c878",
       "members": [
-        { "name": "夢野あくび", "handle": "yumenoakubi" },
-        { "name": "甘音あむ", "handle": "amaneamu" },
-        { "name": "龍巻ちゃん", "handle": "tatsumakichan" }
+        {
+          "name": "落乃いなほ",
+          "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
+          "handle": "落乃いなほ"
+        },
+        {
+          "name": "与璃つづく",
+          "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+          "handle": "与璃つづく"
+        },
+        {
+          "name": "壱神ふらん",
+          "channelId": "UCxo7YTxJQq0dGeLjm4kZKEQ",
+          "handle": "Isshin_Fran"
+        },
+        {
+          "name": "犬束しばり",
+          "channelId": "UCTSjiG5djZybco4v4nQDOCg",
+          "handle": "犬束しばり"
+        },
+        {
+          "name": "回胴てん",
+          "channelId": "UCcuJiXr5imCUjFCHhFm1WmA",
+          "handle": "回胴てん"
+        }
       ]
     },
     {
