@@ -130,10 +130,23 @@ async function fetchVideosByIds(videoIds) {
   return videos;
 }
 
+const UPCOMING_GRACE_MS = 30 * 60 * 1000;
+
+function isValidUpcoming(video) {
+  const scheduled = video.liveStreamingDetails?.scheduledStartTime;
+  if (!scheduled) return false;
+
+  const startMs = new Date(scheduled).getTime();
+  if (Number.isNaN(startMs)) return false;
+
+  // 開始予定を過ぎても未開始の予約は YouTube 側で upcoming のまま残ることがある
+  return startMs + UPCOMING_GRACE_MS > Date.now();
+}
+
 function buildStreamEntry(member, channelId, video) {
   const scheduledStart =
     video.liveStreamingDetails?.scheduledStartTime ||
-    video.snippet?.publishedAt ||
+    video.liveStreamingDetails?.actualStartTime ||
     null;
 
   return {
@@ -243,7 +256,7 @@ async function main() {
 
       if (broadcast === 'live') {
         live.push(entry);
-      } else {
+      } else if (isValidUpcoming(video)) {
         upcoming.push(entry);
       }
     }

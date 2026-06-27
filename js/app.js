@@ -40,6 +40,15 @@ function filterItems(items) {
   return items.filter((item) => item.groupId === currentFilter);
 }
 
+const UPCOMING_GRACE_MS = 30 * 60 * 1000;
+
+function isRelevantUpcoming(item) {
+  if (!item.scheduledStart) return false;
+  const startMs = new Date(item.scheduledStart).getTime();
+  if (Number.isNaN(startMs)) return false;
+  return startMs + UPCOMING_GRACE_MS > Date.now();
+}
+
 function renderCards(container, items, mode) {
   container.replaceChildren();
 
@@ -83,7 +92,7 @@ function renderCards(container, items, mode) {
 
 function render() {
   const liveItems = filterItems(latestStatus.live || []);
-  const upcomingItems = filterItems(latestStatus.upcoming || []);
+  const upcomingItems = filterItems(latestStatus.upcoming || []).filter(isRelevantUpcoming);
 
   liveCount.textContent = String(liveItems.length);
   upcomingCount.textContent = String(upcomingItems.length);
