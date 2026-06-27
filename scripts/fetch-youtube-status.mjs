@@ -178,6 +178,14 @@ function isValidUpcoming(video) {
   return startMs + UPCOMING_GRACE_MS > Date.now();
 }
 
+function streamFingerprint(status) {
+  const strip = ({ checkedAt, ...rest }) => rest;
+  return JSON.stringify({
+    live: status.live.map(strip),
+    upcoming: status.upcoming.map(strip),
+  });
+}
+
 function buildStreamEntry(member, channelId, video) {
   const scheduledStart =
     video.liveStreamingDetails?.scheduledStartTime ||
@@ -316,7 +324,7 @@ async function main() {
   const status = {
     updatedAt: new Date().toISOString(),
     live: dedupe(live, true).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
-    upcoming: dedupe(upcoming).sort((a, b) => {
+    upcoming: dedupe(upcoming, true).sort((a, b) => {
       const ta = new Date(a.scheduledStart || 0).getTime();
       const tb = new Date(b.scheduledStart || 0).getTime();
       return ta - tb;
@@ -326,8 +334,19 @@ async function main() {
   const liveMemberKeys = new Set(status.live.map((item) => item.memberKey));
   status.upcoming = status.upcoming.filter((item) => !liveMemberKeys.has(item.memberKey));
 
+  const statusPath = join(DATA, 'status.json');
+  const previousStatus = readJson(statusPath, null);
+  const fingerprint = streamFingerprint(status);
+  const previousFingerprint = previousStatus ? streamFingerprint(previousStatus) : null;
+
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
-  writeJson(join(DATA, 'status.json'), status);
+
+  if (fingerprint !== previousFingerprint) {
+    writeJson(statusPath, status);
+    console.log('Stream status changed, wrote status.json');
+  } else {
+    console.log('Stream status unchanged, keeping previous status.json');
+  }
 
   const queriesThisRun = channelResolveCalls + videosListCalls;
   console.log(

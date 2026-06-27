@@ -91,7 +91,8 @@ npx --yes serve .
 
 現在のスケジュール:
 
-- **5 分おき** に **全メンバー** をチェック
+- **Update Stream Status** ワークフローが **約5分おき** に全メンバーをチェック
+- 配信状況に変化があると `data/status.json` をコミット → **Deploy** が自動実行
 - 1 回あたり `videos.list` 約 **7 回**（動画 ID 最大約340件、チャンネルあたり RSS 10件）
 - 1 日あたり Queries 約 **2,000 units**（上限 9,500 に対して十分余裕）
 - **Search Queries はほぼ 0**

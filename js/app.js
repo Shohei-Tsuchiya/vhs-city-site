@@ -29,10 +29,17 @@ function formatRelativeUpdate(iso) {
   if (!iso) return 'まだデータがありません（GitHub Actions の初回実行を待っています）';
   const diffMs = Date.now() - new Date(iso).getTime();
   const minutes = Math.max(0, Math.round(diffMs / 60000));
-  if (minutes < 1) return `最終更新: たった今 (${formatDateTime(iso)})`;
-  if (minutes < 60) return `最終更新: ${minutes}分前 (${formatDateTime(iso)})`;
-  const hours = Math.round(minutes / 60);
-  return `最終更新: 約${hours}時間前 (${formatDateTime(iso)})`;
+  let text;
+  if (minutes < 1) text = `最終更新: たった今 (${formatDateTime(iso)})`;
+  else if (minutes < 60) text = `最終更新: ${minutes}分前 (${formatDateTime(iso)})`;
+  else {
+    const hours = Math.round(minutes / 60);
+    text = `最終更新: 約${hours}時間前 (${formatDateTime(iso)})`;
+  }
+  if (minutes >= 20) {
+    text += ' — 更新が遅れている可能性があります';
+  }
+  return text;
 }
 
 function filterItems(items) {

@@ -3,9 +3,6 @@ name: Deploy VHS City Site
 on:
   push:
     branches: [main]
-  schedule:
-    # 5分おき = 288回/日 × videos.list 約7回 = 約2,000 units (Search 不使用)
-    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,17 +26,16 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Restore status cache
+      - name: Restore channel cache
         uses: actions/cache@v4
         with:
-          path: |
-            data/status.json
-            data/channel-cache.json
-          key: vhs-youtube-status
+          path: data/channel-cache.json
+          key: vhs-channel-cache
           restore-keys: |
-            vhs-youtube-status
+            vhs-channel-cache
 
       - name: Fetch YouTube status
+        if: github.event_name == 'workflow_dispatch'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           RSS_ENTRIES_PER_CHANNEL: '10'
