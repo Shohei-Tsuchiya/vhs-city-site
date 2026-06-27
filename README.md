@@ -81,15 +81,23 @@ npx --yes serve .
 
 ## API クォータについて
 
-YouTube Data API の無料枠は **1日 10,000 ユニット** です。  
-`search` は 1 回 100 ユニット消費するため、全メンバーを毎回チェックすると枠を超えます。
+Google Cloud で設定した上限に合わせて動作します。
 
-そのため本サイトでは:
+| 枠 | 設定値 | アプリ側の対策 |
+|----|--------|----------------|
+| Search Queries per day | 95 | 1 回 1 search（配信中と予定を交互に取得） |
+| Queries per day | 9,500 | チャンネル ID はキャッシュし `channels.list` を最小化 |
 
-- **30 分おき** に **2 名ずつ** ローテーションでチェック
-- 全メンバーが更新されるまで最大約 15 時間程度
+現在のスケジュール:
 
-配信チェックをもっと頻繁にしたい場合は、Google Cloud Console でクォータ増加を申請するか、`MEMBERS_PER_RUN` や cron 間隔を調整してください（`.github/workflows/deploy.yml`）。
+- **20 分おき** に **1 名** をチェック
+- 配信中 → 次回は配信予定 → 次のメンバーへ、と交互に実行
+- 1 日あたり search 約 **72 回**（上限 95 に対して余裕あり）
+- 全メンバーが live + upcoming 両方更新されるまで約 **20 時間**
+
+手動で Actions を何度も走らせると search 枠を消費します。`MAX_DAILY_SEARCHES=94` でアプリ側も打ち止めにします。
+
+クォータや間隔を変えた場合は `.github/workflows/deploy.yml` の `cron` / `MEMBERS_PER_RUN` / `MAX_DAILY_SEARCHES` を調整してください。
 
 ## 構成
 

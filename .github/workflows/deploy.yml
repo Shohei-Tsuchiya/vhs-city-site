@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '*/30 * * * *'
+    # 20分おき = 72回/日 × search 1回 = 72 (上限95の余裕内)
+    - cron: '*/20 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -42,7 +43,8 @@ jobs:
       - name: Fetch YouTube status
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          MEMBERS_PER_RUN: '2'
+          MEMBERS_PER_RUN: '1'
+          MAX_DAILY_SEARCHES: '94'
         run: node scripts/fetch-youtube-status.mjs
 
       - name: Setup Pages

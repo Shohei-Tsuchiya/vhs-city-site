@@ -13,7 +13,14 @@ const ROOT = join(__dirname, '..');
 const DATA = join(ROOT, 'data');
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
-const MEMBERS_PER_RUN = Number(process.env.MEMBERS_PER_RUN || 2);
+const MEMBERS_PER_RUN = Number(process.env.MEMBERS_PER_RUN || 1);
+const MAX_DAILY_SEARCHES = Number(process.env.MAX_DAILY_SEARCHES || 94);
+
+function getQuotaDate() {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Los_Angeles',
+  }).format(new Date());
+}
 
 if (!API_KEY) {
   console.error('YOUTUBE_API_KEY が設定されていません');
@@ -118,10 +125,49 @@ function removeStale(list, memberKey, maxAgeMs) {
   });
 }
 
+async function checkLive(member, channelId, status, base) {
+  const memberKey = base.memberKey;
+  const liveItems = await searchBroadcast(channelId, 'live');
+  status.live = removeStale(status.live, memberKey, 45 * 60 * 1000);
+  if (liveItems.length > 0) {
+    for (const item of liveItems) {
+      upsertByKey(
+        status.live,
+        { ...base, ...item, status: 'live' },
+        (x) => `${x.memberKey}:${x.videoId}`
+      );
+    }
+  } else {
+    status.live = status.live.filter((item) => item.memberKey !== memberKey);
+  }
+}
+
+async function checkUpcoming(member, channelId, status, base) {
+  const memberKey = base.memberKey;
+  const upcomingItems = await searchBroadcast(channelId, 'upcoming');
+  status.upcoming = removeStale(status.upcoming, memberKey, 6 * 60 * 60 * 1000);
+  if (upcomingItems.length > 0) {
+    for (const item of upcomingItems) {
+      upsertByKey(
+        status.upcoming,
+        { ...base, ...item, status: 'upcoming' },
+        (x) => `${x.memberKey}:${x.videoId}`
+      );
+    }
+  } else {
+    status.upcoming = status.upcoming.filter((item) => item.memberKey !== memberKey);
+  }
+}
+
 async function main() {
   const membersConfig = readJson(join(DATA, 'members.json'), { groups: [] });
   const allMembers = flattenMembers(membersConfig.groups);
-  const fetchState = readJson(join(DATA, 'fetch-state.json'), { nextIndex: 0 });
+  const fetchState = readJson(join(DATA, 'fetch-state.json'), {
+    nextIndex: 0,
+    phase: 'live',
+    quotaDate: null,
+    dailySearchCount: 0,
+  });
   const channelCache = readJson(join(DATA, 'channel-cache.json'), {});
   const status = readJson(join(DATA, 'status.json'), {
     updatedAt: null,
@@ -134,17 +180,40 @@ async function main() {
     return;
   }
 
-  const batch = [];
-  let index = fetchState.nextIndex % allMembers.length;
-  for (let i = 0; i < Math.min(MEMBERS_PER_RUN, allMembers.length); i++) {
-    batch.push(allMembers[index]);
-    index = (index + 1) % allMembers.length;
+  const quotaDate = getQuotaDate();
+  if (fetchState.quotaDate !== quotaDate) {
+    fetchState.quotaDate = quotaDate;
+    fetchState.dailySearchCount = 0;
   }
-  fetchState.nextIndex = index;
 
-  console.log(`Checking ${batch.length} member(s): ${batch.map((m) => m.name).join(', ')}`);
+  if (fetchState.dailySearchCount >= MAX_DAILY_SEARCHES) {
+    console.log(
+      `Daily search limit reached (${fetchState.dailySearchCount}/${MAX_DAILY_SEARCHES}). Skipping.`
+    );
+    return;
+  }
 
-  for (const member of batch) {
+  const phase = fetchState.phase === 'upcoming' ? 'upcoming' : 'live';
+  const memberIndex = fetchState.nextIndex % allMembers.length;
+  const batch = [{ member: allMembers[memberIndex], index: memberIndex }];
+
+  if (phase === 'upcoming') {
+    fetchState.phase = 'live';
+    fetchState.nextIndex = (fetchState.nextIndex + 1) % allMembers.length;
+  } else {
+    fetchState.phase = 'upcoming';
+  }
+
+  console.log(
+    `Phase=${phase}, checking ${batch.length} member(s): ${batch.map((b) => b.member.name).join(', ')}`
+  );
+
+  for (const { member } of batch) {
+    if (fetchState.dailySearchCount >= MAX_DAILY_SEARCHES) {
+      console.log('Daily search limit reached during batch. Stopping.');
+      break;
+    }
+
     const memberKey = `${member.groupId}:${member.name}`;
     let channelId;
 
@@ -172,39 +241,14 @@ async function main() {
     };
 
     try {
-      const liveItems = await searchBroadcast(channelId, 'live');
-      status.live = removeStale(status.live, memberKey, 45 * 60 * 1000);
-      if (liveItems.length > 0) {
-        for (const item of liveItems) {
-          upsertByKey(
-            status.live,
-            { ...base, ...item, status: 'live' },
-            (x) => `${x.memberKey}:${x.videoId}`
-          );
-        }
+      if (phase === 'live') {
+        await checkLive(member, channelId, status, base);
       } else {
-        status.live = status.live.filter((item) => item.memberKey !== memberKey);
+        await checkUpcoming(member, channelId, status, base);
       }
+      fetchState.dailySearchCount += 1;
     } catch (error) {
-      console.warn(`Live search failed for ${member.name}: ${error.message}`);
-    }
-
-    try {
-      const upcomingItems = await searchBroadcast(channelId, 'upcoming');
-      status.upcoming = removeStale(status.upcoming, memberKey, 6 * 60 * 60 * 1000);
-      if (upcomingItems.length > 0) {
-        for (const item of upcomingItems) {
-          upsertByKey(
-            status.upcoming,
-            { ...base, ...item, status: 'upcoming' },
-            (x) => `${x.memberKey}:${x.videoId}`
-          );
-        }
-      } else {
-        status.upcoming = status.upcoming.filter((item) => item.memberKey !== memberKey);
-      }
-    } catch (error) {
-      console.warn(`Upcoming search failed for ${member.name}: ${error.message}`);
+      console.warn(`${phase} search failed for ${member.name}: ${error.message}`);
     }
   }
 
@@ -220,7 +264,9 @@ async function main() {
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
   writeJson(join(DATA, 'status.json'), status);
 
-  console.log(`Done. live=${status.live.length}, upcoming=${status.upcoming.length}`);
+  console.log(
+    `Done. live=${status.live.length}, upcoming=${status.upcoming.length}, searchesToday=${fetchState.dailySearchCount}/${MAX_DAILY_SEARCHES}`
+  );
 }
 
 main().catch((error) => {

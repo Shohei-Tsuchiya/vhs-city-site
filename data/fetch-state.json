@@ -1,3 +1,6 @@
 {
-  "nextIndex": 0
+  "nextIndex": 0,
+  "phase": "live",
+  "quotaDate": null,
+  "dailySearchCount": 0
 }
