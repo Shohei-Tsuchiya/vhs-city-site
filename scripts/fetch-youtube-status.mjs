@@ -13,7 +13,7 @@ const ROOT = join(__dirname, '..');
 const DATA = join(ROOT, 'data');
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
-const RSS_ENTRIES_PER_CHANNEL = Number(process.env.RSS_ENTRIES_PER_CHANNEL || 3);
+const RSS_ENTRIES_PER_CHANNEL = Number(process.env.RSS_ENTRIES_PER_CHANNEL || 10);
 const RSS_CONCURRENCY = Number(process.env.RSS_CONCURRENCY || 8);
 const VIDEOS_LIST_CHUNK = 50;
 

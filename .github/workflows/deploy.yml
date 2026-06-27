@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    # 5分おき = 288回/日 × videos.list 約2回 = 約576 units (Search 不使用)
+    # 5分おき = 288回/日 × videos.list 約7回 = 約2,000 units (Search 不使用)
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
@@ -42,7 +42,7 @@ jobs:
       - name: Fetch YouTube status
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          RSS_ENTRIES_PER_CHANNEL: '3'
+          RSS_ENTRIES_PER_CHANNEL: '10'
         run: node scripts/fetch-youtube-status.mjs
 
       - name: Setup Pages
