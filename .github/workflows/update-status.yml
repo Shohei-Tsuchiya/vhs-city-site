@@ -2,13 +2,14 @@ name: Update Stream Status
 
 on:
   schedule:
-    # 毎時0分付近の負荷を避け、2系統の cron で冗長化
-    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
-    - cron: '4,34 * * * *'
+    # GitHub cron は遅延・欠落があり得るため repository_dispatch も併用
+    - cron: '*/5 * * * *'
+  repository_dispatch:
+    types: [refresh-status]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -19,8 +20,6 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    outputs:
-      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,21 +42,6 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           RSS_ENTRIES_PER_CHANNEL: '10'
         run: node scripts/fetch-youtube-status.mjs
-
-      - name: Commit status to repository
-        id: commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/status.json data/channel-cache.json
-          if git diff --staged --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No stream changes to commit."
-            exit 0
-          fi
-          git commit -m "chore: update stream status"
-          git push
-          echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

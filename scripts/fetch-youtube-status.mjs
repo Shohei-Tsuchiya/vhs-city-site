@@ -132,10 +132,9 @@ async function fetchVideosByIds(videoIds) {
 
 const UPCOMING_GRACE_MS = 30 * 60 * 1000;
 const LIVE_START_GRACE_MS = 10 * 60 * 1000;
-// actualStartTime 確定前の API 遅延を許容（予定時刻から最大6時間）
-const LIVE_SCHEDULED_ONLY_MS = 6 * 60 * 60 * 1000;
-// 開始後に concurrentViewers が未返却の短い猶予
-const LIVE_POST_START_NO_VIEWERS_MS = 30 * 60 * 1000;
+// concurrentViewers 未返却時に配信中とみなす最大時間（終了済みの誤判定を防ぐ）
+const LIVE_STARTUP_GRACE_MS = 45 * 60 * 1000;
+const LIVE_ACTUAL_START_GRACE_MS = 20 * 60 * 1000;
 
 function isValidLive(video) {
   if (video.snippet?.liveBroadcastContent !== 'live') return false;
@@ -151,17 +150,15 @@ function isValidLive(video) {
 
   if (details.actualStartTime) {
     const sinceStart = now - new Date(details.actualStartTime).getTime();
-    if (Number.isNaN(sinceStart)) return false;
-    // 視聴者数が消えた = 終了済みの可能性が高い（開始直後の API 遅延のみ許容）
-    return sinceStart <= LIVE_POST_START_NO_VIEWERS_MS;
+    if (Number.isNaN(sinceStart) || sinceStart < 0) return false;
+    return sinceStart <= LIVE_ACTUAL_START_GRACE_MS;
   }
 
   if (details.scheduledStartTime) {
     const elapsed = now - new Date(details.scheduledStartTime).getTime();
     if (Number.isNaN(elapsed)) return false;
     if (elapsed < -LIVE_START_GRACE_MS) return false;
-    // actualStartTime の反映待ち（配信開始直後にここを通ることが多い）
-    return elapsed <= LIVE_SCHEDULED_ONLY_MS;
+    return elapsed <= LIVE_STARTUP_GRACE_MS;
   }
 
   return false;
@@ -176,14 +173,6 @@ function isValidUpcoming(video) {
 
   // 開始予定を過ぎても未開始の予約は YouTube 側で upcoming のまま残ることがある
   return startMs + UPCOMING_GRACE_MS > Date.now();
-}
-
-function streamFingerprint(status) {
-  const strip = ({ checkedAt, ...rest }) => rest;
-  return JSON.stringify({
-    live: status.live.map(strip),
-    upcoming: status.upcoming.map(strip),
-  });
 }
 
 function buildStreamEntry(member, channelId, video) {
@@ -334,19 +323,8 @@ async function main() {
   const liveMemberKeys = new Set(status.live.map((item) => item.memberKey));
   status.upcoming = status.upcoming.filter((item) => !liveMemberKeys.has(item.memberKey));
 
-  const statusPath = join(DATA, 'status.json');
-  const previousStatus = readJson(statusPath, null);
-  const fingerprint = streamFingerprint(status);
-  const previousFingerprint = previousStatus ? streamFingerprint(previousStatus) : null;
-
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
-
-  if (fingerprint !== previousFingerprint) {
-    writeJson(statusPath, status);
-    console.log('Stream status changed, wrote status.json');
-  } else {
-    console.log('Stream status unchanged, keeping previous status.json');
-  }
+  writeJson(join(DATA, 'status.json'), status);
 
   const queriesThisRun = channelResolveCalls + videosListCalls;
   console.log(

@@ -91,13 +91,29 @@ npx --yes serve .
 
 現在のスケジュール:
 
-- **Update Stream Status** ワークフローが **約5分おき** に全メンバーをチェック
-- 配信状況に変化があると `data/status.json` をコミット → **Deploy** が自動実行
+- **Update Stream Status** ワークフローが配信状況を取得し GitHub Pages へ反映
+- 目標は **5 分おき** だが、GitHub 内蔵 cron は遅延・欠落があり得る
 - 1 回あたり `videos.list` 約 **7 回**（動画 ID 最大約340件、チャンネルあたり RSS 10件）
-- 1 日あたり Queries 約 **2,000 units**（上限 9,500 に対して十分余裕）
+- 1 日あたり Queries 約 **2,000〜4,000 units**（上限 9,500 に対して十分余裕）
 - **Search Queries はほぼ 0**
 
-配信開始からサイト反映まで、おおむね **5〜10 分以内** です。
+### 5 分おき更新を安定させる（推奨）
+
+GitHub 単体の cron だけでは更新が数時間止まることがあります。**cron-job.org** などの外部スケジューラから `repository_dispatch` で起動すると安定します。
+
+1. GitHub で Fine-grained PAT を作成（対象リポジトリ: `vhs-city-site`、権限: **Actions: Read and write**）
+2. [cron-job.org](https://cron-job.org/) でアカウント作成
+3. 新規ジョブを追加:
+   - URL: `https://api.github.com/repos/Shohei-Tsuchiya/vhs-city-site/dispatches`
+   - 間隔: 5 分
+   - メソッド: POST
+   - ヘッダー: `Authorization: Bearer <PAT>`、`Accept: application/vnd.github+json`
+   - ボディ: `{"event_type":"refresh-status"}`
+4. 保存後、Actions タブで **Update Stream Status** が定期実行されることを確認
+
+手動更新は [Actions → Update Stream Status → Run workflow](https://github.com/Shohei-Tsuchiya/vhs-city-site/actions/workflows/update-status.yml) からも可能です。
+
+配信開始からサイト反映まで、更新が正常に動いていればおおむね **5〜10 分以内** です。
 
 ## 構成
 
@@ -108,6 +124,7 @@ js/app.js               表示ロジック
 data/members.json       メンバー定義
 data/status.json        配信状況（Actions が更新）
 scripts/fetch-youtube-status.mjs
+.github/workflows/update-status.yml
 .github/workflows/deploy.yml
 ```
 

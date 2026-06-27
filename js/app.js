@@ -1,5 +1,5 @@
 const STATUS_URL = new URL('../data/status.json', import.meta.url);
-const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+const REFRESH_INTERVAL_MS = 2 * 60 * 1000;
 
 let currentFilter = 'all';
 let latestStatus = { live: [], upcoming: [] };
@@ -36,7 +36,7 @@ function formatRelativeUpdate(iso) {
     const hours = Math.round(minutes / 60);
     text = `最終更新: 約${hours}時間前 (${formatDateTime(iso)})`;
   }
-  if (minutes >= 20) {
+  if (minutes >= 10) {
     text += ' — 更新が遅れている可能性があります';
   }
   return text;
