@@ -131,6 +131,30 @@ async function fetchVideosByIds(videoIds) {
 }
 
 const UPCOMING_GRACE_MS = 30 * 60 * 1000;
+const LIVE_START_GRACE_MS = 10 * 60 * 1000;
+const LIVE_STALE_MS = 20 * 60 * 1000;
+
+function isValidLive(video) {
+  if (video.snippet?.liveBroadcastContent !== 'live') return false;
+
+  const details = video.liveStreamingDetails;
+  if (!details) return false;
+  if (details.actualEndTime) return false;
+
+  // concurrentViewers は配信中のみ返る
+  if (details.concurrentViewers !== undefined) return true;
+
+  const startMs = new Date(
+    details.actualStartTime || details.scheduledStartTime || 0
+  ).getTime();
+  if (Number.isNaN(startMs) || startMs === 0) return false;
+
+  const elapsed = Date.now() - startMs;
+  if (elapsed < -LIVE_START_GRACE_MS) return false;
+
+  // live のまま残る終了済み配信は concurrentViewers が消える
+  return elapsed <= LIVE_STALE_MS;
+}
 
 function isValidUpcoming(video) {
   const scheduled = video.liveStreamingDetails?.scheduledStartTime;
@@ -254,7 +278,7 @@ async function main() {
       const entry = buildStreamEntry(mapping.member, mapping.channelId, video);
       entry.status = broadcast;
 
-      if (broadcast === 'live') {
+      if (broadcast === 'live' && isValidLive(video)) {
         live.push(entry);
       } else if (isValidUpcoming(video)) {
         upcoming.push(entry);
@@ -262,17 +286,25 @@ async function main() {
     }
   }
 
-  const dedupe = (items) => {
+  const dedupe = (items, pickLater = false) => {
     const map = new Map();
     for (const item of items) {
-      map.set(item.memberKey, item);
+      const existing = map.get(item.memberKey);
+      if (!existing) {
+        map.set(item.memberKey, item);
+        continue;
+      }
+      if (!pickLater) continue;
+      const ta = new Date(item.scheduledStart || 0).getTime();
+      const tb = new Date(existing.scheduledStart || 0).getTime();
+      if (ta > tb) map.set(item.memberKey, item);
     }
     return [...map.values()];
   };
 
   const status = {
     updatedAt: new Date().toISOString(),
-    live: dedupe(live).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
+    live: dedupe(live, true).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
     upcoming: dedupe(upcoming).sort((a, b) => {
       const ta = new Date(a.scheduledStart || 0).getTime();
       const tb = new Date(b.scheduledStart || 0).getTime();
