@@ -131,6 +131,7 @@ async function fetchVideosByIds(videoIds) {
 }
 
 const UPCOMING_GRACE_MS = 30 * 60 * 1000;
+const UPCOMING_HORIZON_MS = 90 * 24 * 60 * 60 * 1000;
 const LIVE_START_GRACE_MS = 10 * 60 * 1000;
 // concurrentViewers 未返却時に配信中とみなす最大時間（終了済みの誤判定を防ぐ）
 const LIVE_STARTUP_GRACE_MS = 45 * 60 * 1000;
@@ -171,8 +172,20 @@ function isValidUpcoming(video) {
   const startMs = new Date(scheduled).getTime();
   if (Number.isNaN(startMs)) return false;
 
+  const now = Date.now();
   // 開始予定を過ぎても未開始の予約は YouTube 側で upcoming のまま残ることがある
-  return startMs + UPCOMING_GRACE_MS > Date.now();
+  // 90日超の常設スケジュール枠（Free Chat 等）は近い予定ではないため除外
+  return startMs + UPCOMING_GRACE_MS > now && startMs <= now + UPCOMING_HORIZON_MS;
+}
+
+function sortByScheduledStart(items) {
+  return [...items].sort((a, b) => {
+    const ta = new Date(a.scheduledStart || 0).getTime();
+    const tb = new Date(b.scheduledStart || 0).getTime();
+    const na = Number.isNaN(ta) ? Number.MAX_SAFE_INTEGER : ta;
+    const nb = Number.isNaN(tb) ? Number.MAX_SAFE_INTEGER : tb;
+    return na - nb;
+  });
 }
 
 function buildStreamEntry(member, channelId, video) {
@@ -321,11 +334,7 @@ async function main() {
   const status = {
     updatedAt: new Date().toISOString(),
     live: dedupeByMember(live, true).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
-    upcoming: dedupeByVideoId(upcoming).sort((a, b) => {
-      const ta = new Date(a.scheduledStart || 0).getTime();
-      const tb = new Date(b.scheduledStart || 0).getTime();
-      return ta - tb;
-    }),
+    upcoming: sortByScheduledStart(dedupeByVideoId(upcoming)),
   };
 
   writeJson(join(DATA, 'channel-cache.json'), channelCache);

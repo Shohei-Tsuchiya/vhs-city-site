@@ -12,11 +12,22 @@ const lastUpdated = document.getElementById('last-updated');
 const refreshBtn = document.getElementById('refresh-btn');
 const cardTemplate = document.getElementById('stream-card-template');
 
+const UPCOMING_GRACE_MS = 30 * 60 * 1000;
+const UPCOMING_HORIZON_MS = 90 * 24 * 60 * 60 * 1000;
+const DISPLAY_TZ = 'Asia/Tokyo';
+
 function formatDateTime(iso) {
   if (!iso) return '日時未設定';
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return '日時未設定';
+
+  const now = new Date();
+  const yearFmt = new Intl.DateTimeFormat('ja-JP', { timeZone: DISPLAY_TZ, year: 'numeric' });
+  const showYear = yearFmt.format(date) !== yearFmt.format(now);
+
   return new Intl.DateTimeFormat('ja-JP', {
+    timeZone: DISPLAY_TZ,
+    ...(showYear ? { year: 'numeric' } : {}),
     month: 'short',
     day: 'numeric',
     weekday: 'short',
@@ -47,13 +58,21 @@ function filterItems(items) {
   return items.filter((item) => item.groupId === currentFilter);
 }
 
-const UPCOMING_GRACE_MS = 30 * 60 * 1000;
+function scheduledStartMs(item) {
+  const ms = new Date(item.scheduledStart || 0).getTime();
+  return Number.isNaN(ms) ? Number.MAX_SAFE_INTEGER : ms;
+}
+
+function sortByScheduledStart(items) {
+  return [...items].sort((a, b) => scheduledStartMs(a) - scheduledStartMs(b));
+}
 
 function isRelevantUpcoming(item) {
   if (!item.scheduledStart) return false;
   const startMs = new Date(item.scheduledStart).getTime();
   if (Number.isNaN(startMs)) return false;
-  return startMs + UPCOMING_GRACE_MS > Date.now();
+  const now = Date.now();
+  return startMs + UPCOMING_GRACE_MS > now && startMs <= now + UPCOMING_HORIZON_MS;
 }
 
 function renderCards(container, items, mode) {
@@ -99,7 +118,9 @@ function renderCards(container, items, mode) {
 
 function render() {
   const liveItems = filterItems(latestStatus.live || []);
-  const upcomingItems = filterItems(latestStatus.upcoming || []).filter(isRelevantUpcoming);
+  const upcomingItems = sortByScheduledStart(
+    filterItems(latestStatus.upcoming || []).filter(isRelevantUpcoming)
+  );
 
   liveCount.textContent = String(liveItems.length);
   upcomingCount.textContent = String(upcomingItems.length);
