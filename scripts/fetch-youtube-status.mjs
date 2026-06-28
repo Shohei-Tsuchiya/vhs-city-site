@@ -294,7 +294,7 @@ async function main() {
     }
   }
 
-  const dedupe = (items, pickLater = false) => {
+  const dedupeByMember = (items, pickLater = false) => {
     const map = new Map();
     for (const item of items) {
       const existing = map.get(item.memberKey);
@@ -310,18 +310,23 @@ async function main() {
     return [...map.values()];
   };
 
+  const dedupeByVideoId = (items) => {
+    const map = new Map();
+    for (const item of items) {
+      if (!map.has(item.videoId)) map.set(item.videoId, item);
+    }
+    return [...map.values()];
+  };
+
   const status = {
     updatedAt: new Date().toISOString(),
-    live: dedupe(live, true).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
-    upcoming: dedupe(upcoming, true).sort((a, b) => {
+    live: dedupeByMember(live, true).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
+    upcoming: dedupeByVideoId(upcoming).sort((a, b) => {
       const ta = new Date(a.scheduledStart || 0).getTime();
       const tb = new Date(b.scheduledStart || 0).getTime();
       return ta - tb;
     }),
   };
-
-  const liveMemberKeys = new Set(status.live.map((item) => item.memberKey));
-  status.upcoming = status.upcoming.filter((item) => !liveMemberKeys.has(item.memberKey));
 
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
   writeJson(join(DATA, 'status.json'), status);
