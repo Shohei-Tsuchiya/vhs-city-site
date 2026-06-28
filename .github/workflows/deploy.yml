@@ -35,7 +35,6 @@ jobs:
             vhs-channel-cache
 
       - name: Fetch YouTube status
-        if: github.event_name == 'workflow_dispatch'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           RSS_ENTRIES_PER_CHANNEL: '10'
