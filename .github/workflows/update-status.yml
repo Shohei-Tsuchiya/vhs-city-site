@@ -1,9 +1,6 @@
 name: Update Stream Status
 
 on:
-  schedule:
-    # GitHub cron は遅延・欠落があり得るため repository_dispatch も併用
-    - cron: '*/5 * * * *'
   repository_dispatch:
     types: [refresh-status]
   workflow_dispatch:
@@ -20,6 +17,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    outputs:
+      quota_skipped: ${{ steps.fetch.outputs.quota_skipped }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,30 +28,32 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Restore channel cache
-        uses: actions/cache@v4
-        with:
-          path: data/channel-cache.json
-          key: vhs-channel-cache
-          restore-keys: |
-            vhs-channel-cache
-
       - name: Fetch YouTube status
+        id: fetch
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           RSS_ENTRIES_PER_CHANNEL: '10'
-        run: node scripts/fetch-youtube-status.mjs
+        run: |
+          node scripts/fetch-youtube-status.mjs
+          if [ -f .quota-skipped ]; then
+            echo "quota_skipped=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "quota_skipped=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Setup Pages
+        if: steps.fetch.outputs.quota_skipped != 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
+        if: steps.fetch.outputs.quota_skipped != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
   deploy:
     needs: update
+    if: needs.update.outputs.quota_skipped != 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

@@ -1,4 +1,5 @@
 .env
 node_modules/
+.quota-skipped
 .DS_Store
 Thumbs.db

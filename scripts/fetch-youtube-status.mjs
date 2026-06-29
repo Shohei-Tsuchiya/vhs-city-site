@@ -54,10 +54,34 @@ async function apiGet(endpoint, params) {
 
   if (!res.ok) {
     const message = body?.error?.message || res.statusText;
-    throw new Error(`YouTube API error (${endpoint}): ${message}`);
+    const error = new Error(`YouTube API error (${endpoint}): ${message}`);
+    if (/quota/i.test(message)) {
+      error.isQuotaExceeded = true;
+    }
+    throw error;
   }
 
   return body;
+}
+
+function isQuotaExceeded(error) {
+  return Boolean(error?.isQuotaExceeded || /quota/i.test(error?.message || ''));
+}
+
+function preservePreviousStatus(reason) {
+  const statusPath = join(DATA, 'status.json');
+  const existing = readJson(statusPath, null);
+  writeFileSync(join(ROOT, '.quota-skipped'), `${new Date().toISOString()}\n`, 'utf8');
+
+  if (existing) {
+    console.warn(
+      `Quota exceeded; keeping previous status (updatedAt: ${existing.updatedAt}). ${reason}`
+    );
+    return true;
+  }
+
+  console.warn(`Quota exceeded and no previous status.json to keep. ${reason}`);
+  return false;
 }
 
 async function resolveChannelId(member, cache) {
@@ -239,6 +263,7 @@ async function main() {
       channelId = await resolveChannelId(member, channelCache);
       if (!hadCache && channelId) channelResolveCalls += 1;
     } catch (error) {
+      if (isQuotaExceeded(error)) throw error;
       console.warn(`Channel resolve failed for ${member.name}: ${error.message}`);
       continue;
     }
@@ -347,6 +372,10 @@ async function main() {
 }
 
 main().catch((error) => {
+  if (isQuotaExceeded(error)) {
+    preservePreviousStatus(error.message);
+    process.exit(0);
+  }
   console.error(error);
   process.exit(1);
 });
