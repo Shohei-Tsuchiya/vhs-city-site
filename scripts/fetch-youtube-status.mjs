@@ -16,8 +16,12 @@ const API_KEY = process.env.YOUTUBE_API_KEY;
 const RSS_ENTRIES_PER_CHANNEL = Number(process.env.RSS_ENTRIES_PER_CHANNEL || 10);
 const RSS_CONCURRENCY = Number(process.env.RSS_CONCURRENCY || 1);
 const RSS_RETRY_COUNT = Number(process.env.RSS_RETRY_COUNT || 3);
-const RSS_DELAY_MS = Number(process.env.RSS_DELAY_MS || 350);
-const STATUS_MAX_AGE_MS = 6 * 60 * 60 * 1000;
+const RSS_CHANNELS_PER_RUN = Number(process.env.RSS_CHANNELS_PER_RUN || 12);
+const RSS_DELAY_MS = Number(process.env.RSS_DELAY_MS || 500);
+const STATUS_MAX_AGE_MS = 24 * 60 * 60 * 1000;
+const ENTRY_RECENT_MS = 30 * 60 * 1000;
+const UPCOMING_GRACE_MS = 30 * 60 * 1000;
+const UPCOMING_HORIZON_MS = 90 * 24 * 60 * 60 * 1000;
 const VIDEOS_LIST_CHUNK = 50;
 
 const RSS_HEADERS = {
@@ -95,38 +99,33 @@ function isStatusRecentEnough(status) {
   return statusAgeMs(status) <= STATUS_MAX_AGE_MS;
 }
 
+function isRelevantLiveItem(item) {
+  const now = Date.now();
+  const checkedMs = new Date(item.checkedAt || 0).getTime();
+  if (!Number.isNaN(checkedMs) && now - checkedMs < ENTRY_RECENT_MS) return true;
+  const startMs = new Date(item.scheduledStart || 0).getTime();
+  if (Number.isNaN(startMs)) return false;
+  return now - startMs < 4 * 60 * 60 * 1000;
+}
+
+function isRelevantUpcomingItem(item) {
+  if (!item.scheduledStart) return false;
+  const startMs = new Date(item.scheduledStart).getTime();
+  if (Number.isNaN(startMs)) return false;
+  const now = Date.now();
+  return startMs + UPCOMING_GRACE_MS > now && startMs <= now + UPCOMING_HORIZON_MS;
+}
+
 function sanitizeStatus(status) {
   if (!status) return { updatedAt: new Date().toISOString(), live: [], upcoming: [] };
 
-  const now = Date.now();
-  const live = (status.live || []).filter((item) => {
-    const checkedMs = new Date(item.checkedAt || 0).getTime();
-    if (!Number.isNaN(checkedMs) && now - checkedMs < 60 * 60 * 1000) return true;
-    const startMs = new Date(item.scheduledStart || 0).getTime();
-    if (Number.isNaN(startMs)) return false;
-    return now - startMs < 4 * 60 * 60 * 1000;
-  });
-
-  const upcoming = (status.upcoming || []).filter((item) => {
-    if (!item.scheduledStart) return false;
-    const startMs = new Date(item.scheduledStart).getTime();
-    if (Number.isNaN(startMs)) return false;
-    const grace = 30 * 60 * 1000;
-    const horizon = 90 * 24 * 60 * 60 * 1000;
-    return startMs + grace > now && startMs <= now + horizon;
-  });
-
-  upcoming.sort((a, b) => {
-    const ta = new Date(a.scheduledStart || 0).getTime();
-    const tb = new Date(b.scheduledStart || 0).getTime();
-    return (Number.isNaN(ta) ? Number.MAX_SAFE_INTEGER : ta) -
-      (Number.isNaN(tb) ? Number.MAX_SAFE_INTEGER : tb);
-  });
+  const live = (status.live || []).filter(isRelevantLiveItem);
+  const upcoming = (status.upcoming || []).filter(isRelevantUpcomingItem);
 
   return {
     ...status,
     live,
-    upcoming,
+    upcoming: sortByScheduledStart(upcoming),
   };
 }
 
@@ -136,9 +135,12 @@ function markDeploySkipped(reason) {
 
 async function loadPreviousStatus() {
   const cached = readJson(join(DATA, 'status.json'), null);
-  if (cached && isStatusRecentEnough(cached)) {
-    console.log(`Using cached status (updatedAt: ${cached.updatedAt})`);
-    return sanitizeStatus(cached);
+  if (cached) {
+    const sanitized = sanitizeStatus(cached);
+    if (streamCount(sanitized) > 0) {
+      console.log(`Using cached status (updatedAt: ${cached.updatedAt})`);
+      return sanitized;
+    }
   }
 
   const fallbackUrl =
@@ -153,12 +155,13 @@ async function loadPreviousStatus() {
     if (!res.ok) return null;
 
     const remote = await res.json();
-    if (isStatusRecentEnough(remote)) {
+    const sanitized = sanitizeStatus(remote);
+    if (streamCount(sanitized) > 0) {
       console.log(`Using live site status (updatedAt: ${remote.updatedAt})`);
-      return sanitizeStatus(remote);
+      return sanitized;
     }
 
-    console.warn(`Live site status too old (updatedAt: ${remote.updatedAt}), ignoring`);
+    console.warn(`Live site status has no active streams (updatedAt: ${remote.updatedAt})`);
   } catch (error) {
     console.warn(`Could not load live status fallback: ${error.message}`);
   }
@@ -166,17 +169,49 @@ async function loadPreviousStatus() {
   return null;
 }
 
-function shouldPreserveFetch(previous, status, { rssOk, channelCount, videoIdCount }) {
-  const newCount = streamCount(status);
+function memberFromStatusItem(item) {
+  return {
+    groupId: item.groupId,
+    name: item.name,
+    groupName: item.groupName,
+    groupColor: item.groupColor,
+    handle: item.handle,
+  };
+}
 
-  // 新しい取得結果があれば常に採用（件数が減っても新鮮なデータを優先）
-  if (newCount > 0) return null;
+function buildCarryOver(previous) {
+  const videoIds = [];
+  const mapping = new Map();
+  if (!previous) return { videoIds, mapping };
 
-  if (videoIdCount === 0) return 'RSS returned no video IDs';
-  if (rssOk === 0) return 'all RSS feeds failed';
-  if (rssOk < channelCount * 0.5) return 'RSS mostly failed';
+  const addItem = (item) => {
+    if (!item?.videoId || !item.channelId || mapping.has(item.videoId)) return;
+    videoIds.push(item.videoId);
+    mapping.set(item.videoId, {
+      member: memberFromStatusItem(item),
+      channelId: item.channelId,
+    });
+  };
 
-  return null;
+  for (const item of previous.live || []) {
+    if (isRelevantLiveItem(item)) addItem(item);
+  }
+  for (const item of previous.upcoming || []) {
+    if (isRelevantUpcomingItem(item)) addItem(item);
+  }
+
+  return { videoIds, mapping };
+}
+
+function selectChannelsForRun(channelIds) {
+  const perRun = Math.min(RSS_CHANNELS_PER_RUN, channelIds.length);
+  const bucket = Math.floor(Date.now() / (5 * 60 * 1000));
+  const offset = (bucket * perRun) % channelIds.length;
+  const selected = [];
+  for (let i = 0; i < perRun; i += 1) {
+    selected.push(channelIds[(offset + i) % channelIds.length]);
+  }
+  return selected;
 }
 
 function preserveAndSkipDeploy(previousStatus, reason) {
@@ -286,8 +321,6 @@ async function fetchVideosByIds(videoIds) {
   return videos;
 }
 
-const UPCOMING_GRACE_MS = 30 * 60 * 1000;
-const UPCOMING_HORIZON_MS = 90 * 24 * 60 * 60 * 1000;
 const LIVE_START_GRACE_MS = 10 * 60 * 1000;
 // concurrentViewers 未返却時に配信中とみなす最大時間（終了済みの誤判定を防ぐ）
 const LIVE_STARTUP_GRACE_MS = 45 * 60 * 1000;
@@ -370,6 +403,56 @@ function buildStreamEntry(member, channelId, video) {
   };
 }
 
+function dedupeByMember(items, pickLater = false) {
+  const map = new Map();
+  for (const item of items) {
+    const existing = map.get(item.memberKey);
+    if (!existing) {
+      map.set(item.memberKey, item);
+      continue;
+    }
+    if (!pickLater) continue;
+    const ta = new Date(item.scheduledStart || 0).getTime();
+    const tb = new Date(existing.scheduledStart || 0).getTime();
+    if (ta > tb) map.set(item.memberKey, item);
+  }
+  return [...map.values()];
+}
+
+function dedupeByVideoId(items) {
+  const map = new Map();
+  for (const item of items) {
+    if (!map.has(item.videoId)) map.set(item.videoId, item);
+  }
+  return [...map.values()];
+}
+
+function mergeStatus(previous, fresh, refreshedVideoIds) {
+  const liveByVideo = new Map(fresh.live.map((item) => [item.videoId, item]));
+  const upcomingByVideo = new Map(fresh.upcoming.map((item) => [item.videoId, item]));
+
+  if (previous) {
+    for (const item of previous.live || []) {
+      if (liveByVideo.has(item.videoId)) continue;
+      if (refreshedVideoIds.has(item.videoId)) continue;
+      if (isRelevantLiveItem(item)) liveByVideo.set(item.videoId, item);
+    }
+    for (const item of previous.upcoming || []) {
+      if (upcomingByVideo.has(item.videoId)) continue;
+      if (refreshedVideoIds.has(item.videoId)) continue;
+      if (isRelevantUpcomingItem(item)) upcomingByVideo.set(item.videoId, item);
+    }
+  }
+
+  return {
+    updatedAt: new Date().toISOString(),
+    live: dedupeByMember([...liveByVideo.values()], true).sort((a, b) =>
+      a.groupName.localeCompare(b.groupName, 'ja')
+    ),
+    upcoming: sortByScheduledStart(dedupeByVideoId([...upcomingByVideo.values()])),
+  };
+}
+
 async function main() {
   const membersConfig = readJson(join(DATA, 'members.json'), { groups: [] });
   const allMembers = flattenMembers(membersConfig.groups);
@@ -412,7 +495,10 @@ async function main() {
   const channelIds = [...memberByChannel.keys()];
   console.log(`Resolved ${channelIds.length} channel(s)`);
 
-  const rssResults = await mapPool(channelIds, RSS_CONCURRENCY, async (channelId) => {
+  const rssTargetIds = selectChannelsForRun(channelIds);
+  console.log(`RSS batch: ${rssTargetIds.length}/${channelIds.length} channel(s)`);
+
+  const rssResults = await mapPool(rssTargetIds, RSS_CONCURRENCY, async (channelId) => {
     const member = memberByChannel.get(channelId);
     try {
       const videoIds = await fetchRssVideoIds(channelId);
@@ -425,6 +511,9 @@ async function main() {
     }
   });
 
+  const carryOver = buildCarryOver(previousStatus);
+  console.log(`Carry-over: ${carryOver.videoIds.length} video(s) from previous status`);
+
   const allVideoIds = [];
   for (const { channelId, member, videoIds } of rssResults) {
     for (const videoId of videoIds) {
@@ -435,12 +524,22 @@ async function main() {
     }
   }
 
+  for (const videoId of carryOver.videoIds) {
+    if (!videoToMember.has(videoId)) {
+      videoToMember.set(videoId, carryOver.mapping.get(videoId));
+    }
+    if (!allVideoIds.includes(videoId)) {
+      allVideoIds.push(videoId);
+    }
+  }
+
   console.log(
     `RSS: ok=${rssOk}, failed=${rssFailed}, videoIds=${allVideoIds.length}`
   );
 
   const live = [];
   const upcoming = [];
+  const refreshedVideoIds = new Set();
   let videosListCalls = 0;
 
   if (allVideoIds.length > 0) {
@@ -448,6 +547,7 @@ async function main() {
     const videos = await fetchVideosByIds(allVideoIds);
 
     for (const video of videos) {
+      refreshedVideoIds.add(video.id);
       const mapping = videoToMember.get(video.id);
       if (!mapping) continue;
 
@@ -465,62 +565,20 @@ async function main() {
     }
   }
 
-  const dedupeByMember = (items, pickLater = false) => {
-    const map = new Map();
-    for (const item of items) {
-      const existing = map.get(item.memberKey);
-      if (!existing) {
-        map.set(item.memberKey, item);
-        continue;
-      }
-      if (!pickLater) continue;
-      const ta = new Date(item.scheduledStart || 0).getTime();
-      const tb = new Date(existing.scheduledStart || 0).getTime();
-      if (ta > tb) map.set(item.memberKey, item);
-    }
-    return [...map.values()];
-  };
-
-  const dedupeByVideoId = (items) => {
-    const map = new Map();
-    for (const item of items) {
-      if (!map.has(item.videoId)) map.set(item.videoId, item);
-    }
-    return [...map.values()];
-  };
-
-  const status = {
+  const freshStatus = {
     updatedAt: new Date().toISOString(),
     live: dedupeByMember(live, true).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
     upcoming: sortByScheduledStart(dedupeByVideoId(upcoming)),
   };
 
-  const preserveReason = shouldPreserveFetch(previousStatus, status, {
-    rssOk,
-    channelCount: channelIds.length,
-    videoIdCount: allVideoIds.length,
-  });
-  if (preserveReason) {
-    if (previousStatus && isStatusRecentEnough(previousStatus)) {
-      const restored = sanitizeStatus(previousStatus);
-      writeJson(join(DATA, 'status.json'), restored);
-      console.warn(
-        `Kept recent cached status (updatedAt: ${previousStatus.updatedAt}). ${preserveReason}`
-      );
-    } else {
-      markDeploySkipped(preserveReason);
-      console.warn(`Skipping deploy — no recent status to restore. ${preserveReason}`);
-    }
-    writeJson(join(DATA, 'channel-cache.json'), channelCache);
-    return;
-  }
+  const status = mergeStatus(previousStatus, freshStatus, refreshedVideoIds);
 
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
   writeJson(join(DATA, 'status.json'), status);
 
   const queriesThisRun = channelResolveCalls + videosListCalls;
   console.log(
-    `Done. live=${status.live.length}, upcoming=${status.upcoming.length}, apiCalls=${queriesThisRun} (channels=${channelResolveCalls}, videos.list=${videosListCalls})`
+    `Done. live=${status.live.length}, upcoming=${status.upcoming.length}, apiCalls=${queriesThisRun} (channels=${channelResolveCalls}, videos.list=${videosListCalls}), merged=${Boolean(previousStatus)}`
   );
 }
 

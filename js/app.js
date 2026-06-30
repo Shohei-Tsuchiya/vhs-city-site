@@ -14,7 +14,7 @@ const cardTemplate = document.getElementById('stream-card-template');
 
 const UPCOMING_GRACE_MS = 30 * 60 * 1000;
 const UPCOMING_HORIZON_MS = 90 * 24 * 60 * 60 * 1000;
-const LIVE_TRUST_AGE_MS = 60 * 60 * 1000;
+const LIVE_TRUST_AGE_MS = 30 * 60 * 1000;
 const LIVE_MAX_RUNTIME_MS = 4 * 60 * 60 * 1000;
 const DISPLAY_TZ = 'Asia/Tokyo';
 
