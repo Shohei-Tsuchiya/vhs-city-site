@@ -31,6 +31,9 @@ jobs:
           restore-keys: |
             vhs-status-json-
 
+      - name: Discard stale status.json
+        run: node scripts/discard-stale-status.mjs
+
       - name: Setup Node.js
         if: github.event_name == 'workflow_dispatch'
         uses: actions/setup-node@v4

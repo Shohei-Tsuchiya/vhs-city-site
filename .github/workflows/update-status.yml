@@ -36,6 +36,9 @@ jobs:
           restore-keys: |
             vhs-status-json-
 
+      - name: Discard stale status.json
+        run: node scripts/discard-stale-status.mjs
+
       - name: Fetch YouTube status
         id: fetch
         env:
