@@ -23,12 +23,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Restore last good status
+        uses: actions/cache/restore@v4
+        with:
+          path: data/status.json
+          key: vhs-status-json-${{ github.run_id }}
+          restore-keys: |
+            vhs-status-json-
+
       - name: Setup Node.js
+        if: github.event_name == 'workflow_dispatch'
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
       - name: Fetch YouTube status
+        if: github.event_name == 'workflow_dispatch'
         id: fetch
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -41,19 +51,26 @@ jobs:
             echo "deploy_skipped=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Save last good status
+        if: github.event_name == 'workflow_dispatch' && steps.fetch.outputs.deploy_skipped != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: data/status.json
+          key: vhs-status-json-${{ github.run_id }}
+
       - name: Setup Pages
-        if: steps.fetch.outputs.deploy_skipped != 'true'
+        if: github.event_name == 'push' || steps.fetch.outputs.deploy_skipped != 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        if: steps.fetch.outputs.deploy_skipped != 'true'
+        if: github.event_name == 'push' || steps.fetch.outputs.deploy_skipped != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
   deploy:
     needs: build
-    if: needs.build.outputs.deploy_skipped != 'true'
+    if: github.event_name == 'push' || needs.build.outputs.deploy_skipped != 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

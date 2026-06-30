@@ -28,6 +28,14 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Restore last good status
+        uses: actions/cache/restore@v4
+        with:
+          path: data/status.json
+          key: vhs-status-json-${{ github.run_id }}
+          restore-keys: |
+            vhs-status-json-
+
       - name: Fetch YouTube status
         id: fetch
         env:
@@ -40,6 +48,13 @@ jobs:
           else
             echo "deploy_skipped=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Save last good status
+        if: steps.fetch.outputs.deploy_skipped != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: data/status.json
+          key: vhs-status-json-${{ github.run_id }}
 
       - name: Setup Pages
         if: steps.fetch.outputs.deploy_skipped != 'true'
