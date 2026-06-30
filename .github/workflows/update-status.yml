@@ -18,7 +18,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     outputs:
-      quota_skipped: ${{ steps.fetch.outputs.quota_skipped }}
+      deploy_skipped: ${{ steps.fetch.outputs.deploy_skipped }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,25 +35,25 @@ jobs:
           RSS_ENTRIES_PER_CHANNEL: '10'
         run: |
           node scripts/fetch-youtube-status.mjs
-          if [ -f .quota-skipped ]; then
-            echo "quota_skipped=true" >> "$GITHUB_OUTPUT"
+          if [ -f .deploy-skipped ]; then
+            echo "deploy_skipped=true" >> "$GITHUB_OUTPUT"
           else
-            echo "quota_skipped=false" >> "$GITHUB_OUTPUT"
+            echo "deploy_skipped=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup Pages
-        if: steps.fetch.outputs.quota_skipped != 'true'
+        if: steps.fetch.outputs.deploy_skipped != 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        if: steps.fetch.outputs.quota_skipped != 'true'
+        if: steps.fetch.outputs.deploy_skipped != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
   deploy:
     needs: update
-    if: needs.update.outputs.quota_skipped != 'true'
+    if: needs.update.outputs.deploy_skipped != 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

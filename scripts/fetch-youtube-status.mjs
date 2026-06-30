@@ -14,7 +14,8 @@ const DATA = join(ROOT, 'data');
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const RSS_ENTRIES_PER_CHANNEL = Number(process.env.RSS_ENTRIES_PER_CHANNEL || 10);
-const RSS_CONCURRENCY = Number(process.env.RSS_CONCURRENCY || 8);
+const RSS_CONCURRENCY = Number(process.env.RSS_CONCURRENCY || 3);
+const RSS_RETRY_COUNT = Number(process.env.RSS_RETRY_COUNT || 2);
 const VIDEOS_LIST_CHUNK = 50;
 
 if (!API_KEY) {
@@ -68,20 +69,87 @@ function isQuotaExceeded(error) {
   return Boolean(error?.isQuotaExceeded || /quota/i.test(error?.message || ''));
 }
 
-function preservePreviousStatus(reason) {
-  const statusPath = join(DATA, 'status.json');
-  const existing = readJson(statusPath, null);
-  writeFileSync(join(ROOT, '.quota-skipped'), `${new Date().toISOString()}\n`, 'utf8');
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
-  if (existing) {
+function streamCount(status) {
+  if (!status) return 0;
+  return (status.live?.length || 0) + (status.upcoming?.length || 0);
+}
+
+function markDeploySkipped(reason) {
+  writeFileSync(join(ROOT, '.deploy-skipped'), `${new Date().toISOString()}\n${reason}\n`, 'utf8');
+}
+
+async function loadPreviousStatus() {
+  const local = readJson(join(DATA, 'status.json'), null);
+  let remote = null;
+
+  const fallbackUrl =
+    process.env.STATUS_FALLBACK_URL ||
+    'https://shohei-tsuchiya.github.io/vhs-city-site/data/status.json';
+
+  try {
+    const res = await fetch(fallbackUrl, {
+      headers: { 'User-Agent': 'VHS-City-Site/1.0 (fan dashboard)' },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (res.ok) {
+      remote = await res.json();
+    }
+  } catch (error) {
+    console.warn(`Could not load live status fallback: ${error.message}`);
+  }
+
+  const localCount = streamCount(local);
+  const remoteCount = streamCount(remote);
+
+  if (remoteCount >= localCount && remoteCount > 0) {
+    console.log(`Using live site status (updatedAt: ${remote.updatedAt})`);
+    return remote;
+  }
+  if (localCount > 0) {
+    console.log(`Using repository status (updatedAt: ${local.updatedAt})`);
+    return local;
+  }
+  if (remoteCount > 0) return remote;
+
+  return local;
+}
+
+function shouldPreserveFetch(previous, status, { rssOk, channelCount, videoIdCount }) {
+  const prevCount = streamCount(previous);
+  const newCount = streamCount(status);
+
+  if (prevCount === 0) return null;
+  if (videoIdCount === 0) return 'RSS returned no video IDs';
+  if (rssOk === 0) return 'all RSS feeds failed';
+  if (newCount === 0 && prevCount >= 3 && rssOk < channelCount * 0.5) {
+    return 'RSS mostly failed and all streams disappeared';
+  }
+
+  return null;
+}
+
+function preserveAndSkipDeploy(previousStatus, reason) {
+  markDeploySkipped(reason);
+
+  if (previousStatus) {
+    writeJson(join(DATA, 'status.json'), previousStatus);
     console.warn(
-      `Quota exceeded; keeping previous status (updatedAt: ${existing.updatedAt}). ${reason}`
+      `Keeping previous status (updatedAt: ${previousStatus.updatedAt}). ${reason}`
     );
     return true;
   }
 
-  console.warn(`Quota exceeded and no previous status.json to keep. ${reason}`);
+  console.warn(`No previous status to keep. ${reason}`);
   return false;
+}
+
+function preservePreviousStatus(reason) {
+  const existing = readJson(join(DATA, 'status.json'), null);
+  return preserveAndSkipDeploy(existing, reason);
 }
 
 async function resolveChannelId(member, cache) {
@@ -116,16 +184,30 @@ function parseRssVideoIds(xml, limit) {
 
 async function fetchRssVideoIds(channelId) {
   const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
-  const res = await fetch(url, {
-    headers: { 'User-Agent': 'VHS-City-Site/1.0 (fan dashboard)' },
-  });
+  let lastError;
 
-  if (!res.ok) {
-    throw new Error(`RSS fetch failed (${res.status})`);
+  for (let attempt = 0; attempt <= RSS_RETRY_COUNT; attempt += 1) {
+    if (attempt > 0) {
+      await sleep(400 * attempt);
+    }
+
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': 'VHS-City-Site/1.0 (fan dashboard)' },
+      });
+
+      if (!res.ok) {
+        throw new Error(`RSS fetch failed (${res.status})`);
+      }
+
+      const xml = await res.text();
+      return parseRssVideoIds(xml, RSS_ENTRIES_PER_CHANNEL);
+    } catch (error) {
+      lastError = error;
+    }
   }
 
-  const xml = await res.text();
-  return parseRssVideoIds(xml, RSS_ENTRIES_PER_CHANNEL);
+  throw lastError;
 }
 
 async function mapPool(items, concurrency, mapper) {
@@ -242,6 +324,7 @@ async function main() {
   const membersConfig = readJson(join(DATA, 'members.json'), { groups: [] });
   const allMembers = flattenMembers(membersConfig.groups);
   const channelCache = readJson(join(DATA, 'channel-cache.json'), {});
+  const previousStatus = await loadPreviousStatus();
 
   if (allMembers.length === 0) {
     console.log('メンバーが登録されていません');
@@ -361,6 +444,24 @@ async function main() {
     live: dedupeByMember(live, true).sort((a, b) => a.groupName.localeCompare(b.groupName, 'ja')),
     upcoming: sortByScheduledStart(dedupeByVideoId(upcoming)),
   };
+
+  const preserveReason = shouldPreserveFetch(previousStatus, status, {
+    rssOk,
+    channelCount: channelIds.length,
+    videoIdCount: allVideoIds.length,
+  });
+  if (preserveReason) {
+    if (previousStatus) {
+      writeJson(join(DATA, 'status.json'), previousStatus);
+      console.warn(
+        `Restored previous status (updatedAt: ${previousStatus.updatedAt}). ${preserveReason}`
+      );
+    } else {
+      console.warn(`Degraded fetch but no previous status available. ${preserveReason}`);
+    }
+    writeJson(join(DATA, 'channel-cache.json'), channelCache);
+    return;
+  }
 
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
   writeJson(join(DATA, 'status.json'), status);
