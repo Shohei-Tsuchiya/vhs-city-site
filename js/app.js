@@ -14,8 +14,7 @@ const cardTemplate = document.getElementById('stream-card-template');
 
 const UPCOMING_GRACE_MS = 30 * 60 * 1000;
 const UPCOMING_HORIZON_MS = 90 * 24 * 60 * 60 * 1000;
-const LIVE_TRUST_AGE_MS = 30 * 60 * 1000;
-const LIVE_MAX_RUNTIME_MS = 4 * 60 * 60 * 1000;
+const LIVE_DISPLAY_TTL_MS = 20 * 60 * 1000;
 const DISPLAY_TZ = 'Asia/Tokyo';
 
 function formatDateTime(iso) {
@@ -78,13 +77,9 @@ function isRelevantUpcoming(item) {
 }
 
 function isRelevantLive(item) {
-  const now = Date.now();
   const checkedMs = new Date(item.checkedAt || 0).getTime();
-  if (!Number.isNaN(checkedMs) && now - checkedMs < LIVE_TRUST_AGE_MS) return true;
-
-  const startMs = new Date(item.scheduledStart || 0).getTime();
-  if (Number.isNaN(startMs)) return false;
-  return now - startMs < LIVE_MAX_RUNTIME_MS;
+  if (Number.isNaN(checkedMs)) return false;
+  return Date.now() - checkedMs < LIVE_DISPLAY_TTL_MS;
 }
 
 function renderCards(container, items, mode) {

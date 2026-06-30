@@ -20,6 +20,8 @@ const RSS_CHANNELS_PER_RUN = Number(process.env.RSS_CHANNELS_PER_RUN || 12);
 const RSS_DELAY_MS = Number(process.env.RSS_DELAY_MS || 500);
 const STATUS_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const ENTRY_RECENT_MS = 30 * 60 * 1000;
+const LIVE_DISPLAY_TTL_MS = 20 * 60 * 1000;
+const LIVE_CARRY_OVER_MS = 3 * 60 * 60 * 1000;
 const UPCOMING_GRACE_MS = 30 * 60 * 1000;
 const UPCOMING_HORIZON_MS = 90 * 24 * 60 * 60 * 1000;
 const VIDEOS_LIST_CHUNK = 50;
@@ -100,12 +102,18 @@ function isStatusRecentEnough(status) {
 }
 
 function isRelevantLiveItem(item) {
+  const checkedMs = new Date(item.checkedAt || 0).getTime();
+  if (Number.isNaN(checkedMs)) return false;
+  return Date.now() - checkedMs < LIVE_DISPLAY_TTL_MS;
+}
+
+function shouldCarryOverLiveItem(item) {
   const now = Date.now();
   const checkedMs = new Date(item.checkedAt || 0).getTime();
-  if (!Number.isNaN(checkedMs) && now - checkedMs < ENTRY_RECENT_MS) return true;
+  if (!Number.isNaN(checkedMs) && now - checkedMs < LIVE_CARRY_OVER_MS) return true;
   const startMs = new Date(item.scheduledStart || 0).getTime();
   if (Number.isNaN(startMs)) return false;
-  return now - startMs < 4 * 60 * 60 * 1000;
+  return now - startMs < 6 * 60 * 60 * 1000;
 }
 
 function isRelevantUpcomingItem(item) {
@@ -194,7 +202,7 @@ function buildCarryOver(previous) {
   };
 
   for (const item of previous.live || []) {
-    if (isRelevantLiveItem(item)) addItem(item);
+    if (shouldCarryOverLiveItem(item)) addItem(item);
   }
   for (const item of previous.upcoming || []) {
     if (isRelevantUpcomingItem(item)) addItem(item);
@@ -322,6 +330,7 @@ async function fetchVideosByIds(videoIds) {
 }
 
 const LIVE_START_GRACE_MS = 10 * 60 * 1000;
+const LIVE_MAX_DURATION_MS = 10 * 60 * 60 * 1000;
 // concurrentViewers 未返却時に配信中とみなす最大時間（終了済みの誤判定を防ぐ）
 const LIVE_STARTUP_GRACE_MS = 45 * 60 * 1000;
 const LIVE_ACTUAL_START_GRACE_MS = 20 * 60 * 1000;
@@ -333,14 +342,13 @@ function isValidLive(video) {
   if (!details) return false;
   if (details.actualEndTime) return false;
 
-  // concurrentViewers は配信中のみ返る（"0" も有効）
-  if (details.concurrentViewers !== undefined) return true;
-
   const now = Date.now();
 
   if (details.actualStartTime) {
     const sinceStart = now - new Date(details.actualStartTime).getTime();
     if (Number.isNaN(sinceStart) || sinceStart < 0) return false;
+    if (sinceStart > LIVE_MAX_DURATION_MS) return false;
+    if (details.concurrentViewers !== undefined) return true;
     return sinceStart <= LIVE_ACTUAL_START_GRACE_MS;
   }
 
@@ -432,11 +440,6 @@ function mergeStatus(previous, fresh, refreshedVideoIds) {
   const upcomingByVideo = new Map(fresh.upcoming.map((item) => [item.videoId, item]));
 
   if (previous) {
-    for (const item of previous.live || []) {
-      if (liveByVideo.has(item.videoId)) continue;
-      if (refreshedVideoIds.has(item.videoId)) continue;
-      if (isRelevantLiveItem(item)) liveByVideo.set(item.videoId, item);
-    }
     for (const item of previous.upcoming || []) {
       if (upcomingByVideo.has(item.videoId)) continue;
       if (refreshedVideoIds.has(item.videoId)) continue;
