@@ -23,7 +23,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check committed status
+        id: status
+        if: github.event_name == 'push'
+        run: |
+          YEAR=$(node -e "console.log(new Date(JSON.parse(require('fs').readFileSync('data/status.json','utf8')).updatedAt||0).getUTCFullYear())")
+          echo "year=$YEAR" >> "$GITHUB_OUTPUT"
+
       - name: Restore last good status
+        if: github.event_name == 'workflow_dispatch' || steps.status.outputs.year < 2020
         uses: actions/cache/restore@v4
         with:
           path: data/status.json

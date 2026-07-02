@@ -6,9 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: vhs-city-site
@@ -17,8 +15,6 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    outputs:
-      deploy_skipped: ${{ steps.fetch.outputs.deploy_skipped }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -59,24 +55,12 @@ jobs:
           path: data/status.json
           key: vhs-status-json-${{ github.run_id }}
 
-      - name: Setup Pages
+      - name: Commit and push status
         if: steps.fetch.outputs.deploy_skipped != 'true'
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        if: steps.fetch.outputs.deploy_skipped != 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-  deploy:
-    needs: update
-    if: needs.update.outputs.deploy_skipped != 'true'
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/status.json
+          git diff --staged --quiet && echo "No status changes" && exit 0
+          git commit -m "chore: update stream status"
+          git push
