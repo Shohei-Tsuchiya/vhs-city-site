@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-07-03T00:05:28.780Z",
+  "updatedAt": "2026-07-03T00:10:28.682Z",
   "live": [
-    {
-      "memberKey": "yugiri:運命メイナ",
-      "name": "運命メイナ",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#7c9cff",
-      "channelId": "UCbsgSnDh12vTloogn0g6lPQ",
-      "handle": "DestinyMeina",
-      "videoId": "W5V7lh4eXLQ",
-      "title": "【ゆうモニ】いっしょに朝ごはん食べよ！起きれたら...【運命メイナ/ゆうぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/W5V7lh4eXLQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-02T22:00:00Z",
-      "url": "https://www.youtube.com/watch?v=W5V7lh4eXLQ",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
-      "status": "live"
-    },
     {
       "memberKey": "goraku:壱神ふらん",
       "name": "壱神ふらん",
@@ -30,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J7HDoiXUSiE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-02T22:45:00Z",
       "url": "https://www.youtube.com/watch?v=J7HDoiXUSiE",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.681Z",
       "status": "live"
     }
   ],
@@ -48,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/b8k1yEeZkD0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=b8k1yEeZkD0",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.681Z",
       "status": "upcoming"
     },
     {
@@ -64,39 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HlKwukE3fXQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=HlKwukE3fXQ",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:常勝無敗ぐぬぬ",
-      "name": "常勝無敗ぐぬぬ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#f5a623",
-      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
-      "handle": "gununu_meiwaku",
-      "videoId": "Y97fRc1Psu4",
-      "title": "【R.E.P.O】初めましてでも魅せる常勝無敗ぐぬぬ　 御子柴もも/赤衣アカメ/玉響つづり/ユリシス・ゾイ/猿飛佐奈【常勝無敗ぐぬぬ】#ビバップ高校",
-      "thumbnail": "https://i.ytimg.com/vi/Y97fRc1Psu4/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-03T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=Y97fRc1Psu4",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:石狩あかり",
-      "name": "石狩あかり",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
-      "handle": "akari0415",
-      "videoId": "r6S_ehYMGPo",
-      "title": "【ストリートファイター6】モダンヴァイパー頑張ってます【石狩あかり/あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/r6S_ehYMGPo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-03T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=r6S_ehYMGPo",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +64,39 @@
       "thumbnail": "https://i.ytimg.com/vi/2wLfz4idJRs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=2wLfz4idJRs",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.681Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:常勝無敗ぐぬぬ",
+      "name": "常勝無敗ぐぬぬ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#f5a623",
+      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
+      "handle": "gununu_meiwaku",
+      "videoId": "Y97fRc1Psu4",
+      "title": "【R.E.P.O】初めましてでも魅せる常勝無敗ぐぬぬ　 御子柴もも/赤衣アカメ/玉響つづり/ユリシス・ゾイ/猿飛佐奈【常勝無敗ぐぬぬ】#ビバップ高校",
+      "thumbnail": "https://i.ytimg.com/vi/Y97fRc1Psu4/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-03T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=Y97fRc1Psu4",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:石狩あかり",
+      "name": "石狩あかり",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#e85d75",
+      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
+      "handle": "akari0415",
+      "videoId": "r6S_ehYMGPo",
+      "title": "【ストリートファイター6】モダンヴァイパー頑張ってます【石狩あかり/あおぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/r6S_ehYMGPo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-03T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=r6S_ehYMGPo",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3h0B2ybq94o/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=3h0B2ybq94o",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C45iC27Cd_w/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=C45iC27Cd_w",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I_OAV1Mo4Xw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=I_OAV1Mo4Xw",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F9cbW9yZXWs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T23:15:00Z",
       "url": "https://www.youtube.com/watch?v=F9cbW9yZXWs",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.681Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Zs8DDFd46BE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T03:10:00Z",
       "url": "https://www.youtube.com/watch?v=Zs8DDFd46BE",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QuPwMBFthSw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=QuPwMBFthSw",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.681Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.681Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-03T00:05:28.614Z",
+      "checkedAt": "2026-07-03T00:10:28.682Z",
       "status": "upcoming"
     }
   ]
