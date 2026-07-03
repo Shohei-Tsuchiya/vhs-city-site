@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-07-03T14:55:23.041Z",
+  "updatedAt": "2026-07-03T15:00:48.002Z",
   "live": [
-    {
-      "memberKey": "aogiri:山黒音玄",
-      "name": "山黒音玄",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
-      "handle": "nekuro0412",
-      "videoId": "I_OAV1Mo4Xw",
-      "title": "【広告なしASMR/KU100】ふぅ～♡ぐりぐり♡ゴシゴシ♡目隠しされながら色々されちゃう【ねくろ/Ear Cleaning/耳朵治愈】",
-      "thumbnail": "https://i.ytimg.com/vi/I_OAV1Mo4Xw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-03T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=I_OAV1Mo4Xw",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
-      "status": "live"
-    },
     {
       "memberKey": "goraku:回胴てん",
       "name": "回胴てん",
@@ -30,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/M5ZFaXmsB5A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T13:00:12Z",
       "url": "https://www.youtube.com/watch?v=M5ZFaXmsB5A",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.001Z",
       "status": "live"
     }
   ],
@@ -48,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F9cbW9yZXWs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T23:15:00Z",
       "url": "https://www.youtube.com/watch?v=F9cbW9yZXWs",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.002Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Zs8DDFd46BE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T03:10:00Z",
       "url": "https://www.youtube.com/watch?v=Zs8DDFd46BE",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.001Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cmWwEJvx6gc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=cmWwEJvx6gc",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.001Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QhwUZ1Hd6JA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=QhwUZ1Hd6JA",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.002Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QuPwMBFthSw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=QuPwMBFthSw",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.002Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.002Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.002Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-03T14:55:23.035Z",
+      "checkedAt": "2026-07-03T15:00:48.002Z",
       "status": "upcoming"
     }
   ]
