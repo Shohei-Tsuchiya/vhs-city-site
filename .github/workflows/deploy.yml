@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Update Stream Status"]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -16,12 +20,15 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     outputs:
       deploy_skipped: ${{ steps.fetch.outputs.deploy_skipped }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Check committed status
         id: status
@@ -31,7 +38,7 @@ jobs:
           echo "year=$YEAR" >> "$GITHUB_OUTPUT"
 
       - name: Restore last good status
-        if: github.event_name == 'workflow_dispatch' || steps.status.outputs.year < 2020
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && steps.status.outputs.year < 2020)
         uses: actions/cache/restore@v4
         with:
           path: data/status.json
@@ -70,18 +77,18 @@ jobs:
           key: vhs-status-json-${{ github.run_id }}
 
       - name: Setup Pages
-        if: github.event_name == 'push' || steps.fetch.outputs.deploy_skipped != 'true'
+        if: github.event_name != 'workflow_dispatch' || steps.fetch.outputs.deploy_skipped != 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        if: github.event_name == 'push' || steps.fetch.outputs.deploy_skipped != 'true'
+        if: github.event_name != 'workflow_dispatch' || steps.fetch.outputs.deploy_skipped != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
   deploy:
     needs: build
-    if: github.event_name == 'push' || needs.build.outputs.deploy_skipped != 'true'
+    if: github.event_name != 'workflow_dispatch' || needs.build.outputs.deploy_skipped != 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
