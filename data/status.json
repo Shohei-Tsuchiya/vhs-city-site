@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T00:15:25.531Z",
+  "updatedAt": "2026-07-03T00:20:31.068Z",
   "live": [
     {
       "memberKey": "goraku:壱神ふらん",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J7HDoiXUSiE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-02T22:45:00Z",
       "url": "https://www.youtube.com/watch?v=J7HDoiXUSiE",
-      "checkedAt": "2026-07-03T00:15:25.530Z",
+      "checkedAt": "2026-07-03T00:20:31.067Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/b8k1yEeZkD0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=b8k1yEeZkD0",
-      "checkedAt": "2026-07-03T00:15:25.530Z",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
       "status": "upcoming"
     },
     {
@@ -48,39 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HlKwukE3fXQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=HlKwukE3fXQ",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:石狩あかり",
-      "name": "石狩あかり",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
-      "handle": "akari0415",
-      "videoId": "r6S_ehYMGPo",
-      "title": "【ストリートファイター6】モダンヴァイパー頑張ってます【石狩あかり/あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/r6S_ehYMGPo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-03T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=r6S_ehYMGPo",
-      "checkedAt": "2026-07-03T00:15:25.530Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#50c878",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "2wLfz4idJRs",
-      "title": "〖 料理 / 実写 〗タイに行きタイ！トムヤムクンとビールで最高のヤニカスクッキング 🚬 【 #激辛  】",
-      "thumbnail": "https://i.ytimg.com/vi/2wLfz4idJRs/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-03T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=2wLfz4idJRs",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
+      "checkedAt": "2026-07-03T00:20:31.067Z",
       "status": "upcoming"
     },
     {
@@ -96,23 +64,39 @@
       "thumbnail": "https://i.ytimg.com/vi/Y97fRc1Psu4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=Y97fRc1Psu4",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
+      "checkedAt": "2026-07-03T00:20:31.067Z",
       "status": "upcoming"
     },
     {
-      "memberKey": "aogiri:春雨麗女",
-      "name": "春雨麗女",
+      "memberKey": "aogiri:石狩あかり",
+      "name": "石狩あかり",
       "groupId": "aogiri",
       "groupName": "あおぎり高校",
       "groupColor": "#e85d75",
-      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
-      "handle": "urame0711",
-      "videoId": "C45iC27Cd_w",
-      "title": "【コラボ】沖縄はいいぞ！🌺🌊沖縄出身VTuberによる沖縄あるある対談！【春雨麗女/ゆらぎゆら #あおぎり高校 #ミリプロ】",
-      "thumbnail": "https://i.ytimg.com/vi/C45iC27Cd_w/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-03T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=C45iC27Cd_w",
-      "checkedAt": "2026-07-03T00:15:25.530Z",
+      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
+      "handle": "akari0415",
+      "videoId": "r6S_ehYMGPo",
+      "title": "【ストリートファイター6】モダンヴァイパー頑張ってます【石狩あかり/あおぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/r6S_ehYMGPo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-03T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=r6S_ehYMGPo",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#50c878",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "2wLfz4idJRs",
+      "title": "〖 料理 / 実写 〗タイに行きタイ！トムヤムクンとビールで最高のヤニカスクッキング 🚬 【 #激辛  】",
+      "thumbnail": "https://i.ytimg.com/vi/2wLfz4idJRs/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-03T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=2wLfz4idJRs",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,23 @@
       "thumbnail": "https://i.ytimg.com/vi/3h0B2ybq94o/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=3h0B2ybq94o",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
+      "checkedAt": "2026-07-03T00:20:31.067Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:春雨麗女",
+      "name": "春雨麗女",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#e85d75",
+      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
+      "handle": "urame0711",
+      "videoId": "C45iC27Cd_w",
+      "title": "【コラボ】沖縄はいいぞ！🌺🌊沖縄出身VTuberによる沖縄あるある対談！【春雨麗女/ゆらぎゆら #あおぎり高校 #ミリプロ】",
+      "thumbnail": "https://i.ytimg.com/vi/C45iC27Cd_w/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-03T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=C45iC27Cd_w",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I_OAV1Mo4Xw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=I_OAV1Mo4Xw",
-      "checkedAt": "2026-07-03T00:15:25.530Z",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F9cbW9yZXWs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T23:15:00Z",
       "url": "https://www.youtube.com/watch?v=F9cbW9yZXWs",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Zs8DDFd46BE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T03:10:00Z",
       "url": "https://www.youtube.com/watch?v=Zs8DDFd46BE",
-      "checkedAt": "2026-07-03T00:15:25.530Z",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QuPwMBFthSw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=QuPwMBFthSw",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
+      "checkedAt": "2026-07-03T00:20:31.067Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
+      "checkedAt": "2026-07-03T00:20:31.068Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-03T00:15:25.531Z",
+      "checkedAt": "2026-07-03T00:20:31.067Z",
       "status": "upcoming"
     }
   ]
