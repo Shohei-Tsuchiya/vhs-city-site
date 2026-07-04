@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:40:30.558Z",
+  "updatedAt": "2026-07-04T01:45:24.642Z",
   "live": [
     {
       "memberKey": "bebop:アカシ・ニコ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6B8odFeW3eE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T01:26:43Z",
       "url": "https://www.youtube.com/watch?v=6B8odFeW3eE",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
+      "checkedAt": "2026-07-04T01:45:24.625Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pTKXF5mnnT8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T01:30:00Z",
       "url": "https://www.youtube.com/watch?v=pTKXF5mnnT8",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F9cbW9yZXWs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-03T23:15:00Z",
       "url": "https://www.youtube.com/watch?v=F9cbW9yZXWs",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "live"
     }
   ],
@@ -64,23 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Zs8DDFd46BE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T03:10:00Z",
       "url": "https://www.youtube.com/watch?v=Zs8DDFd46BE",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:数寄屋橋れんげ",
-      "name": "数寄屋橋れんげ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#f5a623",
-      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
-      "handle": "renge_morinyan",
-      "videoId": "Ps9McTTg-JU",
-      "title": "【手元/プラモ】『エックス』組むぞ〜！！！【ロックマン / コトブキヤ / #数寄屋橋れんげ】",
-      "thumbnail": "https://i.ytimg.com/vi/Ps9McTTg-JU/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-04T06:00:00Z",
-      "url": "https://www.youtube.com/watch?v=Ps9McTTg-JU",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
+      "checkedAt": "2026-07-04T01:45:24.625Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +80,23 @@
       "thumbnail": "https://i.ytimg.com/vi/cmWwEJvx6gc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=cmWwEJvx6gc",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
+      "checkedAt": "2026-07-04T01:45:24.625Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#f5a623",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "Ps9McTTg-JU",
+      "title": "【手元/プラモ】『エックス』組むぞ〜！！！【ロックマン / コトブキヤ / #数寄屋橋れんげ】",
+      "thumbnail": "https://i.ytimg.com/vi/Ps9McTTg-JU/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-04T06:00:00Z",
+      "url": "https://www.youtube.com/watch?v=Ps9McTTg-JU",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yeeTsDfMwPQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=yeeTsDfMwPQ",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "upcoming"
     },
     {
@@ -128,23 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J5FNJwclltY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=J5FNJwclltY",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:宮霧りりい",
-      "name": "宮霧りりい",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#7c9cff",
-      "channelId": "UCmFyGUEEbGRD9eWv6KoveDg",
-      "handle": "MiyakiriLily",
-      "videoId": "QhwUZ1Hd6JA",
-      "title": "【一致するまで終われまテン!!】私たちの𝑲𝑰𝒁𝑼𝑵𝑨、見せてあげるわ【ゆうぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/QhwUZ1Hd6JA/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-04T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=QhwUZ1Hd6JA",
-      "checkedAt": "2026-07-04T01:40:30.538Z",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +144,23 @@
       "thumbnail": "https://i.ytimg.com/vi/NbG-cxijeUA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=NbG-cxijeUA",
-      "checkedAt": "2026-07-04T01:40:30.538Z",
+      "checkedAt": "2026-07-04T01:45:24.625Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:宮霧りりい",
+      "name": "宮霧りりい",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#7c9cff",
+      "channelId": "UCmFyGUEEbGRD9eWv6KoveDg",
+      "handle": "MiyakiriLily",
+      "videoId": "QhwUZ1Hd6JA",
+      "title": "【一致するまで終われまテン!!】私たちの𝑲𝑰𝒁𝑼𝑵𝑨、見せてあげるわ【ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/QhwUZ1Hd6JA/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-04T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=QhwUZ1Hd6JA",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QuPwMBFthSw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=QuPwMBFthSw",
-      "checkedAt": "2026-07-04T01:40:30.538Z",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-04T01:40:30.537Z",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-04T01:40:30.538Z",
+      "checkedAt": "2026-07-04T01:45:24.626Z",
       "status": "upcoming"
     }
   ]
