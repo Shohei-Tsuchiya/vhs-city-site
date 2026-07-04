@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T15:45:24.811Z",
+  "updatedAt": "2026-07-04T15:50:35.373Z",
   "live": [
     {
       "memberKey": "aogiri:音霊魂子",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/e7lTEIYbb2c/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=e7lTEIYbb2c",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
+      "checkedAt": "2026-07-04T15:50:35.354Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-4KV_JUfnRY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T12:00:31Z",
       "url": "https://www.youtube.com/watch?v=-4KV_JUfnRY",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
+      "checkedAt": "2026-07-04T15:50:35.354Z",
       "status": "live"
     }
   ],
@@ -48,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HshFcgyXHYU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T01:00:00Z",
       "url": "https://www.youtube.com/watch?v=HshFcgyXHYU",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:うる虎がーる",
-      "name": "うる虎がーる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UCdi5pj0MDQ-3LFNUFIFmD8w",
-      "handle": "urutoragaru0831",
-      "videoId": "jXuSbJtaVK8",
-      "title": "【 FF9 】 完全初見でファイナルファンタジーⅨをプレイ！＃３【 うる虎がーる / FINAL FANTASY Ⅸ 】",
-      "thumbnail": "https://i.ytimg.com/vi/jXuSbJtaVK8/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T06:00:00Z",
-      "url": "https://www.youtube.com/watch?v=jXuSbJtaVK8",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
+      "checkedAt": "2026-07-04T15:50:35.354Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/QuPwMBFthSw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=QuPwMBFthSw",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
+      "checkedAt": "2026-07-04T15:50:35.354Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:うる虎がーる",
+      "name": "うる虎がーる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#e85d75",
+      "channelId": "UCdi5pj0MDQ-3LFNUFIFmD8w",
+      "handle": "urutoragaru0831",
+      "videoId": "jXuSbJtaVK8",
+      "title": "【 FF9 】 完全初見でファイナルファンタジーⅨをプレイ！＃３【 うる虎がーる / FINAL FANTASY Ⅸ 】",
+      "thumbnail": "https://i.ytimg.com/vi/jXuSbJtaVK8/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-05T06:00:00Z",
+      "url": "https://www.youtube.com/watch?v=jXuSbJtaVK8",
+      "checkedAt": "2026-07-04T15:50:35.354Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I4rYrSvPSjY/mqdefault.jpg",
       "scheduledStart": "2026-07-05T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=I4rYrSvPSjY",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
+      "checkedAt": "2026-07-04T15:50:35.354Z",
       "status": "upcoming"
     },
     {
@@ -112,23 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#50c878",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "RMKIxBeuKWQ",
-      "title": "【 メンシプ限定ASMR 】君で練習させてよギリギリを…💛寝かせちゃうね【#新人Vtuber】",
-      "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
+      "checkedAt": "2026-07-04T15:50:35.355Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,23 @@
       "thumbnail": "https://i.ytimg.com/vi/95_Zw2-pf88/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=95_Zw2-pf88",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
+      "checkedAt": "2026-07-04T15:50:35.354Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#50c878",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "RMKIxBeuKWQ",
+      "title": "【 メンシプ限定ASMR 】君で練習させてよギリギリを…💛寝かせちゃうね【#新人Vtuber】",
+      "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-05T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
+      "checkedAt": "2026-07-04T15:50:35.355Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-04T15:45:24.795Z",
+      "checkedAt": "2026-07-04T15:50:35.354Z",
       "status": "upcoming"
     }
   ]
