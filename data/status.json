@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T14:50:36.032Z",
+  "updatedAt": "2026-07-04T14:55:25.191Z",
   "live": [
     {
       "memberKey": "aogiri:音霊魂子",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/e7lTEIYbb2c/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=e7lTEIYbb2c",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-4KV_JUfnRY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T12:00:31Z",
       "url": "https://www.youtube.com/watch?v=-4KV_JUfnRY",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "live"
     }
   ],
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HshFcgyXHYU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T01:00:00Z",
       "url": "https://www.youtube.com/watch?v=HshFcgyXHYU",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QuPwMBFthSw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=QuPwMBFthSw",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jXuSbJtaVK8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=jXuSbJtaVK8",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I4rYrSvPSjY/mqdefault.jpg",
       "scheduledStart": "2026-07-05T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=I4rYrSvPSjY",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-04T14:50:35.996Z",
+      "checkedAt": "2026-07-04T14:55:25.173Z",
       "status": "upcoming"
     }
   ]
