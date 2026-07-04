@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T10:20:29.672Z",
+  "updatedAt": "2026-07-04T10:25:21.997Z",
   "live": [
     {
       "memberKey": "aogiri:千代浦蝶美",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Zs8DDFd46BE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T03:10:00Z",
       "url": "https://www.youtube.com/watch?v=Zs8DDFd46BE",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "live"
     },
     {
@@ -30,23 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cmWwEJvx6gc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=cmWwEJvx6gc",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:甘葛すもあ",
-      "name": "甘葛すもあ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#f5a623",
-      "channelId": "UCAflRAT6B_7nvxAK72ztN3A",
-      "handle": "sumoa_meiwaku",
-      "videoId": "J5FNJwclltY",
-      "title": "【弾き語り/歌枠】高評価200いくまで明日の予定わかりまにひゃく【甘葛すもあ/ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/J5FNJwclltY/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-04T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=J5FNJwclltY",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "live"
     },
     {
@@ -62,7 +46,23 @@
       "thumbnail": "https://i.ytimg.com/vi/Ps9McTTg-JU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=Ps9McTTg-JU",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "bebop:甘葛すもあ",
+      "name": "甘葛すもあ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#f5a623",
+      "channelId": "UCAflRAT6B_7nvxAK72ztN3A",
+      "handle": "sumoa_meiwaku",
+      "videoId": "J5FNJwclltY",
+      "title": "【弾き語り/歌枠】高評価320いくまで明日の予定わかりまさんびゃくにじゅう【甘葛すもあ/ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/J5FNJwclltY/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-04T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=J5FNJwclltY",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "live"
     }
   ],
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QhwUZ1Hd6JA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=QhwUZ1Hd6JA",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,23 @@
       "thumbnail": "https://i.ytimg.com/vi/NbG-cxijeUA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=NbG-cxijeUA",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:回胴てん",
+      "name": "回胴てん",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#50c878",
+      "channelId": "UCcuJiXr5imCUjFCHhFm1WmA",
+      "handle": "回胴てん",
+      "videoId": "-4KV_JUfnRY",
+      "title": "【#家スロ】エンディング見るまで終われない!!!【娯楽/回胴てん】",
+      "thumbnail": "https://i.ytimg.com/vi/-4KV_JUfnRY/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-04T12:00:31Z",
+      "url": "https://www.youtube.com/watch?v=-4KV_JUfnRY",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TgBFEs0VbXs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-04T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=TgBFEs0VbXs",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QuPwMBFthSw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=QuPwMBFthSw",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-04T10:20:29.654Z",
+      "checkedAt": "2026-07-04T10:25:21.841Z",
       "status": "upcoming"
     }
   ]
