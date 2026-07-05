@@ -35,6 +35,16 @@ const SITE_KEYWORDS = [
   '非公式ファンサイト',
 ];
 
+const GOOGLE_TAG_SNIPPET = `<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MF18GPN7LV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MF18GPN7LV');
+</script>`;
+
 function escapeHtml(value) {
   return String(value)
     .replace(/&/g, '&amp;')
@@ -78,6 +88,7 @@ function headMeta({ title, description, keywords, canonicalPath, depth = 0 }) {
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
+${GOOGLE_TAG_SNIPPET}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(title)}</title>
