@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-07-05T13:05:22.104Z",
+  "updatedAt": "2026-07-05T13:10:40.129Z",
   "live": [
-    {
-      "memberKey": "aogiri:音霊魂子",
-      "name": "音霊魂子",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UCt7_srJeiw55kTcK7M9ID6g",
-      "handle": "tamako0212",
-      "videoId": "Gsf1iHU3awQ",
-      "title": "【Cursed Companions】仲良くゲームをしようなッ！！！【あおぎり高校/音霊魂子】",
-      "thumbnail": "https://i.ytimg.com/vi/Gsf1iHU3awQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=Gsf1iHU3awQ",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
-      "status": "live"
-    },
     {
       "memberKey": "aogiri:山黒音玄",
       "name": "山黒音玄",
@@ -30,23 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8Ltmy4H0rJQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=8Ltmy4H0rJQ",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "aogiri:月赴ゐぶき",
-      "name": "月赴ゐぶき",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UCxy3KNlLQiN64tikKipnQNg",
-      "handle": "ibuki0831",
-      "videoId": "zrLdIvbrWPc",
-      "title": "愛の言葉を囁き続けるんですね？了解です。そういうの得意なんで。　【Cursed Companions】【月赴ゐぶき/あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/zrLdIvbrWPc/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=zrLdIvbrWPc",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "checkedAt": "2026-07-05T13:10:40.112Z",
       "status": "live"
     },
     {
@@ -62,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "checkedAt": "2026-07-05T13:10:40.112Z",
       "status": "live"
     },
     {
@@ -78,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "checkedAt": "2026-07-05T13:10:40.112Z",
       "status": "live"
     }
   ],
@@ -96,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/95_Zw2-pf88/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=95_Zw2-pf88",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "checkedAt": "2026-07-05T13:10:40.112Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KTf6JdBeUmk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=KTf6JdBeUmk",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "checkedAt": "2026-07-05T13:10:40.112Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kM-gXhuBNJc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=kM-gXhuBNJc",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "checkedAt": "2026-07-05T13:10:40.112Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "checkedAt": "2026-07-05T13:10:40.112Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zmsgZw3dTgM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zmsgZw3dTgM",
-      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "checkedAt": "2026-07-05T13:10:40.112Z",
       "status": "upcoming"
     }
   ]
