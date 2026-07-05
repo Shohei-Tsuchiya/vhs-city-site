@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T13:00:57.356Z",
+  "updatedAt": "2026-07-05T13:05:22.104Z",
   "live": [
     {
       "memberKey": "aogiri:音霊魂子",
@@ -14,23 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Gsf1iHU3awQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=Gsf1iHU3awQ",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "aogiri:石狩あかり",
-      "name": "石狩あかり",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
-      "handle": "akari0415",
-      "videoId": "PCMuhY4A8yY",
-      "title": "【Cursed Companions】NGワードを言ったら即〇！回復は愛の言葉で❤【あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/PCMuhY4A8yY/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=PCMuhY4A8yY",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "live"
     },
     {
@@ -46,39 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8Ltmy4H0rJQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=8Ltmy4H0rJQ",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "aogiri:栗駒こまる",
-      "name": "栗駒こまる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UCXXnWssOLdB2jg-4CznteAA",
-      "handle": "komaru0814",
-      "videoId": "K80ju_qEcmw",
-      "title": "【  愛の言葉で助けてもらえる最高のゲーム!!!???  】#Cursed Companions  #あおぎり高校  #栗駒こまる  #vtuber",
-      "thumbnail": "https://i.ytimg.com/vi/K80ju_qEcmw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=K80ju_qEcmw",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "aogiri:エトラ",
-      "name": "エトラ",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UCAHXqn4nAd2j3LRu1Qyi_JA",
-      "handle": "etrachannel",
-      "videoId": "i9F9AiFJwEg",
-      "title": "【Cursed Companions】なんだか危ないところに来てしまった【あおぎり高校 エトラ】",
-      "thumbnail": "https://i.ytimg.com/vi/i9F9AiFJwEg/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=i9F9AiFJwEg",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "live"
     },
     {
@@ -94,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zrLdIvbrWPc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zrLdIvbrWPc",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "live"
     },
     {
@@ -110,11 +62,9 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "live"
-    }
-  ],
-  "upcoming": [
+    },
     {
       "memberKey": "goraku:与璃つづく",
       "name": "与璃つづく",
@@ -128,9 +78,11 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
-      "status": "upcoming"
-    },
+      "checkedAt": "2026-07-05T13:05:22.085Z",
+      "status": "live"
+    }
+  ],
+  "upcoming": [
     {
       "memberKey": "bebop:泡喰はわこ",
       "name": "泡喰はわこ",
@@ -144,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/95_Zw2-pf88/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=95_Zw2-pf88",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KTf6JdBeUmk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=KTf6JdBeUmk",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kM-gXhuBNJc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=kM-gXhuBNJc",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zmsgZw3dTgM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zmsgZw3dTgM",
-      "checkedAt": "2026-07-05T13:00:57.327Z",
+      "checkedAt": "2026-07-05T13:05:22.085Z",
       "status": "upcoming"
     }
   ]
