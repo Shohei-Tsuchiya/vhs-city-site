@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T15:20:40.616Z",
+  "updatedAt": "2026-07-05T15:25:22.997Z",
   "live": [
     {
       "memberKey": "bebop:アカシ・ニコ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7TC85uI2XBs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=7TC85uI2XBs",
-      "checkedAt": "2026-07-05T15:20:40.599Z",
+      "checkedAt": "2026-07-05T15:25:22.981Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8LerXBEYrVo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:40:00Z",
       "url": "https://www.youtube.com/watch?v=8LerXBEYrVo",
-      "checkedAt": "2026-07-05T15:20:40.599Z",
+      "checkedAt": "2026-07-05T15:25:22.982Z",
       "status": "live"
     }
   ],
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KTf6JdBeUmk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=KTf6JdBeUmk",
-      "checkedAt": "2026-07-05T15:20:40.598Z",
+      "checkedAt": "2026-07-05T15:25:22.982Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rYsNjhJJd6A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rYsNjhJJd6A",
-      "checkedAt": "2026-07-05T15:20:40.599Z",
+      "checkedAt": "2026-07-05T15:25:22.982Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kM-gXhuBNJc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=kM-gXhuBNJc",
-      "checkedAt": "2026-07-05T15:20:40.599Z",
+      "checkedAt": "2026-07-05T15:25:22.982Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-05T15:20:40.599Z",
+      "checkedAt": "2026-07-05T15:25:22.982Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zmsgZw3dTgM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zmsgZw3dTgM",
-      "checkedAt": "2026-07-05T15:20:40.599Z",
+      "checkedAt": "2026-07-05T15:25:22.982Z",
       "status": "upcoming"
     }
   ]
