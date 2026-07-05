@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T22:10:38.591Z",
+  "updatedAt": "2026-07-05T22:15:26.761Z",
   "live": [
     {
       "memberKey": "bebop:泡喰はわこ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/n-jPire6P4g/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T21:15:00Z",
       "url": "https://www.youtube.com/watch?v=n-jPire6P4g",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KTf6JdBeUmk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=KTf6JdBeUmk",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "live"
     }
   ],
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rYsNjhJJd6A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rYsNjhJJd6A",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WDj7cw3Pc-o/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=WDj7cw3Pc-o",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kM-gXhuBNJc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=kM-gXhuBNJc",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xEmZqwI3HTc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=xEmZqwI3HTc",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i0trfC_9e5M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=i0trfC_9e5M",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EGY2NdjH4FE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=EGY2NdjH4FE",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zmsgZw3dTgM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zmsgZw3dTgM",
-      "checkedAt": "2026-07-05T22:10:38.576Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QHuS5ciIEtE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=QHuS5ciIEtE",
-      "checkedAt": "2026-07-05T22:10:38.575Z",
+      "checkedAt": "2026-07-05T22:15:26.604Z",
       "status": "upcoming"
     }
   ]
