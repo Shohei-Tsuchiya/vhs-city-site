@@ -114,6 +114,7 @@ function pageFooter(depth = 0) {
   const prefix = depth > 0 ? '../'.repeat(depth) : '';
   return `  <footer class="site-footer">
     <p>非公式ファンサイトです。viviON / VHS City 公式とは関係ありません。</p>
+    <p>アクセス解析に Google Analytics を使用しています。</p>
     <p>
       <a href="${prefix}index.html">配信ダッシュボード</a>
       ·
