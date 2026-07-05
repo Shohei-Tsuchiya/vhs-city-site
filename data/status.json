@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-07-05T14:00:52.772Z",
+  "updatedAt": "2026-07-05T14:05:23.811Z",
   "live": [
+    {
+      "memberKey": "bebop:アカシ・ニコ",
+      "name": "アカシ・ニコ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#f5a623",
+      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
+      "handle": "niko_brdc",
+      "videoId": "7TC85uI2XBs",
+      "title": "ASMR｜気持ち良い高速耳かき👂防音室でしっかりと心地よい眠りへご案内.。o○🎧｜耳かき｜吐息｜耳ふー｜脳マッサージ｜EarCleaning【アカシ・ニコ☻ビバップ高校",
+      "thumbnail": "https://i.ytimg.com/vi/7TC85uI2XBs/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-05T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=7TC85uI2XBs",
+      "checkedAt": "2026-07-05T14:05:23.795Z",
+      "status": "live"
+    },
     {
       "memberKey": "bebop:泡喰はわこ",
       "name": "泡喰はわこ",
@@ -14,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8LerXBEYrVo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:40:00Z",
       "url": "https://www.youtube.com/watch?v=8LerXBEYrVo",
-      "checkedAt": "2026-07-05T14:00:52.748Z",
+      "checkedAt": "2026-07-05T14:05:23.795Z",
       "status": "live"
     },
     {
@@ -30,26 +46,8 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-05T14:00:52.748Z",
+      "checkedAt": "2026-07-05T14:05:23.795Z",
       "status": "live"
-    }
-  ],
-  "upcoming": [
-    {
-      "memberKey": "bebop:アカシ・ニコ",
-      "name": "アカシ・ニコ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#f5a623",
-      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
-      "handle": "niko_brdc",
-      "videoId": "7TC85uI2XBs",
-      "title": "ASMR｜気持ち良い高速耳かき👂防音室でしっかりと心地よい眠りへご案内.。o○🎧｜耳かき｜吐息｜耳ふー｜脳マッサージ｜EarCleaning【アカシ・ニコ☻ビバップ高校",
-      "thumbnail": "https://i.ytimg.com/vi/7TC85uI2XBs/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=7TC85uI2XBs",
-      "checkedAt": "2026-07-05T14:00:52.748Z",
-      "status": "upcoming"
     },
     {
       "memberKey": "goraku:回胴てん",
@@ -64,9 +62,11 @@
       "thumbnail": "https://i.ytimg.com/vi/H_25H72sBFM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T14:00:24Z",
       "url": "https://www.youtube.com/watch?v=H_25H72sBFM",
-      "checkedAt": "2026-07-05T14:00:52.748Z",
-      "status": "upcoming"
-    },
+      "checkedAt": "2026-07-05T14:05:23.795Z",
+      "status": "live"
+    }
+  ],
+  "upcoming": [
     {
       "memberKey": "yugiri:運命メイナ",
       "name": "運命メイナ",
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KTf6JdBeUmk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=KTf6JdBeUmk",
-      "checkedAt": "2026-07-05T14:00:52.748Z",
+      "checkedAt": "2026-07-05T14:05:23.795Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kM-gXhuBNJc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=kM-gXhuBNJc",
-      "checkedAt": "2026-07-05T14:00:52.748Z",
+      "checkedAt": "2026-07-05T14:05:23.795Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-05T14:00:52.748Z",
+      "checkedAt": "2026-07-05T14:05:23.795Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zmsgZw3dTgM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zmsgZw3dTgM",
-      "checkedAt": "2026-07-05T14:00:52.748Z",
+      "checkedAt": "2026-07-05T14:05:23.795Z",
       "status": "upcoming"
     }
   ]
