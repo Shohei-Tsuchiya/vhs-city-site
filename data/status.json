@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T14:35:21.158Z",
+  "updatedAt": "2026-07-05T14:40:46.031Z",
   "live": [
     {
       "memberKey": "bebop:アカシ・ニコ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7TC85uI2XBs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=7TC85uI2XBs",
-      "checkedAt": "2026-07-05T14:35:21.142Z",
+      "checkedAt": "2026-07-05T14:40:45.885Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8LerXBEYrVo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:40:00Z",
       "url": "https://www.youtube.com/watch?v=8LerXBEYrVo",
-      "checkedAt": "2026-07-05T14:35:21.142Z",
+      "checkedAt": "2026-07-05T14:40:45.885Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/H_25H72sBFM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T14:00:24Z",
       "url": "https://www.youtube.com/watch?v=H_25H72sBFM",
-      "checkedAt": "2026-07-05T14:35:21.142Z",
+      "checkedAt": "2026-07-05T14:40:45.885Z",
       "status": "live"
     }
   ],
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KTf6JdBeUmk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=KTf6JdBeUmk",
-      "checkedAt": "2026-07-05T14:35:21.141Z",
+      "checkedAt": "2026-07-05T14:40:45.885Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rYsNjhJJd6A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rYsNjhJJd6A",
-      "checkedAt": "2026-07-05T14:35:21.142Z",
+      "checkedAt": "2026-07-05T14:40:45.885Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kM-gXhuBNJc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=kM-gXhuBNJc",
-      "checkedAt": "2026-07-05T14:35:21.142Z",
+      "checkedAt": "2026-07-05T14:40:45.886Z",
       "status": "upcoming"
     },
     {
@@ -112,23 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-05T14:35:21.142Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:我部りえる",
-      "name": "我部りえる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#e85d75",
-      "channelId": "UCFvEuP2EDkvrgJpHI6-pyNw",
-      "handle": "rieru0830",
-      "videoId": "zmsgZw3dTgM",
-      "title": "【 お悩み相談 】※閲覧注意⚠  このひとは呼んでも大丈夫な人ですか？  ゲスト：藤井せんせー【我部りえる/藤井先生/あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/zmsgZw3dTgM/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-08T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=zmsgZw3dTgM",
-      "checkedAt": "2026-07-05T14:35:21.142Z",
+      "checkedAt": "2026-07-05T14:40:45.886Z",
       "status": "upcoming"
     }
   ]
