@@ -50,10 +50,12 @@ jobs:
         run: node scripts/discard-stale-status.mjs
 
       - name: Setup Node.js
-        if: github.event_name == 'workflow_dispatch'
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+
+      - name: Generate SEO pages
+        run: node scripts/generate-seo.mjs
 
       - name: Fetch YouTube status
         if: github.event_name == 'workflow_dispatch'

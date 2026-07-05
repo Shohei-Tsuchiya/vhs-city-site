@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "fetch": "node --env-file=.env scripts/fetch-youtube-status.mjs"
+    "fetch": "node --env-file=.env scripts/fetch-youtube-status.mjs",
+    "generate-seo": "node scripts/generate-seo.mjs"
   }
 }

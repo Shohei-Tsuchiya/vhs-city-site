@@ -3,3 +3,7 @@ node_modules/
 .deploy-skipped
 .DS_Store
 Thumbs.db
+/members/
+/groups/
+/sitemap.xml
+/robots.txt
