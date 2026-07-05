@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T01:20:36.504Z",
+  "updatedAt": "2026-07-05T01:25:21.129Z",
   "live": [
     {
       "memberKey": "yugiri:天羅洲テラス",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HshFcgyXHYU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T01:00:00Z",
       "url": "https://www.youtube.com/watch?v=HshFcgyXHYU",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9ZspJ1kElKQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T04:00:00Z",
       "url": "https://www.youtube.com/watch?v=9ZspJ1kElKQ",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QuPwMBFthSw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=QuPwMBFthSw",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jXuSbJtaVK8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=jXuSbJtaVK8",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/brj9l4uvk_U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T07:00:00Z",
       "url": "https://www.youtube.com/watch?v=brj9l4uvk_U",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I4rYrSvPSjY/mqdefault.jpg",
       "scheduledStart": "2026-07-05T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=I4rYrSvPSjY",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PCMuhY4A8yY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=PCMuhY4A8yY",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8Ltmy4H0rJQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=8Ltmy4H0rJQ",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -144,23 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PnVA6U99JmE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=PnVA6U99JmE",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:泡喰はわこ",
-      "name": "泡喰はわこ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#f5a623",
-      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
-      "handle": "hawako_meiwaku",
-      "videoId": "95_Zw2-pf88",
-      "title": "零 ～紅い蝶～ REMAKE 🎮ホラー夏の挑戦1日目 ※ネタバレ注意【泡喰はわこ/ビバップ高校 /迷電ワークス  】",
-      "thumbnail": "https://i.ytimg.com/vi/95_Zw2-pf88/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=95_Zw2-pf88",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +160,23 @@
       "thumbnail": "https://i.ytimg.com/vi/RMKIxBeuKWQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=RMKIxBeuKWQ",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.128Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:泡喰はわこ",
+      "name": "泡喰はわこ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#f5a623",
+      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
+      "handle": "hawako_meiwaku",
+      "videoId": "95_Zw2-pf88",
+      "title": "零 ～紅い蝶～ REMAKE 🎮ホラー夏の挑戦1日目 ※ネタバレ注意【泡喰はわこ/ビバップ高校 /迷電ワークス  】",
+      "thumbnail": "https://i.ytimg.com/vi/95_Zw2-pf88/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-05T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=95_Zw2-pf88",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KTf6JdBeUmk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=KTf6JdBeUmk",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-05T01:20:36.503Z",
+      "checkedAt": "2026-07-05T01:25:21.129Z",
       "status": "upcoming"
     }
   ]
