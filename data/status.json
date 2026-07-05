@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-07-05T16:10:41.724Z",
-  "live": [
-    {
-      "memberKey": "bebop:泡喰はわこ",
-      "name": "泡喰はわこ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#f5a623",
-      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
-      "handle": "hawako_meiwaku",
-      "videoId": "8LerXBEYrVo",
-      "title": "零 ～紅い蝶～ REMAKE 🎮ホラー夏の挑戦1日目 ※ネタバレ注意【泡喰はわこ/ビバップ高校 /迷電ワークス  】",
-      "thumbnail": "https://i.ytimg.com/vi/8LerXBEYrVo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-05T13:40:00Z",
-      "url": "https://www.youtube.com/watch?v=8LerXBEYrVo",
-      "checkedAt": "2026-07-05T16:10:41.723Z",
-      "status": "live"
-    }
-  ],
+  "updatedAt": "2026-07-05T16:15:27.748Z",
+  "live": [],
   "upcoming": [
     {
       "memberKey": "yugiri:運命メイナ",
@@ -32,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KTf6JdBeUmk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-05T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=KTf6JdBeUmk",
-      "checkedAt": "2026-07-05T16:10:41.723Z",
+      "checkedAt": "2026-07-05T16:15:27.748Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rYsNjhJJd6A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rYsNjhJJd6A",
-      "checkedAt": "2026-07-05T16:10:41.723Z",
+      "checkedAt": "2026-07-05T16:15:27.748Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kM-gXhuBNJc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=kM-gXhuBNJc",
-      "checkedAt": "2026-07-05T16:10:41.723Z",
+      "checkedAt": "2026-07-05T16:15:27.748Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xEmZqwI3HTc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-06T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=xEmZqwI3HTc",
-      "checkedAt": "2026-07-05T16:10:41.723Z",
+      "checkedAt": "2026-07-05T16:15:27.748Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-07-05T16:10:41.723Z",
+      "checkedAt": "2026-07-05T16:15:27.748Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zmsgZw3dTgM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zmsgZw3dTgM",
-      "checkedAt": "2026-07-05T16:10:41.723Z",
+      "checkedAt": "2026-07-05T16:15:27.747Z",
       "status": "upcoming"
     }
   ]
