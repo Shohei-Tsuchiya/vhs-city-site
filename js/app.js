@@ -17,6 +17,19 @@ const UPCOMING_HORIZON_MS = 90 * 24 * 60 * 60 * 1000;
 const LIVE_DISPLAY_TTL_MS = 20 * 60 * 1000;
 const DISPLAY_TZ = 'Asia/Tokyo';
 
+const GROUP_COLORS = {
+  aogiri: '#7db8ff',
+  yugiri: '#ffb070',
+  bebop: '#6ee7aa',
+  goraku: '#c49bff',
+  partner: '#f5db6e',
+  official: '#9ed8df',
+};
+
+function groupLabelColor(item) {
+  return GROUP_COLORS[item.groupId] || item.groupColor || '#9ec5ff';
+}
+
 function formatDateTime(iso) {
   if (!iso) return '日時未設定';
   const date = new Date(iso);
@@ -113,6 +126,7 @@ function renderCards(container, items, mode) {
     if (item.groupId) {
       groupLabel.dataset.groupId = item.groupId;
     }
+    groupLabel.style.color = groupLabelColor(item);
     memberName.textContent = item.name;
     streamTitle.textContent = item.title || 'タイトル未取得';
     streamTime.textContent =
