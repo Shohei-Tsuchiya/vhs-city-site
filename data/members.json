@@ -3,7 +3,7 @@
     {
       "id": "aogiri",
       "name": "あおぎり高校",
-      "color": "#e85d75",
+      "color": "#7db8ff",
       "members": [
         { "name": "音霊魂子", "channelId": "UCt7_srJeiw55kTcK7M9ID6g", "handle": "tamako0212" },
         { "name": "石狩あかり", "channelId": "UC7wZb5INldbGweowOhBIs8Q", "handle": "akari0415" },
@@ -23,7 +23,7 @@
     {
       "id": "yugiri",
       "name": "ゆうぎり高校",
-      "color": "#7c9cff",
+      "color": "#ffb070",
       "members": [
         { "name": "運命メイナ", "channelId": "UCbsgSnDh12vTloogn0g6lPQ", "handle": "DestinyMeina" },
         { "name": "天羅洲テラス", "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw", "handle": "AmarasuTerasu" },
@@ -35,7 +35,7 @@
     {
       "id": "bebop",
       "name": "ビバップ高校",
-      "color": "#f5a623",
+      "color": "#6ee7aa",
       "members": [
         { "name": "アカシ・ニコ", "channelId": "UCV5jFxqHWDppyzznOBJbvVg", "handle": "niko_brdc" },
         { "name": "永久不滅ゆるる", "channelId": "UCBT07kDimH3-HJ9zq1rFQKg", "handle": "yururu_coisqa" },
@@ -51,7 +51,7 @@
     {
       "id": "goraku",
       "name": "娯楽組",
-      "color": "#50c878",
+      "color": "#c49bff",
       "members": [
         {
           "name": "落乃いなほ",
@@ -83,7 +83,7 @@
     {
       "id": "partner",
       "name": "パートナークリエイター",
-      "color": "#c084fc",
+      "color": "#f5db6e",
       "members": [
         { "name": "従井ノラ", "channelId": "UCQYy35PowPpc6ImRH1TQgcw", "handle": "nora_shitagai" }
       ]
@@ -91,7 +91,7 @@
     {
       "id": "official",
       "name": "VHS City 公式",
-      "color": "#f0f0f0",
+      "color": "#9ed8df",
       "members": [
         { "name": "VHS Cityの日常", "channelId": "UCEXdD_eD7CWRkj387x_7PDA", "handle": "VtuberHighSchoolCity" },
         { "name": "あおぎり高校公式", "channelId": "UCPLeqi7rIqS9uY4_TrSUOMg", "handle": "aogiri1027" },

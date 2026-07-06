@@ -110,7 +110,9 @@ function renderCards(container, items, mode) {
     thumb.src = item.thumbnail || '';
     thumb.alt = `${item.name} のサムネイル`;
     groupLabel.textContent = item.groupName;
-    groupLabel.style.color = item.groupColor || '#9ec5ff';
+    if (item.groupId) {
+      groupLabel.dataset.groupId = item.groupId;
+    }
     memberName.textContent = item.name;
     streamTitle.textContent = item.title || 'タイトル未取得';
     streamTime.textContent =

@@ -319,6 +319,31 @@ h1 {
   font-family: var(--font-sans);
   font-size: 11px;
   letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.group-label[data-group-id='aogiri'] {
+  color: #7db8ff;
+}
+
+.group-label[data-group-id='yugiri'] {
+  color: #ffb070;
+}
+
+.group-label[data-group-id='bebop'] {
+  color: #6ee7aa;
+}
+
+.group-label[data-group-id='goraku'] {
+  color: #c49bff;
+}
+
+.group-label[data-group-id='partner'] {
+  color: #f5db6e;
+}
+
+.group-label[data-group-id='official'] {
+  color: #9ed8df;
 }
 
 .member-name {
