@@ -348,92 +348,6 @@ ${sections}
   return `${BASE_URL}/members/index.html`;
 }
 
-function buildIndexSeoSection(groups, allMembers) {
-  const sections = groups
-    .map((group) => {
-      const members = allMembers.filter((m) => m.groupId === group.id);
-      const aliases = GROUP_ALIASES[group.id] || [];
-      const aliasText = aliases.length ? `（${aliases.join(' / ')}）` : '';
-      const items = members
-        .map(
-          (member) =>
-            `<li><a href="members/${member.slug}.html">${escapeHtml(member.name)}</a> — ${escapeHtml(member.name)} 配信予定</li>`
-        )
-        .join('\n');
-      return `      <section>
-        <h3><a href="groups/${group.id}.html">${escapeHtml(group.name)}</a>${escapeHtml(aliasText)}</h3>
-        <ul class="seo-member-list">
-${items}
-        </ul>
-      </section>`;
-    })
-    .join('\n');
-
-  return `<section class="seo-directory" aria-labelledby="seo-directory-heading">
-    <div class="panel">
-      <h2 id="seo-directory-heading">VHS City メンバー・配信スケジュール</h2>
-      <p>
-        VHS City（VHS CITY / Vtuber High School City）非公式配信ダッシュボード。
-        あおぎり高校・ゆうぎり高校・ビバップ高校・娯楽組・従井ノラ など全メンバーの
-        YouTube 配信予定・配信中を一覧表示します。
-        <a href="members/index.html">メンバー一覧ページ</a>もご覧ください。
-      </p>
-      <div class="seo-directory-grid">
-${sections}
-      </div>
-    </div>
-  </section>`;
-}
-
-function patchIndexHtml(seoSection) {
-  const indexPath = join(ROOT, 'index.html');
-  const begin = '<!-- SEO:BEGIN -->';
-  const end = '<!-- SEO:END -->';
-  let html = readFileSync(indexPath, 'utf8');
-
-  if (!html.includes(begin) || !html.includes(end)) {
-    throw new Error('index.html に SEO:BEGIN / SEO:END マーカーがありません');
-  }
-
-  const headExtras = `  <meta name="keywords" content="${escapeHtml(
-    [
-      ...SITE_KEYWORDS,
-      'あおぎり高校',
-      'ゆうぎり高校',
-      'ビバップ高校',
-      '娯楽組',
-      '従井ノラ',
-      '音霊魂子',
-      'メンバー一覧',
-    ].join(', ')
-  )}">
-  <link rel="canonical" href="${BASE_URL}/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="ja_JP">
-  <meta property="og:title" content="VHS City 配信ダッシュボード | 配信予定・配信中一覧">
-  <meta property="og:description" content="VHS City（Vtuber High School City）メンバーの YouTube 配信予定・配信中を一覧表示する非公式ファンサイト">
-  <meta property="og:url" content="${BASE_URL}/">
-  <meta property="og:site_name" content="VHS City 配信ダッシュボード">
-  <meta name="twitter:card" content="summary">
-  <script type="application/ld+json">${JSON.stringify({
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'VHS City 配信ダッシュボード',
-    alternateName: ['VHS CITY', 'Vtuber High School City'],
-    url: `${BASE_URL}/`,
-    description:
-      'VHS City メンバーの YouTube 配信予定・配信中を一覧表示する非公式ファンサイト',
-    inLanguage: 'ja',
-  })}</script>`;
-
-  if (!html.includes('rel="canonical"')) {
-    html = html.replace('  <link rel="stylesheet" href="css/style.css">', `${headExtras}\n  <link rel="stylesheet" href="css/style.css">`);
-  }
-
-  html = html.replace(new RegExp(`${begin}[\\s\\S]*?${end}`), `${begin}\n${seoSection}\n  ${end}`);
-  writeFileSync(indexPath, html, 'utf8');
-}
-
 function buildSitemap(urls) {
   const body = urls
     .map(
@@ -487,7 +401,6 @@ function main() {
     urls.push(buildMemberPage(member));
   }
 
-  patchIndexHtml(buildIndexSeoSection(config.groups, allMembers));
   buildSitemap(urls);
   buildRobotsTxt();
 

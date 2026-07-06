@@ -346,11 +346,6 @@ h1 {
   text-align: center;
 }
 
-.seo-directory {
-  margin-top: 28px;
-}
-
-.seo-directory .panel,
 .seo-page .seo-article,
 .seo-page .seo-group-block {
   background: var(--bg-panel);
@@ -360,14 +355,12 @@ h1 {
   box-shadow: var(--shadow);
 }
 
-.seo-directory h2,
 .seo-page h2,
 .seo-page h3 {
   margin: 0 0 12px;
   font-size: 20px;
 }
 
-.seo-directory p,
 .seo-page p {
   color: #c5cedd;
   line-height: 1.7;
