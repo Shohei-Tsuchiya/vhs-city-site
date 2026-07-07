@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-07-07T13:40:50.273Z",
+  "updatedAt": "2026-07-07T13:45:27.796Z",
   "live": [
-    {
-      "memberKey": "aogiri:千代浦蝶美",
-      "name": "千代浦蝶美",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCyY6YeINiwQoA-FnmdQCkug",
-      "handle": "chiyomi0812",
-      "videoId": "As7YnfKYPds",
-      "title": "【耐久歌枠】最強音圧！ワンマンライブ一般抽選最終日！sold out祈願で抽選〆切まで歌い続ける…！！Part.2 #あおぎり高校 #千代浦蝶美 #vsinger",
-      "thumbnail": "https://i.ytimg.com/vi/As7YnfKYPds/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-07T13:05:00Z",
-      "url": "https://www.youtube.com/watch?v=As7YnfKYPds",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
-      "status": "live"
-    },
     {
       "memberKey": "aogiri:石狩あかり",
       "name": "石狩あかり",
@@ -30,7 +14,23 @@
       "thumbnail": "https://i.ytimg.com/vi/oez5Ls7FUl8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T13:30:00Z",
       "url": "https://www.youtube.com/watch?v=oez5Ls7FUl8",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.759Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "aogiri:千代浦蝶美",
+      "name": "千代浦蝶美",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCyY6YeINiwQoA-FnmdQCkug",
+      "handle": "chiyomi0812",
+      "videoId": "As7YnfKYPds",
+      "title": "【耐久歌枠】最強音圧！ワンマンライブ一般抽選最終日！sold out祈願で抽選〆切まで歌い続ける…！！Part.2 #あおぎり高校 #千代浦蝶美 #vsinger",
+      "thumbnail": "https://i.ytimg.com/vi/As7YnfKYPds/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-07T13:05:00Z",
+      "url": "https://www.youtube.com/watch?v=As7YnfKYPds",
+      "checkedAt": "2026-07-07T13:45:27.759Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cFOeozuaPow/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=cFOeozuaPow",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "live"
     },
     {
@@ -62,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EGY2NdjH4FE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=EGY2NdjH4FE",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "live"
     },
     {
@@ -78,7 +78,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hERIauDXjto/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=hERIauDXjto",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "live"
     },
     {
@@ -94,7 +94,7 @@
       "thumbnail": "https://i.ytimg.com/vi/byZVSnketr0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=byZVSnketr0",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "live"
     }
   ],
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HNeFl-tb9yM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=HNeFl-tb9yM",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.759Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zmsgZw3dTgM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zmsgZw3dTgM",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/f6eWz1dm2hQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=f6eWz1dm2hQ",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.759Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RNlkqY_Pq-M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-08T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=RNlkqY_Pq-M",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QE8PkIZNGMg/mqdefault_live.jpg",
       "scheduledStart": "2026-07-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=QE8PkIZNGMg",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Jt_g4I8_K2Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=Jt_g4I8_K2Q",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zHePTXD0rZ0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zHePTXD0rZ0",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QHuS5ciIEtE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=QHuS5ciIEtE",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jo8mX77DN2I/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=jo8mX77DN2I",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
-      "checkedAt": "2026-07-07T13:40:50.250Z",
+      "checkedAt": "2026-07-07T13:45:27.760Z",
       "status": "upcoming"
     }
   ]
