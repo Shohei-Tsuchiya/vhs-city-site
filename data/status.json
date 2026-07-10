@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-07-10T15:50:46.617Z",
-  "live": [
-    {
-      "memberKey": "bebop:アカシ・ニコ",
-      "name": "アカシ・ニコ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
-      "handle": "niko_brdc",
-      "videoId": "2N9aPLJSe_c",
-      "title": "【飲酒free talk】ダウナーお姉さんがメロくカスの嘘を吐きたい雑談☻【アカシ・ニコ☻ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/2N9aPLJSe_c/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-10T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=2N9aPLJSe_c",
-      "checkedAt": "2026-07-10T15:50:46.616Z",
-      "status": "live"
-    }
-  ],
+  "updatedAt": "2026-07-10T15:55:23.491Z",
+  "live": [],
   "upcoming": [
     {
       "memberKey": "aogiri:うる虎がーる",
@@ -32,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6_wBDxPnnFo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T04:00:00Z",
       "url": "https://www.youtube.com/watch?v=6_wBDxPnnFo",
-      "checkedAt": "2026-07-10T15:50:46.617Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QHuS5ciIEtE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=QHuS5ciIEtE",
-      "checkedAt": "2026-07-10T15:50:46.617Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rk4tKRUFldo/mqdefault.jpg",
       "scheduledStart": "2026-07-11T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=rk4tKRUFldo",
-      "checkedAt": "2026-07-10T15:50:46.617Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xDjBag1tiWY/mqdefault.jpg",
       "scheduledStart": "2026-07-11T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=xDjBag1tiWY",
-      "checkedAt": "2026-07-10T15:50:46.617Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jo8mX77DN2I/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=jo8mX77DN2I",
-      "checkedAt": "2026-07-10T15:50:46.616Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-nzlU9w9Wek/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=-nzlU9w9Wek",
-      "checkedAt": "2026-07-10T15:50:46.617Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/llJvQb5gwJA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=llJvQb5gwJA",
-      "checkedAt": "2026-07-10T15:50:46.617Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z5eyHNdN2-M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T05:00:00Z",
       "url": "https://www.youtube.com/watch?v=Z5eyHNdN2-M",
-      "checkedAt": "2026-07-10T15:50:46.617Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
-      "checkedAt": "2026-07-10T15:50:46.616Z",
+      "checkedAt": "2026-07-10T15:55:23.491Z",
       "status": "upcoming"
     },
     {
