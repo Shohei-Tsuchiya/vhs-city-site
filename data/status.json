@@ -1,24 +1,23 @@
 {
-  "updatedAt": "2026-07-10T07:05:24.797Z",
-  "live": [
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "_Dgyj7badng",
-      "title": "【パチスロ生配信】後半戦🩷番長4で修学旅行？！Be-1SAGA様から実戦配信【番長4】",
-      "thumbnail": "https://i.ytimg.com/vi/_Dgyj7badng/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-10T05:00:00Z",
-      "url": "https://www.youtube.com/watch?v=_Dgyj7badng",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
-      "status": "live"
-    }
-  ],
+  "updatedAt": "2026-07-10T07:10:46.468Z",
+  "live": [],
   "upcoming": [
+    {
+      "memberKey": "bebop:微睡いちの",
+      "name": "微睡いちの",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
+      "handle": "ichino_morinyan",
+      "videoId": "7mwvX1gyHbU",
+      "title": "【リズム天国ミラクルスターズ】新作リズム天国.ᐟ.ᐟ たのしむぞぉぉぉ.ᐟ.ᐟ🐱👉 【微睡いちの /#雑談 /ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/7mwvX1gyHbU/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-10T08:00:00Z",
+      "url": "https://www.youtube.com/watch?v=7mwvX1gyHbU",
+      "checkedAt": "2026-07-10T07:10:46.467Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "yugiri:運命メイナ",
       "name": "運命メイナ",
@@ -32,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Jt_g4I8_K2Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=Jt_g4I8_K2Q",
-      "checkedAt": "2026-07-10T07:05:24.796Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/a68-dKddmDg/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=a68-dKddmDg",
-      "checkedAt": "2026-07-10T07:05:24.796Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zHePTXD0rZ0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zHePTXD0rZ0",
-      "checkedAt": "2026-07-10T07:05:24.796Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Jtcrm932K2w/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=Jtcrm932K2w",
-      "checkedAt": "2026-07-10T07:05:24.796Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SigNa34OmPo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=SigNa34OmPo",
-      "checkedAt": "2026-07-10T07:05:24.796Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-ioao76e-ow/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=-ioao76e-ow",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dPAezJ75NXc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=dPAezJ75NXc",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TLYVJHRXz2E/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=TLYVJHRXz2E",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YsglBomYtyk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=YsglBomYtyk",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
+      "checkedAt": "2026-07-10T07:10:46.467Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aBT2JyK5MQk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-10T13:30:00Z",
       "url": "https://www.youtube.com/watch?v=aBT2JyK5MQk",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +191,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QHuS5ciIEtE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=QHuS5ciIEtE",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
+      "checkedAt": "2026-07-10T07:10:46.467Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jo8mX77DN2I/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=jo8mX77DN2I",
-      "checkedAt": "2026-07-10T07:05:24.796Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +223,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-nzlU9w9Wek/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=-nzlU9w9Wek",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +239,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z5eyHNdN2-M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T05:00:00Z",
       "url": "https://www.youtube.com/watch?v=Z5eyHNdN2-M",
-      "checkedAt": "2026-07-10T07:05:24.797Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +255,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
-      "checkedAt": "2026-07-10T07:05:24.796Z",
+      "checkedAt": "2026-07-10T07:10:46.468Z",
       "status": "upcoming"
     }
   ]
