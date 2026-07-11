@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T12:20:44.268Z",
+  "updatedAt": "2026-07-11T12:25:25.444Z",
   "live": [
     {
       "memberKey": "aogiri:春雨麗女",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-nzlU9w9Wek/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=-nzlU9w9Wek",
-      "checkedAt": "2026-07-11T12:20:44.252Z",
+      "checkedAt": "2026-07-11T12:25:25.275Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QHuS5ciIEtE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=QHuS5ciIEtE",
-      "checkedAt": "2026-07-11T12:20:44.252Z",
+      "checkedAt": "2026-07-11T12:25:25.274Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mHRVc0Oq0KY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=mHRVc0Oq0KY",
-      "checkedAt": "2026-07-11T12:20:44.252Z",
+      "checkedAt": "2026-07-11T12:25:25.274Z",
       "status": "live"
     }
   ],
@@ -64,7 +64,39 @@
       "thumbnail": "https://i.ytimg.com/vi/llJvQb5gwJA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=llJvQb5gwJA",
-      "checkedAt": "2026-07-11T12:20:44.252Z",
+      "checkedAt": "2026-07-11T12:25:25.275Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "1UH7vy1qAoc",
+      "title": "【パチスロ生配信】前半戦🩷運気を貯めています！【スーパースロットクラブZ様】",
+      "thumbnail": "https://i.ytimg.com/vi/1UH7vy1qAoc/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T00:30:00Z",
+      "url": "https://www.youtube.com/watch?v=1UH7vy1qAoc",
+      "checkedAt": "2026-07-11T12:25:25.275Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "QQIzWE3Lm_o",
+      "title": "【パチスロ生配信】後半戦🩷運気を貯めています【スーパースロットクラブZ様】",
+      "thumbnail": "https://i.ytimg.com/vi/QQIzWE3Lm_o/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T04:15:00Z",
+      "url": "https://www.youtube.com/watch?v=QQIzWE3Lm_o",
+      "checkedAt": "2026-07-11T12:25:25.274Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z5eyHNdN2-M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T05:00:00Z",
       "url": "https://www.youtube.com/watch?v=Z5eyHNdN2-M",
-      "checkedAt": "2026-07-11T12:20:44.252Z",
+      "checkedAt": "2026-07-11T12:25:25.275Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
-      "checkedAt": "2026-07-11T12:20:44.252Z",
+      "checkedAt": "2026-07-11T12:25:25.275Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rk4tKRUFldo/mqdefault.jpg",
       "scheduledStart": "2026-07-12T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=rk4tKRUFldo",
-      "checkedAt": "2026-07-11T12:20:44.252Z",
+      "checkedAt": "2026-07-11T12:25:25.275Z",
       "status": "upcoming"
     },
     {
