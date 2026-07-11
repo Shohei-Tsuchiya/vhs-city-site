@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T12:55:22.677Z",
+  "updatedAt": "2026-07-11T13:00:50.242Z",
   "live": [
     {
       "memberKey": "aogiri:春雨麗女",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-nzlU9w9Wek/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=-nzlU9w9Wek",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mHRVc0Oq0KY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=mHRVc0Oq0KY",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "live"
     }
   ],
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/llJvQb5gwJA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-11T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=llJvQb5gwJA",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "upcoming"
     },
     {
@@ -64,23 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1UH7vy1qAoc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T00:30:00Z",
       "url": "https://www.youtube.com/watch?v=1UH7vy1qAoc",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:天羅洲テラス",
-      "name": "天羅洲テラス",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw",
-      "handle": "AmarasuTerasu",
-      "videoId": "xTvCde1bu5I",
-      "title": "【キャラデザ編２】みんなで！ニチアサ系魔法少女をつくろう✨【天羅洲テラス/ゆうぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/xTvCde1bu5I/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-12T01:00:00Z",
-      "url": "https://www.youtube.com/watch?v=xTvCde1bu5I",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +80,39 @@
       "thumbnail": "https://i.ytimg.com/vi/z3YUCWf-H1w/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T01:00:00Z",
       "url": "https://www.youtube.com/watch?v=z3YUCWf-H1w",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:天羅洲テラス",
+      "name": "天羅洲テラス",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw",
+      "handle": "AmarasuTerasu",
+      "videoId": "xTvCde1bu5I",
+      "title": "【キャラデザ編２】みんなで！ニチアサ系魔法少女をつくろう✨【天羅洲テラス/ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/xTvCde1bu5I/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T01:00:00Z",
+      "url": "https://www.youtube.com/watch?v=xTvCde1bu5I",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:栗駒こまる",
+      "name": "栗駒こまる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCXXnWssOLdB2jg-4CznteAA",
+      "handle": "komaru0814",
+      "videoId": "nenyhMc-djw",
+      "title": "#初見歓迎  #実写   【　すみません……いかせていただきます!!!!!!　】  #あおぎり高校  #vtuber",
+      "thumbnail": "https://i.ytimg.com/vi/nenyhMc-djw/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T03:00:00Z",
+      "url": "https://www.youtube.com/watch?v=nenyhMc-djw",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QQIzWE3Lm_o/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T04:15:00Z",
       "url": "https://www.youtube.com/watch?v=QQIzWE3Lm_o",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "upcoming"
     },
     {
@@ -128,23 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z5eyHNdN2-M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T05:00:00Z",
       "url": "https://www.youtube.com/watch?v=Z5eyHNdN2-M",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "0PcXmfnNZ40",
-      "title": "【BIOHAZARD requiem】わけもわからず巻き込まれたグレース、療養所から逃げ出せるの⁉",
-      "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-12T06:00:00Z",
-      "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,23 @@
       "thumbnail": "https://i.ytimg.com/vi/3IMojda2In8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=3IMojda2In8",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:LN_へるぷ.exe",
+      "name": "LN_へるぷ.exe",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
+      "handle": "LN_Help_exe",
+      "videoId": "0PcXmfnNZ40",
+      "title": "【BIOHAZARD requiem】わけもわからず巻き込まれたグレース、療養所から逃げ出せるの⁉",
+      "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T06:00:00Z",
+      "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +192,23 @@
       "thumbnail": "https://i.ytimg.com/vi/rk4tKRUFldo/mqdefault.jpg",
       "scheduledStart": "2026-07-12T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=rk4tKRUFldo",
-      "checkedAt": "2026-07-11T12:55:22.659Z",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:石狩あかり",
+      "name": "石狩あかり",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
+      "handle": "akari0415",
+      "videoId": "O1gHrR0CSDE",
+      "title": "【リトルナイトメア3】チャプター3から仲良く遊ぶ！【石狩あかり/月赴ゐぶき】",
+      "thumbnail": "https://i.ytimg.com/vi/O1gHrR0CSDE/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=O1gHrR0CSDE",
+      "checkedAt": "2026-07-11T13:00:50.228Z",
       "status": "upcoming"
     },
     {
