@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-12T15:45:28.051Z",
+  "updatedAt": "2026-07-12T15:50:50.329Z",
   "live": [],
   "upcoming": [
+    {
+      "memberKey": "yugiri:宮霧りりい",
+      "name": "宮霧りりい",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCmFyGUEEbGRD9eWv6KoveDg",
+      "handle": "MiyakiriLily",
+      "videoId": "2tEOMZnxQho",
+      "title": "【ゆうモニ】最終週！𝑩𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍 𝑴𝒐𝒓𝒏𝒊𝒏𝒈 𝑵𝒆𝒘𝒔🎶【宮霧りりい／ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/2tEOMZnxQho/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T22:00:00Z",
+      "url": "https://www.youtube.com/watch?v=2tEOMZnxQho",
+      "checkedAt": "2026-07-12T15:50:50.329Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "aogiri:音霊魂子",
       "name": "音霊魂子",
@@ -15,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BsTVRsoF1o8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=BsTVRsoF1o8",
-      "checkedAt": "2026-07-12T15:45:28.051Z",
+      "checkedAt": "2026-07-12T15:50:50.329Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-12T15:45:28.051Z",
+      "checkedAt": "2026-07-12T15:50:50.329Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-12T15:45:28.051Z",
+      "checkedAt": "2026-07-12T15:50:50.329Z",
       "status": "upcoming"
     }
   ]
