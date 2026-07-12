@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T21:25:25.853Z",
+  "updatedAt": "2026-07-12T21:30:57.544Z",
   "live": [
     {
       "memberKey": "bebop:泡喰はわこ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5RHJbhPXHGo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T20:30:00Z",
       "url": "https://www.youtube.com/watch?v=5RHJbhPXHGo",
-      "checkedAt": "2026-07-12T21:25:25.853Z",
+      "checkedAt": "2026-07-12T21:30:57.544Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2tEOMZnxQho/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=2tEOMZnxQho",
-      "checkedAt": "2026-07-12T21:25:25.853Z",
+      "checkedAt": "2026-07-12T21:30:57.544Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +48,23 @@
       "thumbnail": "https://i.ytimg.com/vi/BsTVRsoF1o8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=BsTVRsoF1o8",
-      "checkedAt": "2026-07-12T21:25:25.853Z",
+      "checkedAt": "2026-07-12T21:30:57.544Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:千代浦蝶美",
+      "name": "千代浦蝶美",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCyY6YeINiwQoA-FnmdQCkug",
+      "handle": "chiyomi0812",
+      "videoId": "wa8aX6i1mY0",
+      "title": "【実写】一等は100万円！スクラッチで運試し🔥 #あおぎり高校 #千代浦蝶美",
+      "thumbnail": "https://i.ytimg.com/vi/wa8aX6i1mY0/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-13T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=wa8aX6i1mY0",
+      "checkedAt": "2026-07-12T21:30:57.544Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +80,23 @@
       "thumbnail": "https://i.ytimg.com/vi/A3v9aA-d3Yc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=A3v9aA-d3Yc",
-      "checkedAt": "2026-07-12T21:25:25.853Z",
+      "checkedAt": "2026-07-12T21:30:57.544Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:千代浦蝶美",
+      "name": "千代浦蝶美",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCyY6YeINiwQoA-FnmdQCkug",
+      "handle": "chiyomi0812",
+      "videoId": "jrpgsrHfi4g",
+      "title": "【歌枠】最強音圧！昭和、平成、令和アニソンメドレーで週初めも盛り上がっていこう🔥🎤 #あおぎり高校 #千代浦蝶美",
+      "thumbnail": "https://i.ytimg.com/vi/jrpgsrHfi4g/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-13T12:30:00Z",
+      "url": "https://www.youtube.com/watch?v=jrpgsrHfi4g",
+      "checkedAt": "2026-07-12T21:30:57.544Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-12T21:25:25.853Z",
+      "checkedAt": "2026-07-12T21:30:57.544Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-12T21:25:25.853Z",
+      "checkedAt": "2026-07-12T21:30:57.544Z",
       "status": "upcoming"
     }
   ]
