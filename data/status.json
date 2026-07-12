@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-07-12T20:30:59.301Z",
-  "live": [],
+  "updatedAt": "2026-07-12T20:35:22.742Z",
+  "live": [
+    {
+      "memberKey": "bebop:泡喰はわこ",
+      "name": "泡喰はわこ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
+      "handle": "hawako_meiwaku",
+      "videoId": "5RHJbhPXHGo",
+      "title": "【#stardewvalley 】月曜日！チル！まったり朝活ソロ農業🫧🐥6年目夏🌻【泡喰はわこ/迷電ワークス/ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/5RHJbhPXHGo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T20:30:00Z",
+      "url": "https://www.youtube.com/watch?v=5RHJbhPXHGo",
+      "checkedAt": "2026-07-12T20:35:22.742Z",
+      "status": "live"
+    }
+  ],
   "upcoming": [
     {
       "memberKey": "yugiri:宮霧りりい",
@@ -15,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2tEOMZnxQho/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=2tEOMZnxQho",
-      "checkedAt": "2026-07-12T20:30:59.300Z",
+      "checkedAt": "2026-07-12T20:35:22.742Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BsTVRsoF1o8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=BsTVRsoF1o8",
-      "checkedAt": "2026-07-12T20:30:59.300Z",
+      "checkedAt": "2026-07-12T20:35:22.742Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-12T20:30:59.300Z",
+      "checkedAt": "2026-07-12T20:35:22.742Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-12T20:30:59.300Z",
+      "checkedAt": "2026-07-12T20:35:22.742Z",
       "status": "upcoming"
     }
   ]
