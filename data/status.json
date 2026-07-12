@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T23:00:54.831Z",
+  "updatedAt": "2026-07-12T23:05:23.896Z",
   "live": [
     {
       "memberKey": "yugiri:宮霧りりい",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2tEOMZnxQho/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=2tEOMZnxQho",
-      "checkedAt": "2026-07-12T23:00:54.830Z",
+      "checkedAt": "2026-07-12T23:05:23.895Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BsTVRsoF1o8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=BsTVRsoF1o8",
-      "checkedAt": "2026-07-12T23:00:54.830Z",
+      "checkedAt": "2026-07-12T23:05:23.895Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wa8aX6i1mY0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=wa8aX6i1mY0",
-      "checkedAt": "2026-07-12T23:00:54.830Z",
+      "checkedAt": "2026-07-12T23:05:23.895Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A3v9aA-d3Yc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=A3v9aA-d3Yc",
-      "checkedAt": "2026-07-12T23:00:54.830Z",
+      "checkedAt": "2026-07-12T23:05:23.895Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jrpgsrHfi4g/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=jrpgsrHfi4g",
-      "checkedAt": "2026-07-12T23:00:54.830Z",
+      "checkedAt": "2026-07-12T23:05:23.895Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-12T23:00:54.830Z",
+      "checkedAt": "2026-07-12T23:05:23.895Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-12T23:00:54.830Z",
+      "checkedAt": "2026-07-12T23:05:23.895Z",
       "status": "upcoming"
     }
   ]
