@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-07-12T05:30:49.481Z",
+  "updatedAt": "2026-07-12T05:35:24.788Z",
   "live": [
+    {
+      "memberKey": "bebop:アカシ・ニコ",
+      "name": "アカシ・ニコ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
+      "handle": "niko_brdc",
+      "videoId": "k-FsnDCm6KQ",
+      "title": "【 G３競馬｜七夕賞🎋】パドック解説あり🏇七夕の奇跡を目の当たりにする!…?【 #ニコゆる競馬 /アカシ・ニコ / 永久不滅ゆるる /常勝無敗ぐぬぬ/ビバップ高校 #不滅証明 】",
+      "thumbnail": "https://i.ytimg.com/vi/k-FsnDCm6KQ/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T05:30:00Z",
+      "url": "https://www.youtube.com/watch?v=k-FsnDCm6KQ",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
+      "status": "live"
+    },
     {
       "memberKey": "bebop:微睡いちの",
       "name": "微睡いちの",
@@ -14,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_AGmE_SIR7Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T05:00:00Z",
       "url": "https://www.youtube.com/watch?v=_AGmE_SIR7Q",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "live"
     },
     {
@@ -30,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0D_4JNPAdeM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T04:00:00Z",
       "url": "https://www.youtube.com/watch?v=0D_4JNPAdeM",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "live"
     },
     {
@@ -46,25 +62,25 @@
       "thumbnail": "https://i.ytimg.com/vi/QQIzWE3Lm_o/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T04:15:00Z",
       "url": "https://www.youtube.com/watch?v=QQIzWE3Lm_o",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "live"
     }
   ],
   "upcoming": [
     {
-      "memberKey": "bebop:アカシ・ニコ",
-      "name": "アカシ・ニコ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
-      "handle": "niko_brdc",
-      "videoId": "k-FsnDCm6KQ",
-      "title": "【 G３競馬｜七夕賞🎋】パドック解説あり🏇七夕の奇跡を目の当たりにする!…?【 #ニコゆる競馬 /アカシ・ニコ / 永久不滅ゆるる /常勝無敗ぐぬぬ/ビバップ高校 #不滅証明 】",
-      "thumbnail": "https://i.ytimg.com/vi/k-FsnDCm6KQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-12T05:30:00Z",
-      "url": "https://www.youtube.com/watch?v=k-FsnDCm6KQ",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "memberKey": "yugiri:LN_へるぷ.exe",
+      "name": "LN_へるぷ.exe",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
+      "handle": "LN_Help_exe",
+      "videoId": "0PcXmfnNZ40",
+      "title": "【BIOHAZARD requiem】わけもわからず巻き込まれたグレース、療養所から逃げ出せるの⁉",
+      "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T06:00:00Z",
+      "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -80,23 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3IMojda2In8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=3IMojda2In8",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "0PcXmfnNZ40",
-      "title": "【BIOHAZARD requiem】わけもわからず巻き込まれたグレース、療養所から逃げ出せるの⁉",
-      "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-12T06:00:00Z",
-      "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z5eyHNdN2-M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T08:30:00Z",
       "url": "https://www.youtube.com/watch?v=Z5eyHNdN2-M",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OUMACR-IETQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=OUMACR-IETQ",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rk4tKRUFldo/mqdefault.jpg",
       "scheduledStart": "2026-07-12T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=rk4tKRUFldo",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O1gHrR0CSDE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=O1gHrR0CSDE",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eTEMo9bVczU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=eTEMo9bVczU",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/peYU2Pf6VVw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=peYU2Pf6VVw",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BsTVRsoF1o8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=BsTVRsoF1o8",
-      "checkedAt": "2026-07-12T05:30:49.460Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-12T05:30:49.461Z",
+      "checkedAt": "2026-07-12T05:35:24.771Z",
       "status": "upcoming"
     }
   ]
