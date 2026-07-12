@@ -1,7 +1,6 @@
 {
-  "updatedAt": "2026-07-12T03:10:47.344Z",
-  "live": [],
-  "upcoming": [
+  "updatedAt": "2026-07-12T03:15:26.300Z",
+  "live": [
     {
       "memberKey": "aogiri:栗駒こまる",
       "name": "栗駒こまる",
@@ -15,9 +14,11 @@
       "thumbnail": "https://i.ytimg.com/vi/nenyhMc-djw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T03:00:00Z",
       "url": "https://www.youtube.com/watch?v=nenyhMc-djw",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
-      "status": "upcoming"
-    },
+      "checkedAt": "2026-07-12T03:15:26.300Z",
+      "status": "live"
+    }
+  ],
+  "upcoming": [
     {
       "memberKey": "yugiri:篠崎シャノン",
       "name": "篠崎シャノン",
@@ -31,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0D_4JNPAdeM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T04:00:00Z",
       "url": "https://www.youtube.com/watch?v=0D_4JNPAdeM",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QQIzWE3Lm_o/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T04:15:00Z",
       "url": "https://www.youtube.com/watch?v=QQIzWE3Lm_o",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -63,23 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k-FsnDCm6KQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T05:30:00Z",
       "url": "https://www.youtube.com/watch?v=k-FsnDCm6KQ",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "0PcXmfnNZ40",
-      "title": "【BIOHAZARD requiem】わけもわからず巻き込まれたグレース、療養所から逃げ出せるの⁉",
-      "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-12T06:00:00Z",
-      "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +80,23 @@
       "thumbnail": "https://i.ytimg.com/vi/3IMojda2In8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=3IMojda2In8",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:LN_へるぷ.exe",
+      "name": "LN_へるぷ.exe",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
+      "handle": "LN_Help_exe",
+      "videoId": "0PcXmfnNZ40",
+      "title": "【BIOHAZARD requiem】わけもわからず巻き込まれたグレース、療養所から逃げ出せるの⁉",
+      "thumbnail": "https://i.ytimg.com/vi/0PcXmfnNZ40/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T06:00:00Z",
+      "url": "https://www.youtube.com/watch?v=0PcXmfnNZ40",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z5eyHNdN2-M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T07:00:00Z",
       "url": "https://www.youtube.com/watch?v=Z5eyHNdN2-M",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rk4tKRUFldo/mqdefault.jpg",
       "scheduledStart": "2026-07-12T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=rk4tKRUFldo",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -143,23 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O1gHrR0CSDE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=O1gHrR0CSDE",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:落乃いなほ",
-      "name": "落乃いなほ",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
-      "handle": "落乃いなほ",
-      "videoId": "peYU2Pf6VVw",
-      "title": "Karena aku sudah punya penerjemah khusus, sekarang aku bisa kolaborasi! 😎✨",
-      "thumbnail": "https://i.ytimg.com/vi/peYU2Pf6VVw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-12T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=peYU2Pf6VVw",
-      "checkedAt": "2026-07-12T03:10:47.343Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +160,23 @@
       "thumbnail": "https://i.ytimg.com/vi/eTEMo9bVczU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-12T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=eTEMo9bVczU",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:落乃いなほ",
+      "name": "落乃いなほ",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
+      "handle": "落乃いなほ",
+      "videoId": "peYU2Pf6VVw",
+      "title": "Karena aku sudah punya penerjemah khusus, sekarang aku bisa kolaborasi! 😎✨",
+      "thumbnail": "https://i.ytimg.com/vi/peYU2Pf6VVw/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-12T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=peYU2Pf6VVw",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BsTVRsoF1o8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=BsTVRsoF1o8",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.299Z",
       "status": "upcoming"
     },
     {
@@ -223,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     },
     {
@@ -239,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-12T03:10:47.344Z",
+      "checkedAt": "2026-07-12T03:15:26.300Z",
       "status": "upcoming"
     }
   ]
