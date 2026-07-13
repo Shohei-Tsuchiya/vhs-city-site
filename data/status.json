@@ -1,40 +1,6 @@
 {
-  "updatedAt": "2026-07-13T21:55:23.788Z",
+  "updatedAt": "2026-07-13T22:00:59.039Z",
   "live": [
-    {
-      "memberKey": "bebop:泡喰はわこ",
-      "name": "泡喰はわこ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
-      "handle": "hawako_meiwaku",
-      "videoId": "9xWCNCPKNDE",
-      "title": "【Minecraft 】マイクラで夏の思い出作り🌻はわこ、家を作る2日目🫧🐥【泡喰はわこ/ビバップ高校 /迷電ワークス】",
-      "thumbnail": "https://i.ytimg.com/vi/9xWCNCPKNDE/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-13T20:00:00Z",
-      "url": "https://www.youtube.com/watch?v=9xWCNCPKNDE",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
-      "status": "live"
-    }
-  ],
-  "upcoming": [
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "Iy3oZoKswrI",
-      "title": "【ゆうモニ】これで早起きからは解放される⁉ 朝活最終週！【ゆうぎり高校/LN_へるぷ.exe】",
-      "thumbnail": "https://i.ytimg.com/vi/Iy3oZoKswrI/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-13T22:00:00Z",
-      "url": "https://www.youtube.com/watch?v=Iy3oZoKswrI",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "aogiri:山黒音玄",
       "name": "山黒音玄",
@@ -48,9 +14,43 @@
       "thumbnail": "https://i.ytimg.com/vi/ZBshVSzR5QE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=ZBshVSzR5QE",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
-      "status": "upcoming"
+      "checkedAt": "2026-07-13T22:00:59.022Z",
+      "status": "live"
     },
+    {
+      "memberKey": "bebop:泡喰はわこ",
+      "name": "泡喰はわこ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
+      "handle": "hawako_meiwaku",
+      "videoId": "9xWCNCPKNDE",
+      "title": "【Minecraft 】マイクラで夏の思い出作り🌻はわこ、家を作る2日目🫧🐥【泡喰はわこ/ビバップ高校 /迷電ワークス】",
+      "thumbnail": "https://i.ytimg.com/vi/9xWCNCPKNDE/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-13T20:00:00Z",
+      "url": "https://www.youtube.com/watch?v=9xWCNCPKNDE",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "yugiri:LN_へるぷ.exe",
+      "name": "LN_へるぷ.exe",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
+      "handle": "LN_Help_exe",
+      "videoId": "Iy3oZoKswrI",
+      "title": "【ゆうモニ】これで早起きからは解放される⁉ 朝活最終週！【ゆうぎり高校/LN_へるぷ.exe】",
+      "thumbnail": "https://i.ytimg.com/vi/Iy3oZoKswrI/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-13T22:00:00Z",
+      "url": "https://www.youtube.com/watch?v=Iy3oZoKswrI",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
+      "status": "live"
+    }
+  ],
+  "upcoming": [
     {
       "memberKey": "bebop:微睡いちの",
       "name": "微睡いちの",
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_ILPt41J2Gc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_ILPt41J2Gc",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c-OYYlR_5J8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=c-OYYlR_5J8",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zp59HdP6BQU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zp59HdP6BQU",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/w4AaF3uheaU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=w4AaF3uheaU",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A8dwhPkaaYs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=A8dwhPkaaYs",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-13T21:55:23.788Z",
+      "checkedAt": "2026-07-13T22:00:59.023Z",
       "status": "upcoming"
     }
   ]
