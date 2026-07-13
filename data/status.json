@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T14:10:57.116Z",
+  "updatedAt": "2026-07-13T14:15:27.825Z",
   "live": [
     {
       "memberKey": "aogiri:千代浦蝶美",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jrpgsrHfi4g/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=jrpgsrHfi4g",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iYmP2gPOmrQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=iYmP2gPOmrQ",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/j1F11Tgt6CE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=j1F11Tgt6CE",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "live"
     },
     {
@@ -62,11 +62,27 @@
       "thumbnail": "https://i.ytimg.com/vi/A3v9aA-d3Yc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=A3v9aA-d3Yc",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "live"
     }
   ],
   "upcoming": [
+    {
+      "memberKey": "aogiri:山黒音玄",
+      "name": "山黒音玄",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
+      "handle": "nekuro0412",
+      "videoId": "ZBshVSzR5QE",
+      "title": "お久しぶりです～復帰の兆し～ #山黒音玄",
+      "thumbnail": "https://i.ytimg.com/vi/ZBshVSzR5QE/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-13T22:00:00Z",
+      "url": "https://www.youtube.com/watch?v=ZBshVSzR5QE",
+      "checkedAt": "2026-07-13T14:15:27.807Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "yugiri:LN_へるぷ.exe",
       "name": "LN_へるぷ.exe",
@@ -80,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Iy3oZoKswrI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-13T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=Iy3oZoKswrI",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_ILPt41J2Gc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_ILPt41J2Gc",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c-OYYlR_5J8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=c-OYYlR_5J8",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/w4AaF3uheaU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=w4AaF3uheaU",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A8dwhPkaaYs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=A8dwhPkaaYs",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-13T14:10:56.933Z",
+      "checkedAt": "2026-07-13T14:15:27.808Z",
       "status": "upcoming"
     }
   ]
