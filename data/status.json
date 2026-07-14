@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T02:55:23.148Z",
+  "updatedAt": "2026-07-14T03:02:05.822Z",
   "live": [],
   "upcoming": [
     {
@@ -15,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_ILPt41J2Gc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_ILPt41J2Gc",
-      "checkedAt": "2026-07-14T02:55:23.147Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c-OYYlR_5J8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=c-OYYlR_5J8",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zp59HdP6BQU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zp59HdP6BQU",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jJ_knRNKGG8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=jJ_knRNKGG8",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/w4AaF3uheaU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=w4AaF3uheaU",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     },
     {
@@ -111,23 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "A8dwhPkaaYs",
-      "title": "回  胴  て  ん  を   知  り  た  い  な  ぁ  ♡♡♡【#回胴てん #与璃つづく #娯楽組】",
-      "thumbnail": "https://i.ytimg.com/vi/A8dwhPkaaYs/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-16T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=A8dwhPkaaYs",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +127,23 @@
       "thumbnail": "https://i.ytimg.com/vi/lzR2CfDHDdY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=lzR2CfDHDdY",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "A8dwhPkaaYs",
+      "title": "回  胴  て  ん  を   知  り  た  い  な  ぁ  ♡♡♡【#回胴てん #与璃つづく #娯楽組】",
+      "thumbnail": "https://i.ytimg.com/vi/A8dwhPkaaYs/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-16T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=A8dwhPkaaYs",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-14T02:55:23.148Z",
+      "checkedAt": "2026-07-14T03:02:05.821Z",
       "status": "upcoming"
     }
   ]
