@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T14:00:59.837Z",
+  "updatedAt": "2026-07-14T14:05:25.350Z",
   "live": [
     {
       "memberKey": "aogiri:月赴ゐぶき",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P33K884A5Rw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=P33K884A5Rw",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XjOiL6wXaZ0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=XjOiL6wXaZ0",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "live"
     },
     {
@@ -46,23 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jJ_knRNKGG8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=jJ_knRNKGG8",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "goraku:壱神ふらん",
-      "name": "壱神ふらん",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxo7YTxJQq0dGeLjm4kZKEQ",
-      "handle": "Isshin_Fran",
-      "videoId": "NKHMDbp2a1E",
-      "title": "【#睡眠導入】チルく眠くなるまで一緒に過ごそ【#壱神ふらん/#新人Vtuber】",
-      "thumbnail": "https://i.ytimg.com/vi/NKHMDbp2a1E/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-14T12:30:00Z",
-      "url": "https://www.youtube.com/watch?v=NKHMDbp2a1E",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "live"
     }
   ],
@@ -80,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6axGkbw439Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=6axGkbw439Q",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lzR2CfDHDdY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=lzR2CfDHDdY",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A8dwhPkaaYs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=A8dwhPkaaYs",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-14T14:00:59.832Z",
+      "checkedAt": "2026-07-14T14:05:25.331Z",
       "status": "upcoming"
     }
   ]
