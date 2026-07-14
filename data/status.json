@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-07-14T00:15:25.222Z",
-  "live": [
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "Iy3oZoKswrI",
-      "title": "【ゆうモニ】これで早起きからは解放される⁉ 朝活最終週！【ゆうぎり高校/LN_へるぷ.exe】",
-      "thumbnail": "https://i.ytimg.com/vi/Iy3oZoKswrI/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-13T22:00:00Z",
-      "url": "https://www.youtube.com/watch?v=Iy3oZoKswrI",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
-      "status": "live"
-    }
-  ],
+  "updatedAt": "2026-07-14T00:20:52.705Z",
+  "live": [],
   "upcoming": [
     {
       "memberKey": "bebop:微睡いちの",
@@ -32,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_ILPt41J2Gc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_ILPt41J2Gc",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c-OYYlR_5J8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=c-OYYlR_5J8",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zp59HdP6BQU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=zp59HdP6BQU",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/w4AaF3uheaU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-14T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=w4AaF3uheaU",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lzR2CfDHDdY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=lzR2CfDHDdY",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A8dwhPkaaYs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=A8dwhPkaaYs",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-14T00:15:25.222Z",
+      "checkedAt": "2026-07-14T00:20:52.705Z",
       "status": "upcoming"
     }
   ]
