@@ -1,38 +1,6 @@
 {
-  "updatedAt": "2026-07-15T13:01:04.143Z",
+  "updatedAt": "2026-07-15T13:05:23.142Z",
   "live": [
-    {
-      "memberKey": "bebop:二藍しぃあ",
-      "name": "二藍しぃあ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCNwjdfFJVqQ9-qi1lwn4olw",
-      "handle": "shia_morinyan",
-      "videoId": "tVdXSo0YWGM",
-      "title": "【 #大ARK 】初心者でも強い恐竜が欲しいし友達もほしい【 ビバップ高校／二藍しぃあ 】",
-      "thumbnail": "https://i.ytimg.com/vi/tVdXSo0YWGM/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-15T12:15:00Z",
-      "url": "https://www.youtube.com/watch?v=tVdXSo0YWGM",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:数寄屋橋れんげ",
-      "name": "数寄屋橋れんげ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
-      "handle": "renge_morinyan",
-      "videoId": "4q8QF0WReDk",
-      "title": "【VHSマイクラ】はわこさんとVHS鯖であそぶ！【 #数寄屋橋れんげ / VTuber 】",
-      "thumbnail": "https://i.ytimg.com/vi/4q8QF0WReDk/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-15T12:05:00Z",
-      "url": "https://www.youtube.com/watch?v=4q8QF0WReDk",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
-      "status": "live"
-    },
     {
       "memberKey": "bebop:泡喰はわこ",
       "name": "泡喰はわこ",
@@ -46,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dO6cDZpx-q4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T12:15:00Z",
       "url": "https://www.youtube.com/watch?v=dO6cDZpx-q4",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "live"
     },
     {
@@ -62,11 +30,41 @@
       "thumbnail": "https://i.ytimg.com/vi/4kWVfCLzxGQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4kWVfCLzxGQ",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "live"
-    }
-  ],
-  "upcoming": [
+    },
+    {
+      "memberKey": "bebop:二藍しぃあ",
+      "name": "二藍しぃあ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCNwjdfFJVqQ9-qi1lwn4olw",
+      "handle": "shia_morinyan",
+      "videoId": "tVdXSo0YWGM",
+      "title": "【 #大ARK 】初心者でも強い恐竜が欲しいし友達もほしい【 ビバップ高校／二藍しぃあ 】",
+      "thumbnail": "https://i.ytimg.com/vi/tVdXSo0YWGM/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-15T12:15:00Z",
+      "url": "https://www.youtube.com/watch?v=tVdXSo0YWGM",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "4q8QF0WReDk",
+      "title": "【VHSマイクラ】はわこさんとVHS鯖であそぶ！【 #数寄屋橋れんげ / VTuber 】",
+      "thumbnail": "https://i.ytimg.com/vi/4q8QF0WReDk/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-15T12:05:00Z",
+      "url": "https://www.youtube.com/watch?v=4q8QF0WReDk",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
+      "status": "live"
+    },
     {
       "memberKey": "goraku:回胴てん",
       "name": "回胴てん",
@@ -80,7 +78,25 @@
       "thumbnail": "https://i.ytimg.com/vi/g22zsGwIT1M/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T13:00:10Z",
       "url": "https://www.youtube.com/watch?v=g22zsGwIT1M",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
+      "status": "live"
+    }
+  ],
+  "upcoming": [
+    {
+      "memberKey": "bebop:アカシ・ニコ",
+      "name": "アカシ・ニコ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
+      "handle": "niko_brdc",
+      "videoId": "8adpLzuwhik",
+      "title": "ASMR｜雨音とタッピングでリラックス🫧脳の疲れをとって、深い眠りへ.。o○🎧｜tapping｜耳ふー｜脳マッサージ｜EarCleaning【アカシ・ニコ☻ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/8adpLzuwhik/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-15T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=8adpLzuwhik",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/soothCp5Ibc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-15T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=soothCp5Ibc",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tV0frkVVebA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=tV0frkVVebA",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/reJVTPchrmc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=reJVTPchrmc",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lzR2CfDHDdY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=lzR2CfDHDdY",
-      "checkedAt": "2026-07-15T13:01:03.954Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A8dwhPkaaYs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=A8dwhPkaaYs",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-15T13:01:03.955Z",
+      "checkedAt": "2026-07-15T13:05:23.126Z",
       "status": "upcoming"
     }
   ]
