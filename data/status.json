@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T18:45:25.841Z",
+  "updatedAt": "2026-07-16T18:50:32.287Z",
   "live": [],
   "upcoming": [
     {
@@ -15,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/02RKhYLrVMs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=02RKhYLrVMs",
-      "checkedAt": "2026-07-16T18:45:25.841Z",
+      "checkedAt": "2026-07-16T18:50:32.286Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_DFhuYrF1Yk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_DFhuYrF1Yk",
-      "checkedAt": "2026-07-16T18:45:25.841Z",
+      "checkedAt": "2026-07-16T18:50:32.286Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T5ftXk01HD8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=T5ftXk01HD8",
-      "checkedAt": "2026-07-16T18:45:25.841Z",
+      "checkedAt": "2026-07-16T18:50:32.286Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/so7SsyOldng/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=so7SsyOldng",
-      "checkedAt": "2026-07-16T18:45:25.841Z",
+      "checkedAt": "2026-07-16T18:50:32.286Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
-      "checkedAt": "2026-07-16T18:45:25.841Z",
+      "checkedAt": "2026-07-16T18:50:32.286Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HO7CByBvcng/mqdefault.jpg",
       "scheduledStart": "2026-07-17T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=HO7CByBvcng",
-      "checkedAt": "2026-07-16T18:45:25.841Z",
+      "checkedAt": "2026-07-16T18:50:32.286Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-16T18:45:25.841Z",
+      "checkedAt": "2026-07-16T18:50:32.286Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-16T18:45:25.841Z",
+      "checkedAt": "2026-07-16T18:50:32.286Z",
       "status": "upcoming"
     }
   ]
