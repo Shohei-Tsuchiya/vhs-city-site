@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T23:00:40.516Z",
+  "updatedAt": "2026-07-16T23:05:24.461Z",
   "live": [
     {
       "memberKey": "yugiri:天羅洲テラス",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/02RKhYLrVMs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=02RKhYLrVMs",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
+      "checkedAt": "2026-07-16T23:05:24.461Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_DFhuYrF1Yk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_DFhuYrF1Yk",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
+      "checkedAt": "2026-07-16T23:05:24.461Z",
       "status": "upcoming"
     },
     {
@@ -48,39 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T5ftXk01HD8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=T5ftXk01HD8",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:石狩あかり",
-      "name": "石狩あかり",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
-      "handle": "akari0415",
-      "videoId": "so7SsyOldng",
-      "title": "【ストリートファイター6】プラチナ3に上がりたい",
-      "thumbnail": "https://i.ytimg.com/vi/so7SsyOldng/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=so7SsyOldng",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "oCYR1rs4Xq0",
-      "title": "〖 料理 / 実写 〗 じゅわぁ♡皮から作る肉汁たっぷりえちえち小籠包 【 #禁煙  】",
-      "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
+      "checkedAt": "2026-07-16T23:05:24.461Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +64,39 @@
       "thumbnail": "https://i.ytimg.com/vi/LJLIuD3WcMM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=LJLIuD3WcMM",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
+      "checkedAt": "2026-07-16T23:05:24.461Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:石狩あかり",
+      "name": "石狩あかり",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
+      "handle": "akari0415",
+      "videoId": "so7SsyOldng",
+      "title": "【ストリートファイター6】プラチナ3に上がりたい",
+      "thumbnail": "https://i.ytimg.com/vi/so7SsyOldng/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=so7SsyOldng",
+      "checkedAt": "2026-07-16T23:05:24.461Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "oCYR1rs4Xq0",
+      "title": "〖 料理 / 実写 〗 じゅわぁ♡皮から作る肉汁たっぷりえちえち小籠包 【 #禁煙  】",
+      "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
+      "checkedAt": "2026-07-16T23:05:24.461Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HO7CByBvcng/mqdefault.jpg",
       "scheduledStart": "2026-07-17T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=HO7CByBvcng",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
+      "checkedAt": "2026-07-16T23:05:24.461Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
+      "checkedAt": "2026-07-16T23:05:24.460Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-16T23:00:40.515Z",
+      "checkedAt": "2026-07-16T23:05:24.461Z",
       "status": "upcoming"
     }
   ]
