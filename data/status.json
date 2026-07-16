@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T11:20:48.154Z",
+  "updatedAt": "2026-07-16T11:25:23.845Z",
   "live": [
     {
       "memberKey": "aogiri:春雨麗女",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tyimsdFJ_vY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=tyimsdFJ_vY",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-eB2KBz1gro/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=-eB2KBz1gro",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/reJVTPchrmc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=reJVTPchrmc",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "live"
     },
     {
@@ -62,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tV0frkVVebA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=tV0frkVVebA",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "live"
     }
   ],
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4uiAXDeyr0U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4uiAXDeyr0U",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "upcoming"
     },
     {
@@ -96,39 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9yaAfya99gY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=9yaAfya99gY",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:甘葛すもあ",
-      "name": "甘葛すもあ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCAflRAT6B_7nvxAK72ztN3A",
-      "handle": "sumoa_meiwaku",
-      "videoId": "IyyR9Z8bXUY",
-      "title": "【Minecraft】人に迷惑をかけると報いを受けます【ビバップ高校 / VHS City / 甘葛すもあ / 泡喰はわこ】",
-      "thumbnail": "https://i.ytimg.com/vi/IyyR9Z8bXUY/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-16T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=IyyR9Z8bXUY",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:山黒音玄",
-      "name": "山黒音玄",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
-      "handle": "nekuro0412",
-      "videoId": "lzR2CfDHDdY",
-      "title": "今日からここで働きます【巡怪警備】",
-      "thumbnail": "https://i.ytimg.com/vi/lzR2CfDHDdY/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-16T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=lzR2CfDHDdY",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +112,39 @@
       "thumbnail": "https://i.ytimg.com/vi/A8dwhPkaaYs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=A8dwhPkaaYs",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:甘葛すもあ",
+      "name": "甘葛すもあ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCAflRAT6B_7nvxAK72ztN3A",
+      "handle": "sumoa_meiwaku",
+      "videoId": "IyyR9Z8bXUY",
+      "title": "【Minecraft】人に迷惑をかけると報いを受けます【ビバップ高校 / VHS City / 甘葛すもあ / 泡喰はわこ】",
+      "thumbnail": "https://i.ytimg.com/vi/IyyR9Z8bXUY/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-16T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=IyyR9Z8bXUY",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:山黒音玄",
+      "name": "山黒音玄",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
+      "handle": "nekuro0412",
+      "videoId": "lzR2CfDHDdY",
+      "title": "今日からここで働きます【巡怪警備】",
+      "thumbnail": "https://i.ytimg.com/vi/lzR2CfDHDdY/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-16T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=lzR2CfDHDdY",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1sAGBjmq-9U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=1sAGBjmq-9U",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/02RKhYLrVMs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-16T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=02RKhYLrVMs",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_DFhuYrF1Yk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_DFhuYrF1Yk",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.669Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-16T11:20:48.101Z",
+      "checkedAt": "2026-07-16T11:25:23.670Z",
       "status": "upcoming"
     }
   ]
