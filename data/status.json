@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T07:55:21.121Z",
+  "updatedAt": "2026-07-17T08:00:52.935Z",
   "live": [],
   "upcoming": [
     {
@@ -15,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_DFhuYrF1Yk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_DFhuYrF1Yk",
-      "checkedAt": "2026-07-17T07:55:21.120Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T5ftXk01HD8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=T5ftXk01HD8",
-      "checkedAt": "2026-07-17T07:55:21.120Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ziQiTG2sNoY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ziQiTG2sNoY",
-      "checkedAt": "2026-07-17T07:55:21.120Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
@@ -63,39 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HXigbHMQPmI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=HXigbHMQPmI",
-      "checkedAt": "2026-07-17T07:55:21.120Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "oCYR1rs4Xq0",
-      "title": "〖 料理 / 実写 〗 じゅわぁ♡皮から作る肉汁たっぷりえちえち小籠包 【 #禁煙  】",
-      "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
-      "checkedAt": "2026-07-17T07:55:21.120Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:天羅洲テラス",
-      "name": "天羅洲テラス",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw",
-      "handle": "AmarasuTerasu",
-      "videoId": "LJLIuD3WcMM",
-      "title": "【記念配信✨】祝！収益化です～！ありゃと！！【天羅洲テラス/ゆうぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/LJLIuD3WcMM/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=LJLIuD3WcMM",
-      "checkedAt": "2026-07-17T07:55:21.120Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
@@ -111,39 +79,39 @@
       "thumbnail": "https://i.ytimg.com/vi/so7SsyOldng/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=so7SsyOldng",
-      "checkedAt": "2026-07-17T07:55:21.121Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
-      "memberKey": "bebop:数寄屋橋れんげ",
-      "name": "数寄屋橋れんげ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
-      "handle": "renge_morinyan",
-      "videoId": "HO7CByBvcng",
-      "title": "⚠️実写注意⚠️リアル数寄屋barでぽぷらさんに手作りおむにゃいすをおみまい！#ぷわぷわぽぷら #数寄屋橋れんげ",
-      "thumbnail": "https://i.ytimg.com/vi/HO7CByBvcng/mqdefault.jpg",
-      "scheduledStart": "2026-07-17T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=HO7CByBvcng",
-      "checkedAt": "2026-07-17T07:55:21.120Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:落乃いなほ",
-      "name": "落乃いなほ",
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
       "groupId": "goraku",
       "groupName": "娯楽組",
       "groupColor": "#c49bff",
-      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
-      "handle": "落乃いなほ",
-      "videoId": "iV2xHbVrkBI",
-      "title": "【IDhorror】👻JPVtuber dan IBU !?【Kosan tua】",
-      "thumbnail": "https://i.ytimg.com/vi/iV2xHbVrkBI/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=iV2xHbVrkBI",
-      "checkedAt": "2026-07-17T07:55:21.120Z",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "oCYR1rs4Xq0",
+      "title": "〖 料理 / 実写 〗 じゅわぁ♡皮から作る肉汁たっぷりえちえち小籠包 【 #禁煙  】",
+      "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:天羅洲テラス",
+      "name": "天羅洲テラス",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw",
+      "handle": "AmarasuTerasu",
+      "videoId": "LJLIuD3WcMM",
+      "title": "【記念配信✨】祝！収益化です～！ありゃと！！【天羅洲テラス/ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/LJLIuD3WcMM/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=LJLIuD3WcMM",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +127,39 @@
       "thumbnail": "https://i.ytimg.com/vi/R0rdpmtXrR0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=R0rdpmtXrR0",
-      "checkedAt": "2026-07-17T07:55:21.121Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "HO7CByBvcng",
+      "title": "⚠️実写注意⚠️リアル数寄屋barでぽぷらさんに手作りおむにゃいすをおみまい！#ぷわぷわぽぷら #数寄屋橋れんげ",
+      "thumbnail": "https://i.ytimg.com/vi/HO7CByBvcng/mqdefault.jpg",
+      "scheduledStart": "2026-07-17T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=HO7CByBvcng",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:落乃いなほ",
+      "name": "落乃いなほ",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
+      "handle": "落乃いなほ",
+      "videoId": "iV2xHbVrkBI",
+      "title": "【IDhorror】👻JPVtuber dan IBU !?【Kosan tua】",
+      "thumbnail": "https://i.ytimg.com/vi/iV2xHbVrkBI/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=iV2xHbVrkBI",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/anW4SIfKL48/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=anW4SIfKL48",
-      "checkedAt": "2026-07-17T07:55:21.121Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +191,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-17T07:55:21.121Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     },
     {
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-17T07:55:21.121Z",
+      "checkedAt": "2026-07-17T08:00:52.935Z",
       "status": "upcoming"
     }
   ]
