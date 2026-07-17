@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-17T14:00:45.105Z",
+  "updatedAt": "2026-07-17T14:05:34.683Z",
   "live": [
     {
-      "memberKey": "goraku:落乃いなほ",
-      "name": "落乃いなほ",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
-      "handle": "落乃いなほ",
-      "videoId": "iV2xHbVrkBI",
-      "title": "【IDhorror】👻JPVtuber dan IBU !?【Kosan tua】",
-      "thumbnail": "https://i.ytimg.com/vi/iV2xHbVrkBI/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=iV2xHbVrkBI",
-      "checkedAt": "2026-07-17T14:00:45.100Z",
+      "memberKey": "yugiri:宮霧りりい",
+      "name": "宮霧りりい",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCmFyGUEEbGRD9eWv6KoveDg",
+      "handle": "MiyakiriLily",
+      "videoId": "anW4SIfKL48",
+      "title": "【Unpacking】𝑪𝒉𝒊𝒍𝒍に荷ほどき🎵推しがいつでも来れる𝑩𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍 𝑹𝒐𝒐𝒎へ【宮霧りりい／ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/anW4SIfKL48/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=anW4SIfKL48",
+      "checkedAt": "2026-07-17T14:05:34.198Z",
       "status": "live"
     },
     {
@@ -30,27 +30,11 @@
       "thumbnail": "https://i.ytimg.com/vi/6y1C2VHvm1g/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T13:00:27Z",
       "url": "https://www.youtube.com/watch?v=6y1C2VHvm1g",
-      "checkedAt": "2026-07-17T14:00:45.100Z",
+      "checkedAt": "2026-07-17T14:05:34.199Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "yugiri:宮霧りりい",
-      "name": "宮霧りりい",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCmFyGUEEbGRD9eWv6KoveDg",
-      "handle": "MiyakiriLily",
-      "videoId": "anW4SIfKL48",
-      "title": "【Unpacking】𝑪𝒉𝒊𝒍𝒍に荷ほどき🎵推しがいつでも来れる𝑩𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍 𝑹𝒐𝒐𝒎へ【宮霧りりい／ゆうぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/anW4SIfKL48/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=anW4SIfKL48",
-      "checkedAt": "2026-07-17T14:00:45.100Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "aogiri:山黒音玄",
       "name": "山黒音玄",
@@ -64,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BtzgRPnMZdQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T15:00:00Z",
       "url": "https://www.youtube.com/watch?v=BtzgRPnMZdQ",
-      "checkedAt": "2026-07-17T14:00:45.099Z",
+      "checkedAt": "2026-07-17T14:05:34.199Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bKvIch1vJQY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T05:30:00Z",
       "url": "https://www.youtube.com/watch?v=bKvIch1vJQY",
-      "checkedAt": "2026-07-17T14:00:45.100Z",
+      "checkedAt": "2026-07-17T14:05:34.199Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-17T14:00:45.100Z",
+      "checkedAt": "2026-07-17T14:05:34.198Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-17T14:00:45.100Z",
+      "checkedAt": "2026-07-17T14:05:34.198Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-17T14:00:45.100Z",
+      "checkedAt": "2026-07-17T14:05:34.199Z",
       "status": "upcoming"
     }
   ]
