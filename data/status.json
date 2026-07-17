@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T01:25:22.217Z",
+  "updatedAt": "2026-07-17T01:30:34.251Z",
   "live": [],
   "upcoming": [
     {
@@ -15,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_DFhuYrF1Yk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=_DFhuYrF1Yk",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
       "status": "upcoming"
     },
     {
@@ -31,39 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T5ftXk01HD8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=T5ftXk01HD8",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "oCYR1rs4Xq0",
-      "title": "〖 料理 / 実写 〗 じゅわぁ♡皮から作る肉汁たっぷりえちえち小籠包 【 #禁煙  】",
-      "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:天羅洲テラス",
-      "name": "天羅洲テラス",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw",
-      "handle": "AmarasuTerasu",
-      "videoId": "LJLIuD3WcMM",
-      "title": "【記念配信✨】祝！収益化です～！ありゃと！！【天羅洲テラス/ゆうぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/LJLIuD3WcMM/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=LJLIuD3WcMM",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +47,39 @@
       "thumbnail": "https://i.ytimg.com/vi/so7SsyOldng/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=so7SsyOldng",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "oCYR1rs4Xq0",
+      "title": "〖 料理 / 実写 〗 じゅわぁ♡皮から作る肉汁たっぷりえちえち小籠包 【 #禁煙  】",
+      "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:天羅洲テラス",
+      "name": "天羅洲テラス",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw",
+      "handle": "AmarasuTerasu",
+      "videoId": "LJLIuD3WcMM",
+      "title": "【記念配信✨】祝！収益化です～！ありゃと！！【天羅洲テラス/ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/LJLIuD3WcMM/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=LJLIuD3WcMM",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HO7CByBvcng/mqdefault.jpg",
       "scheduledStart": "2026-07-17T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=HO7CByBvcng",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/anW4SIfKL48/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=anW4SIfKL48",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-17T01:25:22.217Z",
+      "checkedAt": "2026-07-17T01:30:34.251Z",
       "status": "upcoming"
     }
   ]
