@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-07-17T11:40:25.668Z",
+  "updatedAt": "2026-07-17T11:45:25.867Z",
   "live": [
-    {
-      "memberKey": "aogiri:エトラ",
-      "name": "エトラ",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCAHXqn4nAd2j3LRu1Qyi_JA",
-      "handle": "etrachannel",
-      "videoId": "HXigbHMQPmI",
-      "title": "【リズム天国 ミラクルスターズ】一番リズムにノれるやつは誰！？【 #あおぎり高校D組 】",
-      "thumbnail": "https://i.ytimg.com/vi/HXigbHMQPmI/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T10:30:00Z",
-      "url": "https://www.youtube.com/watch?v=HXigbHMQPmI",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
-      "status": "live"
-    },
     {
       "memberKey": "aogiri:石狩あかり",
       "name": "石狩あかり",
@@ -30,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/so7SsyOldng/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=so7SsyOldng",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.850Z",
       "status": "live"
     },
     {
@@ -46,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LJLIuD3WcMM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=LJLIuD3WcMM",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "live"
     },
     {
@@ -62,11 +46,27 @@
       "thumbnail": "https://i.ytimg.com/vi/oCYR1rs4Xq0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=oCYR1rs4Xq0",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "live"
     }
   ],
   "upcoming": [
+    {
+      "memberKey": "aogiri:うる虎がーる",
+      "name": "うる虎がーる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCdi5pj0MDQ-3LFNUFIFmD8w",
+      "handle": "urutoragaru0831",
+      "videoId": "R0rdpmtXrR0",
+      "title": "【 ムベンベラジオ 】子供の間で大流行中の『呪われたラジオ番組』にがうも沼になってみる【#夏のホラーゲーム週間  5日目】",
+      "thumbnail": "https://i.ytimg.com/vi/R0rdpmtXrR0/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-17T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=R0rdpmtXrR0",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "bebop:数寄屋橋れんげ",
       "name": "数寄屋橋れんげ",
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HO7CByBvcng/mqdefault.jpg",
       "scheduledStart": "2026-07-17T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=HO7CByBvcng",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "upcoming"
     },
     {
@@ -96,23 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iV2xHbVrkBI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iV2xHbVrkBI",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:うる虎がーる",
-      "name": "うる虎がーる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCdi5pj0MDQ-3LFNUFIFmD8w",
-      "handle": "urutoragaru0831",
-      "videoId": "R0rdpmtXrR0",
-      "title": "【 ムベンベラジオ 】子供の間で大流行中の『呪われたラジオ番組』にがうも沼になってみる【#夏のホラーゲーム週間  5日目】",
-      "thumbnail": "https://i.ytimg.com/vi/R0rdpmtXrR0/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-17T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=R0rdpmtXrR0",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/anW4SIfKL48/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=anW4SIfKL48",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BtzgRPnMZdQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-17T15:00:00Z",
       "url": "https://www.youtube.com/watch?v=BtzgRPnMZdQ",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bKvIch1vJQY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T05:30:00Z",
       "url": "https://www.youtube.com/watch?v=bKvIch1vJQY",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-17T11:40:25.652Z",
+      "checkedAt": "2026-07-17T11:45:25.851Z",
       "status": "upcoming"
     },
     {
