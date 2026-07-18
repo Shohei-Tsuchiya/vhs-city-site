@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T10:35:22.966Z",
+  "updatedAt": "2026-07-18T10:40:29.154Z",
   "live": [
     {
       "memberKey": "aogiri:うる虎がーる",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dVCb8lUz47E/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=dVCb8lUz47E",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:29.000Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wUvjjuvq0R0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=wUvjjuvq0R0",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:28.999Z",
       "status": "live"
     }
   ],
@@ -48,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x5sezrcIH8U/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x5sezrcIH8U",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:アカシ・ニコ",
-      "name": "アカシ・ニコ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
-      "handle": "niko_brdc",
-      "videoId": "GWWr7czMtwo",
-      "title": "【 #最終検体 】デスゲームに無理やり参加させられてしまったマッドサイエンティストは生還を希う☻【アカシ・ニコ視点☻ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/GWWr7czMtwo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-18T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=GWWr7czMtwo",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:29.000Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/9hIM707qKiM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=9hIM707qKiM",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:28.999Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:アカシ・ニコ",
+      "name": "アカシ・ニコ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
+      "handle": "niko_brdc",
+      "videoId": "GWWr7czMtwo",
+      "title": "【 #最終検体 】デスゲームに無理やり参加させられてしまったマッドサイエンティストは生還を希う☻【アカシ・ニコ視点☻ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/GWWr7czMtwo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-18T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=GWWr7czMtwo",
+      "checkedAt": "2026-07-18T10:40:29.000Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tVyLz6AwH5Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-18T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=tVyLz6AwH5Q",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:29.000Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:29.000Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HGa-vQowRYw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=HGa-vQowRYw",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:29.000Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:28.999Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-18T10:35:22.808Z",
+      "checkedAt": "2026-07-18T10:40:29.000Z",
       "status": "upcoming"
     }
   ]
