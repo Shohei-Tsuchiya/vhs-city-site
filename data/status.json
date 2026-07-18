@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-18T21:55:29.939Z",
+  "updatedAt": "2026-07-18T22:00:43.738Z",
   "live": [],
   "upcoming": [
+    {
+      "memberKey": "aogiri:エトラ",
+      "name": "エトラ",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCAHXqn4nAd2j3LRu1Qyi_JA",
+      "handle": "etrachannel",
+      "videoId": "_txaTWU9tRE",
+      "title": "【朝活】寝起きはいいけどねむいものはねむい【 #エト生放送 】",
+      "thumbnail": "https://i.ytimg.com/vi/_txaTWU9tRE/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-18T22:00:00Z",
+      "url": "https://www.youtube.com/watch?v=_txaTWU9tRE",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "yugiri:天羅洲テラス",
       "name": "天羅洲テラス",
@@ -15,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fzBOG4edKPc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T01:00:00Z",
       "url": "https://www.youtube.com/watch?v=fzBOG4edKPc",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_enwO-074bU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T04:00:00Z",
       "url": "https://www.youtube.com/watch?v=_enwO-074bU",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -47,23 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4LopB1ZFIQE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T05:30:00Z",
       "url": "https://www.youtube.com/watch?v=4LopB1ZFIQE",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "P6p039d1Q7s",
-      "title": "【BIOHAZARD requiem】楽しくバイオ！エミリーは奪還、ギデオンは折檻",
-      "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-19T06:00:00Z",
-      "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +79,23 @@
       "thumbnail": "https://i.ytimg.com/vi/YLPyvupbn5s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=YLPyvupbn5s",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:LN_へるぷ.exe",
+      "name": "LN_へるぷ.exe",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
+      "handle": "LN_Help_exe",
+      "videoId": "P6p039d1Q7s",
+      "title": "【BIOHAZARD requiem】楽しくバイオ！エミリーは奪還、ギデオンは折檻",
+      "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-19T06:00:00Z",
+      "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -95,23 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4WYRDUuqTHU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=4WYRDUuqTHU",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:数寄屋橋れんげ",
-      "name": "数寄屋橋れんげ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
-      "handle": "renge_morinyan",
-      "videoId": "PpPPh19Hb-Q",
-      "title": "【初見ロックマンエグゼ6】エレキ先生ってあの…！？！？！？？？！【電脳獣グレイガ】 #数寄屋橋れんげ / VTuber",
-      "thumbnail": "https://i.ytimg.com/vi/PpPPh19Hb-Q/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-19T09:00:00Z",
-      "url": "https://www.youtube.com/watch?v=PpPPh19Hb-Q",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +127,23 @@
       "thumbnail": "https://i.ytimg.com/vi/iLgzAbnn3X4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=iLgzAbnn3X4",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "PpPPh19Hb-Q",
+      "title": "【初見ロックマンエグゼ6】エレキ先生ってあの…！？！？！？？？！【電脳獣グレイガ】 #数寄屋橋れんげ / VTuber",
+      "thumbnail": "https://i.ytimg.com/vi/PpPPh19Hb-Q/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-19T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=PpPPh19Hb-Q",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HGa-vQowRYw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=HGa-vQowRYw",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +191,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WceRDqLAh54/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=WceRDqLAh54",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-ryzdGBTB3Y/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=-ryzdGBTB3Y",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     },
     {
@@ -207,7 +223,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-18T21:55:29.938Z",
+      "checkedAt": "2026-07-18T22:00:43.738Z",
       "status": "upcoming"
     }
   ]
