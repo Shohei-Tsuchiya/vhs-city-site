@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:40:28.992Z",
+  "updatedAt": "2026-07-19T17:45:29.466Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zenl72-KOO0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T08:45:00Z",
       "url": "https://www.youtube.com/watch?v=zenl72-KOO0",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jy3J3zYVBN8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T15:25:00Z",
       "url": "https://www.youtube.com/watch?v=jy3J3zYVBN8",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "live"
     }
   ],
@@ -48,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QzZ8YsPxgRA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T07:45:00Z",
       "url": "https://www.youtube.com/watch?v=QzZ8YsPxgRA",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:数寄屋橋れんげ",
-      "name": "数寄屋橋れんげ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
-      "handle": "renge_morinyan",
-      "videoId": "-ryzdGBTB3Y",
-      "title": "【VHSマイクラ】ハチ公建設編！新たな土地を求めて冒険！！！【 #数寄屋橋れんげ / VTuber 】",
-      "thumbnail": "https://i.ytimg.com/vi/-ryzdGBTB3Y/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-20T09:00:00Z",
-      "url": "https://www.youtube.com/watch?v=-ryzdGBTB3Y",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/187iAt1ut2Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=187iAt1ut2Q",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "-ryzdGBTB3Y",
+      "title": "【VHSマイクラ】ハチ公建設編！新たな土地を求めて冒険！！！【 #数寄屋橋れんげ / VTuber 】",
+      "thumbnail": "https://i.ytimg.com/vi/-ryzdGBTB3Y/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-20T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=-ryzdGBTB3Y",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fOyT8JGuIw4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=fOyT8JGuIw4",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NiVHelPP-3Y/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=NiVHelPP-3Y",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-19T17:40:28.848Z",
+      "checkedAt": "2026-07-19T17:45:29.460Z",
       "status": "upcoming"
     }
   ]
