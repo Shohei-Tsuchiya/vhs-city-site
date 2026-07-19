@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T12:35:24.770Z",
+  "updatedAt": "2026-07-19T12:40:23.445Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zenl72-KOO0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T08:45:00Z",
       "url": "https://www.youtube.com/watch?v=zenl72-KOO0",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wGRvyBwMXcg/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T09:05:00Z",
       "url": "https://www.youtube.com/watch?v=wGRvyBwMXcg",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iLgzAbnn3X4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=iLgzAbnn3X4",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "live"
     },
     {
@@ -62,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qI5H4A1cQ0I/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=qI5H4A1cQ0I",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "live"
     },
     {
@@ -78,7 +78,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4WYRDUuqTHU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=4WYRDUuqTHU",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "live"
     },
     {
@@ -94,7 +94,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GoD335RcNqg/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T12:30:59Z",
       "url": "https://www.youtube.com/watch?v=GoD335RcNqg",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "live"
     },
     {
@@ -110,7 +110,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i5vfk6xs2Us/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=i5vfk6xs2Us",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "live"
     },
     {
@@ -126,27 +126,27 @@
       "thumbnail": "https://i.ytimg.com/vi/MTf18KTiJcw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=MTf18KTiJcw",
-      "checkedAt": "2026-07-19T12:35:24.764Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "goraku:壱神ふらん",
+      "name": "壱神ふらん",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxo7YTxJQq0dGeLjm4kZKEQ",
+      "handle": "Isshin_Fran",
+      "videoId": "yu63yr5FKtA",
+      "title": "【#実写】手放しでタバコが吸える！？喫煙補助機を作るぞ‼【#壱神ふらん/#新人Vtuber】",
+      "thumbnail": "https://i.ytimg.com/vi/yu63yr5FKtA/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-19T12:30:00Z",
+      "url": "https://www.youtube.com/watch?v=yu63yr5FKtA",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "aogiri:萌実",
-      "name": "萌実",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCIwHOJn_3QjBTwQ_gNj7WRA",
-      "handle": "Moemi_chan",
-      "videoId": "WceRDqLAh54",
-      "title": "【大阪府編】各都道府県おすすめ観光スポット聞いてみたら？【#萌実旅気分 #あおぎり高校   】",
-      "thumbnail": "https://i.ytimg.com/vi/WceRDqLAh54/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-19T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=WceRDqLAh54",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "bebop:二藍しぃあ",
       "name": "二藍しぃあ",
@@ -160,23 +160,23 @@
       "thumbnail": "https://i.ytimg.com/vi/KmGBuNlxuCc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=KmGBuNlxuCc",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "upcoming"
     },
     {
-      "memberKey": "aogiri:春雨麗女",
-      "name": "春雨麗女",
+      "memberKey": "aogiri:萌実",
+      "name": "萌実",
       "groupId": "aogiri",
       "groupName": "あおぎり高校",
       "groupColor": "#7db8ff",
-      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
-      "handle": "urame0711",
-      "videoId": "187iAt1ut2Q",
-      "title": "【 #アプ盛夏歌リレー 】夏！！始めさせていただきます【#春雨麗女 #あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/187iAt1ut2Q/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-20T09:00:00Z",
-      "url": "https://www.youtube.com/watch?v=187iAt1ut2Q",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "channelId": "UCIwHOJn_3QjBTwQ_gNj7WRA",
+      "handle": "Moemi_chan",
+      "videoId": "WceRDqLAh54",
+      "title": "【大阪府編】各都道府県おすすめ観光スポット聞いてみたら？【#萌実旅気分 #あおぎり高校   】",
+      "thumbnail": "https://i.ytimg.com/vi/WceRDqLAh54/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-19T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=WceRDqLAh54",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,23 @@
       "thumbnail": "https://i.ytimg.com/vi/-ryzdGBTB3Y/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=-ryzdGBTB3Y",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:春雨麗女",
+      "name": "春雨麗女",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
+      "handle": "urame0711",
+      "videoId": "187iAt1ut2Q",
+      "title": "【 #アプ盛夏歌リレー 】夏！！始めさせていただきます【#春雨麗女 #あおぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/187iAt1ut2Q/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-20T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=187iAt1ut2Q",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-19T12:35:24.765Z",
+      "checkedAt": "2026-07-19T12:40:23.402Z",
       "status": "upcoming"
     }
   ]
