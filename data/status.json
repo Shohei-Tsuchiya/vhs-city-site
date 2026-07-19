@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-07-19T09:10:27.307Z",
+  "updatedAt": "2026-07-19T09:15:29.181Z",
   "live": [
+    {
+      "memberKey": "aogiri:栗駒こまる",
+      "name": "栗駒こまる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCXXnWssOLdB2jg-4CznteAA",
+      "handle": "komaru0814",
+      "videoId": "wGRvyBwMXcg",
+      "title": "#初見歓迎  #コラボ【 　すみません　 】 #あおぎり高校  #栗駒こまる  #vtuber　#Backrooms: Escape Together",
+      "thumbnail": "https://i.ytimg.com/vi/wGRvyBwMXcg/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-19T09:05:00Z",
+      "url": "https://www.youtube.com/watch?v=wGRvyBwMXcg",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "aogiri:月赴ゐぶき",
+      "name": "月赴ゐぶき",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCxy3KNlLQiN64tikKipnQNg",
+      "handle": "ibuki0831",
+      "videoId": "iLgzAbnn3X4",
+      "title": "突然『バックルーム』に閉じ込められました　【backrooms: escape together】【栗駒こまる/月赴ゐぶき/うる虎がーる/あおぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/iLgzAbnn3X4/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-19T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=iLgzAbnn3X4",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
+      "status": "live"
+    },
     {
       "memberKey": "aogiri:うる虎がーる",
       "name": "うる虎がーる",
@@ -14,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qI5H4A1cQ0I/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=qI5H4A1cQ0I",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "live"
     },
     {
@@ -30,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4WYRDUuqTHU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=4WYRDUuqTHU",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "live"
     },
     {
@@ -46,7 +78,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PpPPh19Hb-Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=PpPPh19Hb-Q",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "live"
     },
     {
@@ -62,7 +94,7 @@
       "thumbnail": "https://i.ytimg.com/vi/USo757tXJi8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T07:00:00Z",
       "url": "https://www.youtube.com/watch?v=USo757tXJi8",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "live"
     },
     {
@@ -78,41 +110,25 @@
       "thumbnail": "https://i.ytimg.com/vi/P6p039d1Q7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=P6p039d1Q7s",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "live"
     }
   ],
   "upcoming": [
     {
-      "memberKey": "aogiri:山黒音玄",
-      "name": "山黒音玄",
+      "memberKey": "aogiri:千代浦蝶美",
+      "name": "千代浦蝶美",
       "groupId": "aogiri",
       "groupName": "あおぎり高校",
       "groupColor": "#7db8ff",
-      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
-      "handle": "nekuro0412",
-      "videoId": "zenl72-KOO0",
-      "title": "初めてのらすとをさせていただきます【 VCR Rust 3 / 1日目 】#山黒音玄",
-      "thumbnail": "https://i.ytimg.com/vi/zenl72-KOO0/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-19T08:45:00Z",
-      "url": "https://www.youtube.com/watch?v=zenl72-KOO0",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:月赴ゐぶき",
-      "name": "月赴ゐぶき",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCxy3KNlLQiN64tikKipnQNg",
-      "handle": "ibuki0831",
-      "videoId": "iLgzAbnn3X4",
-      "title": "突然『バックルーム』に閉じ込められました　【backrooms: escape together】【栗駒こまる/月赴ゐぶき/うる虎がーる/あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/iLgzAbnn3X4/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-19T09:00:00Z",
-      "url": "https://www.youtube.com/watch?v=iLgzAbnn3X4",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "channelId": "UCyY6YeINiwQoA-FnmdQCkug",
+      "handle": "chiyomi0812",
+      "videoId": "HGa-vQowRYw",
+      "title": "【#アプ盛夏歌リレー  】夏フェス気分になれる!?みんなで熱くなっていこー！！ #あおぎり高校 #千代浦蝶美",
+      "thumbnail": "https://i.ytimg.com/vi/HGa-vQowRYw/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-19T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=HGa-vQowRYw",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "upcoming"
     },
     {
@@ -128,23 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RHWqUHQC1uc/mqdefault.jpg",
       "scheduledStart": "2026-07-19T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=RHWqUHQC1uc",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:千代浦蝶美",
-      "name": "千代浦蝶美",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCyY6YeINiwQoA-FnmdQCkug",
-      "handle": "chiyomi0812",
-      "videoId": "HGa-vQowRYw",
-      "title": "【#アプ盛夏歌リレー  】夏フェス気分になれる!?みんなで熱くなっていこー！！ #あおぎり高校 #千代浦蝶美",
-      "thumbnail": "https://i.ytimg.com/vi/HGa-vQowRYw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-19T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=HGa-vQowRYw",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/16iqu4nYtII/mqdefault.jpg",
       "scheduledStart": "2026-07-19T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=16iqu4nYtII",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gOWMBWzsu3I/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=gOWMBWzsu3I",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "upcoming"
     },
     {
@@ -208,23 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WceRDqLAh54/mqdefault_live.jpg",
       "scheduledStart": "2026-07-19T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=WceRDqLAh54",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:数寄屋橋れんげ",
-      "name": "数寄屋橋れんげ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
-      "handle": "renge_morinyan",
-      "videoId": "-ryzdGBTB3Y",
-      "title": "【VHSマイクラ】ハチ公建設編！新たな土地を求めて冒険！！！【 #数寄屋橋れんげ / VTuber 】",
-      "thumbnail": "https://i.ytimg.com/vi/-ryzdGBTB3Y/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-20T09:00:00Z",
-      "url": "https://www.youtube.com/watch?v=-ryzdGBTB3Y",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +224,23 @@
       "thumbnail": "https://i.ytimg.com/vi/187iAt1ut2Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=187iAt1ut2Q",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "-ryzdGBTB3Y",
+      "title": "【VHSマイクラ】ハチ公建設編！新たな土地を求めて冒険！！！【 #数寄屋橋れんげ / VTuber 】",
+      "thumbnail": "https://i.ytimg.com/vi/-ryzdGBTB3Y/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-20T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=-ryzdGBTB3Y",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-19T09:10:27.149Z",
+      "checkedAt": "2026-07-19T09:15:29.020Z",
       "status": "upcoming"
     }
   ]
