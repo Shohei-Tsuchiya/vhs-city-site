@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T13:20:31.260Z",
+  "updatedAt": "2026-07-20T13:25:23.101Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/971K5ein7pc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=971K5ein7pc",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Y9LXgdmy5pU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=Y9LXgdmy5pU",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZuoOLRS4GPo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=ZuoOLRS4GPo",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "live"
     },
     {
@@ -62,23 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/stMfvGJ5cUQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=stMfvGJ5cUQ",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:アカシ・ニコ",
-      "name": "アカシ・ニコ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
-      "handle": "niko_brdc",
-      "videoId": "0sJC213ILgU",
-      "title": "【匿名炎上雑談】🔥TAKIBI🔥でマシュマロ焚上げ☻【アカシ・ニコ／ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/0sJC213ILgU/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-20T13:01:24Z",
-      "url": "https://www.youtube.com/watch?v=0sJC213ILgU",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "live"
     },
     {
@@ -94,7 +78,23 @@
       "thumbnail": "https://i.ytimg.com/vi/SxrJcXfiitQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=SxrJcXfiitQ",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "bebop:アカシ・ニコ",
+      "name": "アカシ・ニコ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
+      "handle": "niko_brdc",
+      "videoId": "0sJC213ILgU",
+      "title": "【匿名炎上雑談】🔥TAKIBI🔥でマシュマロ焚上げ☻【アカシ・ニコ／ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/0sJC213ILgU/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-20T13:01:24Z",
+      "url": "https://www.youtube.com/watch?v=0sJC213ILgU",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "live"
     },
     {
@@ -110,7 +110,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DZWeIPbLOXE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=DZWeIPbLOXE",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "live"
     }
   ],
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FjoJuG9BPyo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T13:15:00Z",
       "url": "https://www.youtube.com/watch?v=FjoJuG9BPyo",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/moKSRtDWdWA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=moKSRtDWdWA",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,23 @@
       "thumbnail": "https://i.ytimg.com/vi/OaMc-MezMLY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=OaMc-MezMLY",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "partner:従井ノラ",
+      "name": "従井ノラ",
+      "groupId": "partner",
+      "groupName": "パートナークリエイター",
+      "groupColor": "#f5db6e",
+      "channelId": "UCQYy35PowPpc6ImRH1TQgcw",
+      "handle": "nora_shitagai",
+      "videoId": "PZcg0rs1Blk",
+      "title": "【7月21日】男性は集合！！！！！！！！！！！！【従井ノラ】",
+      "thumbnail": "https://i.ytimg.com/vi/PZcg0rs1Blk/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-21T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=PZcg0rs1Blk",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NiVHelPP-3Y/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=NiVHelPP-3Y",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ERJAL3MTfSQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=ERJAL3MTfSQ",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gSV4CkVt3iQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T22:45:00Z",
       "url": "https://www.youtube.com/watch?v=gSV4CkVt3iQ",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-20T13:20:31.112Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +288,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-20T13:20:31.111Z",
+      "checkedAt": "2026-07-20T13:25:23.085Z",
       "status": "upcoming"
     }
   ]
