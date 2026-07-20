@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T10:20:26.130Z",
+  "updatedAt": "2026-07-20T10:25:21.433Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/971K5ein7pc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=971K5ein7pc",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "live"
     },
     {
@@ -30,23 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QzZ8YsPxgRA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T07:45:00Z",
       "url": "https://www.youtube.com/watch?v=QzZ8YsPxgRA",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:常勝無敗ぐぬぬ",
-      "name": "常勝無敗ぐぬぬ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
-      "handle": "gununu_meiwaku",
-      "videoId": "DomRvFtbhxI",
-      "title": "【 #shorts￤歌枠】29,500人を目指して様歌枠【#初見さん大歓迎 】#常勝無敗ぐぬぬ",
-      "thumbnail": "https://i.ytimg.com/vi/DomRvFtbhxI/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-20T08:00:00Z",
-      "url": "https://www.youtube.com/watch?v=DomRvFtbhxI",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "live"
     },
     {
@@ -62,7 +46,23 @@
       "thumbnail": "https://i.ytimg.com/vi/-ryzdGBTB3Y/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=-ryzdGBTB3Y",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "bebop:常勝無敗ぐぬぬ",
+      "name": "常勝無敗ぐぬぬ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
+      "handle": "gununu_meiwaku",
+      "videoId": "DomRvFtbhxI",
+      "title": "【 #shorts￤歌枠】29,500人を目指して様歌枠【#初見さん大歓迎 】#常勝無敗ぐぬぬ",
+      "thumbnail": "https://i.ytimg.com/vi/DomRvFtbhxI/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-20T08:00:00Z",
+      "url": "https://www.youtube.com/watch?v=DomRvFtbhxI",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "live"
     }
   ],
@@ -80,23 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fOyT8JGuIw4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=fOyT8JGuIw4",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:うる虎がーる",
-      "name": "うる虎がーる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCdi5pj0MDQ-3LFNUFIFmD8w",
-      "handle": "urutoragaru0831",
-      "videoId": "stMfvGJ5cUQ",
-      "title": "【 Slay the Spire 2 】リベンジマッチ！！！今回は最上階まで絶対行くぞトラ！！！【 うる虎がーる/微睡いちの 】",
-      "thumbnail": "https://i.ytimg.com/vi/stMfvGJ5cUQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-20T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=stMfvGJ5cUQ",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SxrJcXfiitQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=SxrJcXfiitQ",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,23 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:うる虎がーる",
+      "name": "うる虎がーる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCdi5pj0MDQ-3LFNUFIFmD8w",
+      "handle": "urutoragaru0831",
+      "videoId": "stMfvGJ5cUQ",
+      "title": "【 Slay the Spire 2 】リベンジマッチ！！！今回は最上階まで絶対行くぞトラ！！！【 うる虎がーる/微睡いちの 】",
+      "thumbnail": "https://i.ytimg.com/vi/stMfvGJ5cUQ/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-20T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=stMfvGJ5cUQ",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -144,23 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Y9LXgdmy5pU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=Y9LXgdmy5pU",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:春雨麗女",
-      "name": "春雨麗女",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
-      "handle": "urame0711",
-      "videoId": "ZuoOLRS4GPo",
-      "title": "【超実写 / 閲覧注意】2nd LIVE追加お知らせあり✨ 連休最後にゆる弾き語りどっすか～【#春雨麗女 #あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/ZuoOLRS4GPo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-20T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=ZuoOLRS4GPo",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +160,23 @@
       "thumbnail": "https://i.ytimg.com/vi/DZWeIPbLOXE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=DZWeIPbLOXE",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:春雨麗女",
+      "name": "春雨麗女",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
+      "handle": "urame0711",
+      "videoId": "ZuoOLRS4GPo",
+      "title": "【超実写 / 閲覧注意】2nd LIVE追加お知らせあり✨ 連休最後にゆる弾き語りどっすか～【#春雨麗女 #あおぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/ZuoOLRS4GPo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-20T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=ZuoOLRS4GPo",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/moKSRtDWdWA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=moKSRtDWdWA",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NiVHelPP-3Y/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=NiVHelPP-3Y",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ERJAL3MTfSQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=ERJAL3MTfSQ",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-20T10:20:26.105Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     },
     {
@@ -288,7 +288,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-20T10:20:26.104Z",
+      "checkedAt": "2026-07-20T10:25:21.395Z",
       "status": "upcoming"
     }
   ]
