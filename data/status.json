@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T19:30:39.605Z",
+  "updatedAt": "2026-07-20T19:35:21.182Z",
   "live": [
     {
       "memberKey": "bebop:泡喰はわこ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EX-Rlh9gGQY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-20T15:00:00Z",
       "url": "https://www.youtube.com/watch?v=EX-Rlh9gGQY",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HbOJdQc7sGI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=HbOJdQc7sGI",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -48,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TF00upo2uP4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=TF00upo2uP4",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:エトラ",
-      "name": "エトラ",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCAHXqn4nAd2j3LRu1Qyi_JA",
-      "handle": "etrachannel",
-      "videoId": "ptFpYsD8ORc",
-      "title": "【番組始動⁉】#えとらぼ 第1回「食と農の科学館」",
-      "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
-      "scheduledStart": "2026-07-21T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/u4dX4oKOJTU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=u4dX4oKOJTU",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:エトラ",
+      "name": "エトラ",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCAHXqn4nAd2j3LRu1Qyi_JA",
+      "handle": "etrachannel",
+      "videoId": "ptFpYsD8ORc",
+      "title": "【番組始動⁉】#えとらぼ 第1回「食と農の科学館」",
+      "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
+      "scheduledStart": "2026-07-21T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -96,23 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OaMc-MezMLY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=OaMc-MezMLY",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "partner:従井ノラ",
-      "name": "従井ノラ",
-      "groupId": "partner",
-      "groupName": "パートナークリエイター",
-      "groupColor": "#f5db6e",
-      "channelId": "UCQYy35PowPpc6ImRH1TQgcw",
-      "handle": "nora_shitagai",
-      "videoId": "PZcg0rs1Blk",
-      "title": "【7月21日】男性は集合！！！！！！！！！！！！【従井ノラ】",
-      "thumbnail": "https://i.ytimg.com/vi/PZcg0rs1Blk/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-21T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=PZcg0rs1Blk",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NiVHelPP-3Y/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=NiVHelPP-3Y",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,23 @@
       "thumbnail": "https://i.ytimg.com/vi/ERJAL3MTfSQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=ERJAL3MTfSQ",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "partner:従井ノラ",
+      "name": "従井ノラ",
+      "groupId": "partner",
+      "groupName": "パートナークリエイター",
+      "groupColor": "#f5db6e",
+      "channelId": "UCQYy35PowPpc6ImRH1TQgcw",
+      "handle": "nora_shitagai",
+      "videoId": "PZcg0rs1Blk",
+      "title": "【7月21日】男性は集合！！！！！！！！！！！！【従井ノラ】",
+      "thumbnail": "https://i.ytimg.com/vi/PZcg0rs1Blk/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-21T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=PZcg0rs1Blk",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gSV4CkVt3iQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T22:45:00Z",
       "url": "https://www.youtube.com/watch?v=gSV4CkVt3iQ",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-20T19:30:39.605Z",
+      "checkedAt": "2026-07-20T19:35:21.182Z",
       "status": "upcoming"
     }
   ]
