@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T20:50:29.860Z",
+  "updatedAt": "2026-07-20T20:55:24.467Z",
   "live": [],
   "upcoming": [
     {
@@ -15,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HbOJdQc7sGI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=HbOJdQc7sGI",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TF00upo2uP4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=TF00upo2uP4",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/u4dX4oKOJTU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=u4dX4oKOJTU",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ptFpYsD8ORc/mqdefault.jpg",
       "scheduledStart": "2026-07-21T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ptFpYsD8ORc",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -79,39 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OaMc-MezMLY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=OaMc-MezMLY",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "NiVHelPP-3Y",
-      "title": "【チル雑談】寝落ち向きボイスといわれたので定期おやすみ雑談始めるらしい",
-      "thumbnail": "https://i.ytimg.com/vi/NiVHelPP-3Y/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-21T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=NiVHelPP-3Y",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:永久不滅ゆるる",
-      "name": "永久不滅ゆるる",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCBT07kDimH3-HJ9zq1rFQKg",
-      "handle": "yururu_coisqa",
-      "videoId": "ERJAL3MTfSQ",
-      "title": "【限界】企業勢夜職Vの一週間、公開します #雑談【#永久不滅ゆるる/ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/ERJAL3MTfSQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-21T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=ERJAL3MTfSQ",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +95,39 @@
       "thumbnail": "https://i.ytimg.com/vi/PZcg0rs1Blk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=PZcg0rs1Blk",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:LN_へるぷ.exe",
+      "name": "LN_へるぷ.exe",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
+      "handle": "LN_Help_exe",
+      "videoId": "NiVHelPP-3Y",
+      "title": "【チル雑談】寝落ち向きボイスといわれたので定期おやすみ雑談始めるらしい",
+      "thumbnail": "https://i.ytimg.com/vi/NiVHelPP-3Y/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-21T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=NiVHelPP-3Y",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:永久不滅ゆるる",
+      "name": "永久不滅ゆるる",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBT07kDimH3-HJ9zq1rFQKg",
+      "handle": "yururu_coisqa",
+      "videoId": "ERJAL3MTfSQ",
+      "title": "【限界】企業勢夜職Vの一週間、公開します #雑談【#永久不滅ゆるる/ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/ERJAL3MTfSQ/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-21T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=ERJAL3MTfSQ",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gSV4CkVt3iQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T22:45:00Z",
       "url": "https://www.youtube.com/watch?v=gSV4CkVt3iQ",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +191,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-20T20:50:29.860Z",
+      "checkedAt": "2026-07-20T20:55:24.467Z",
       "status": "upcoming"
     }
   ]
