@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T22:30:36.689Z",
+  "updatedAt": "2026-07-21T22:35:25.581Z",
   "live": [
     {
       "memberKey": "bebop:泡喰はわこ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4w4qf1HJsxs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=4w4qf1HJsxs",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O58keGTJCU8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-21T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=O58keGTJCU8",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "live"
     }
   ],
@@ -46,9 +46,9 @@
       "videoId": "gSV4CkVt3iQ",
       "title": "〖 料理 / 実写 〗 朝からぷるるん♡スフレパンケーキを揺らしまくる廻【 #娯楽組  】",
       "thumbnail": "https://i.ytimg.com/vi/gSV4CkVt3iQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-21T22:45:00Z",
+      "scheduledStart": "2026-07-21T23:00:00Z",
       "url": "https://www.youtube.com/watch?v=gSV4CkVt3iQ",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HbOJdQc7sGI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T04:00:00Z",
       "url": "https://www.youtube.com/watch?v=HbOJdQc7sGI",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -80,55 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A5w7Wgj7n8w/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=A5w7Wgj7n8w",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:石狩あかり",
-      "name": "石狩あかり",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
-      "handle": "akari0415",
-      "videoId": "SdEnTkEF90w",
-      "title": "【DISM】 お肌の悩みを持ったことない石狩と一緒にスキンケアを学ぼう",
-      "thumbnail": "https://i.ytimg.com/vi/SdEnTkEF90w/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-22T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=SdEnTkEF90w",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:我部りえる",
-      "name": "我部りえる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCFvEuP2EDkvrgJpHI6-pyNw",
-      "handle": "rieru0830",
-      "videoId": "JCSEazyNR34",
-      "title": "【　変わります　】アレが！！！！！【　なにが　】",
-      "thumbnail": "https://i.ytimg.com/vi/JCSEazyNR34/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-22T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=JCSEazyNR34",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:壱神ふらん",
-      "name": "壱神ふらん",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxo7YTxJQq0dGeLjm4kZKEQ",
-      "handle": "Isshin_Fran",
-      "videoId": "rdSd1LF8Ch4",
-      "title": "【#マインクラフト】VHSの畑で暴れるぞ【#壱神ふらん/#新人Vtuber】",
-      "thumbnail": "https://i.ytimg.com/vi/rdSd1LF8Ch4/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-22T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=rdSd1LF8Ch4",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K_Go2JrRpJY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=K_Go2JrRpJY",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +112,55 @@
       "thumbnail": "https://i.ytimg.com/vi/OLZkTuybu-A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=OLZkTuybu-A",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:石狩あかり",
+      "name": "石狩あかり",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
+      "handle": "akari0415",
+      "videoId": "SdEnTkEF90w",
+      "title": "【DISM】 お肌の悩みを持ったことない石狩と一緒にスキンケアを学ぼう",
+      "thumbnail": "https://i.ytimg.com/vi/SdEnTkEF90w/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-22T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=SdEnTkEF90w",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:我部りえる",
+      "name": "我部りえる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCFvEuP2EDkvrgJpHI6-pyNw",
+      "handle": "rieru0830",
+      "videoId": "JCSEazyNR34",
+      "title": "【　変わります　】アレが！！！！！【　なにが　】",
+      "thumbnail": "https://i.ytimg.com/vi/JCSEazyNR34/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-22T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=JCSEazyNR34",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:壱神ふらん",
+      "name": "壱神ふらん",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxo7YTxJQq0dGeLjm4kZKEQ",
+      "handle": "Isshin_Fran",
+      "videoId": "rdSd1LF8Ch4",
+      "title": "【#マインクラフト】VHSの畑で暴れるぞ【#壱神ふらん/#新人Vtuber】",
+      "thumbnail": "https://i.ytimg.com/vi/rdSd1LF8Ch4/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-22T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=rdSd1LF8Ch4",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AJv_qLKfW9I/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T13:30:00Z",
       "url": "https://www.youtube.com/watch?v=AJv_qLKfW9I",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-09-01T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-21T22:30:36.499Z",
+      "checkedAt": "2026-07-21T22:35:25.412Z",
       "status": "upcoming"
     }
   ]
