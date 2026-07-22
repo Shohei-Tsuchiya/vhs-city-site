@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T18:35:27.547Z",
+  "updatedAt": "2026-07-22T18:40:27.200Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rCDnE9cbGo4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=rCDnE9cbGo4",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/MXCgAvZzOzo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=MXCgAvZzOzo",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
       "status": "upcoming"
     },
     {
@@ -48,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9BmpDgWLKQQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=9BmpDgWLKQQ",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:我部りえる",
-      "name": "我部りえる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCFvEuP2EDkvrgJpHI6-pyNw",
-      "handle": "rieru0830",
-      "videoId": "JxENR3anleo",
-      "title": "【 Minecraft 】２人で 仲良く(？) エンドラ討伐（できるのか？）(がんばるぞ） 【我部りえる/月赴ゐぶき】 #あおぎり高校",
-      "thumbnail": "https://i.ytimg.com/vi/JxENR3anleo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=JxENR3anleo",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:我部りえる",
+      "name": "我部りえる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCFvEuP2EDkvrgJpHI6-pyNw",
+      "handle": "rieru0830",
+      "videoId": "JxENR3anleo",
+      "title": "【 Minecraft 】２人で 仲良く(？) エンドラ討伐（できるのか？）(がんばるぞ） 【我部りえる/月赴ゐぶき】 #あおぎり高校",
+      "thumbnail": "https://i.ytimg.com/vi/JxENR3anleo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=JxENR3anleo",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/slVKwHrhiW8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=slVKwHrhiW8",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.199Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-22T18:35:27.547Z",
+      "checkedAt": "2026-07-22T18:40:27.200Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-22T18:35:27.546Z",
+      "checkedAt": "2026-07-22T18:40:27.200Z",
       "status": "upcoming"
     }
   ]
