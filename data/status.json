@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T08:50:24.509Z",
+  "updatedAt": "2026-07-22T08:55:20.755Z",
   "live": [
     {
       "memberKey": "bebop:微睡いちの",
@@ -14,11 +14,27 @@
       "thumbnail": "https://i.ytimg.com/vi/A5w7Wgj7n8w/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=A5w7Wgj7n8w",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "live"
     }
   ],
   "upcoming": [
+    {
+      "memberKey": "goraku:壱神ふらん",
+      "name": "壱神ふらん",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxo7YTxJQq0dGeLjm4kZKEQ",
+      "handle": "Isshin_Fran",
+      "videoId": "rdSd1LF8Ch4",
+      "title": "【#マインクラフト】VHSの畑で暴れるぞ【#壱神ふらん/#新人Vtuber】",
+      "thumbnail": "https://i.ytimg.com/vi/rdSd1LF8Ch4/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-22T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=rdSd1LF8Ch4",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "aogiri:八十科むじな",
       "name": "八十科むじな",
@@ -32,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xX-zfgr9PwM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=xX-zfgr9PwM",
-      "checkedAt": "2026-07-22T08:50:24.508Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K_Go2JrRpJY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=K_Go2JrRpJY",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tITIoQThlHM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=tITIoQThlHM",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OLZkTuybu-A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=OLZkTuybu-A",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SdEnTkEF90w/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=SdEnTkEF90w",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JCSEazyNR34/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=JCSEazyNR34",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -128,23 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jxId0PIhkjY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=jxId0PIhkjY",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:壱神ふらん",
-      "name": "壱神ふらん",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxo7YTxJQq0dGeLjm4kZKEQ",
-      "handle": "Isshin_Fran",
-      "videoId": "rdSd1LF8Ch4",
-      "title": "【#マインクラフト】VHSの畑で暴れるぞ【#壱神ふらん/#新人Vtuber】",
-      "thumbnail": "https://i.ytimg.com/vi/rdSd1LF8Ch4/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-22T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=rdSd1LF8Ch4",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EvY7gVsmOv8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=EvY7gVsmOv8",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.754Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AJv_qLKfW9I/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T13:30:00Z",
       "url": "https://www.youtube.com/watch?v=AJv_qLKfW9I",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-09-01T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-22T08:50:24.509Z",
+      "checkedAt": "2026-07-22T08:55:20.755Z",
       "status": "upcoming"
     }
   ]
