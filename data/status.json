@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T15:30:49.666Z",
+  "updatedAt": "2026-07-22T15:35:21.899Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,23 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rCDnE9cbGo4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=rCDnE9cbGo4",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:アカシ・ニコ",
-      "name": "アカシ・ニコ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
-      "handle": "niko_brdc",
-      "videoId": "C4FEFHhQogg",
-      "title": "ASMR｜癒しの耳ふう＆耳はぁ🫧極上のリラックスタイムで熟睡.。o○🎧｜tapping｜耳ふー｜脳マッサージ｜EarCleaning【アカシ・ニコ☻ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/C4FEFHhQogg/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-22T14:05:00Z",
-      "url": "https://www.youtube.com/watch?v=C4FEFHhQogg",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
+      "checkedAt": "2026-07-22T15:35:21.883Z",
       "status": "live"
     },
     {
@@ -46,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_Ex9eko3kV8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T13:40:00Z",
       "url": "https://www.youtube.com/watch?v=_Ex9eko3kV8",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
+      "checkedAt": "2026-07-22T15:35:21.883Z",
       "status": "live"
     }
   ],
@@ -64,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JxENR3anleo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=JxENR3anleo",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
+      "checkedAt": "2026-07-22T15:35:21.883Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
+      "checkedAt": "2026-07-22T15:35:21.883Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
+      "checkedAt": "2026-07-22T15:35:21.883Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
+      "checkedAt": "2026-07-22T15:35:21.883Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
+      "checkedAt": "2026-07-22T15:35:21.883Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-22T15:30:49.020Z",
+      "checkedAt": "2026-07-22T15:35:21.883Z",
       "status": "upcoming"
     }
   ]
