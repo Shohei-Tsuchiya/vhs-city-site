@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T15:55:25.470Z",
+  "updatedAt": "2026-07-22T16:00:46.700Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,43 +14,11 @@
       "thumbnail": "https://i.ytimg.com/vi/rCDnE9cbGo4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-22T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=rCDnE9cbGo4",
-      "checkedAt": "2026-07-22T15:55:25.223Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:泡喰はわこ",
-      "name": "泡喰はわこ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
-      "handle": "hawako_meiwaku",
-      "videoId": "_Ex9eko3kV8",
-      "title": "【SILENT HILL f】サイレントヒル！3週目もお散歩プレイ⁉️⁉️21日目【泡喰はわこ/ビバップ高校 /迷電ワークス 】",
-      "thumbnail": "https://i.ytimg.com/vi/_Ex9eko3kV8/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-22T13:40:00Z",
-      "url": "https://www.youtube.com/watch?v=_Ex9eko3kV8",
-      "checkedAt": "2026-07-22T15:55:25.223Z",
+      "checkedAt": "2026-07-22T16:00:46.699Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "goraku:落乃いなほ",
-      "name": "落乃いなほ",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
-      "handle": "落乃いなほ",
-      "videoId": "4KO0sU3HHgo",
-      "title": "Hal yang agak sulit diterima VtuberJP di Indonesia 😭",
-      "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-22T15:55:25.223Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "aogiri:我部りえる",
       "name": "我部りえる",
@@ -64,7 +32,23 @@
       "thumbnail": "https://i.ytimg.com/vi/JxENR3anleo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=JxENR3anleo",
-      "checkedAt": "2026-07-22T15:55:25.223Z",
+      "checkedAt": "2026-07-22T16:00:46.699Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:落乃いなほ",
+      "name": "落乃いなほ",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
+      "handle": "落乃いなほ",
+      "videoId": "4KO0sU3HHgo",
+      "title": "Hal yang agak sulit diterima VtuberJP di Indonesia 😭",
+      "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
+      "checkedAt": "2026-07-22T16:00:46.699Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-22T15:55:25.223Z",
+      "checkedAt": "2026-07-22T16:00:46.700Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-22T15:55:25.223Z",
+      "checkedAt": "2026-07-22T16:00:46.700Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-22T15:55:25.223Z",
+      "checkedAt": "2026-07-22T16:00:46.700Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-22T15:55:25.223Z",
+      "checkedAt": "2026-07-22T16:00:46.700Z",
       "status": "upcoming"
     }
   ]
