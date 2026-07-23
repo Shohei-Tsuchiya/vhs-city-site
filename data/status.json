@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T07:15:25.740Z",
+  "updatedAt": "2026-07-23T07:20:36.782Z",
   "live": [],
   "upcoming": [
     {
@@ -15,39 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/MXCgAvZzOzo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=MXCgAvZzOzo",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:山黒音玄",
-      "name": "山黒音玄",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
-      "handle": "nekuro0412",
-      "videoId": "jGtgbC19XT0",
-      "title": "ワイの部屋も見せるから等価交換【 お部屋訪問 / 告知 】 #山黒音玄",
-      "thumbnail": "https://i.ytimg.com/vi/jGtgbC19XT0/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=jGtgbC19XT0",
-      "checkedAt": "2026-07-23T07:15:25.739Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:うる虎がーる",
-      "name": "うる虎がーる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCdi5pj0MDQ-3LFNUFIFmD8w",
-      "handle": "urutoragaru0831",
-      "videoId": "4sEvMTedfoY",
-      "title": "【 ホロドリ 】 あおぎり高校だけどホロライブ好きだからやるトラあああああ！！！【 うる虎がーる / あおぎり高校 】",
-      "thumbnail": "https://i.ytimg.com/vi/4sEvMTedfoY/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=4sEvMTedfoY",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +31,39 @@
       "thumbnail": "https://i.ytimg.com/vi/9BmpDgWLKQQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=9BmpDgWLKQQ",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:山黒音玄",
+      "name": "山黒音玄",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
+      "handle": "nekuro0412",
+      "videoId": "jGtgbC19XT0",
+      "title": "ワイの部屋も見せるから等価交換【 お部屋訪問 / 告知 】 #山黒音玄",
+      "thumbnail": "https://i.ytimg.com/vi/jGtgbC19XT0/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=jGtgbC19XT0",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:うる虎がーる",
+      "name": "うる虎がーる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCdi5pj0MDQ-3LFNUFIFmD8w",
+      "handle": "urutoragaru0831",
+      "videoId": "4sEvMTedfoY",
+      "title": "【 ホロドリ 】 あおぎり高校だけどホロライブ好きだからやるトラあああああ！！！【 うる虎がーる / あおぎり高校 】",
+      "thumbnail": "https://i.ytimg.com/vi/4sEvMTedfoY/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=4sEvMTedfoY",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JxENR3anleo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=JxENR3anleo",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/d0IdWGitMjA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=d0IdWGitMjA",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/slVKwHrhiW8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=slVKwHrhiW8",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +191,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.782Z",
       "status": "upcoming"
     },
     {
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-23T07:15:25.740Z",
+      "checkedAt": "2026-07-23T07:20:36.781Z",
       "status": "upcoming"
     }
   ]
