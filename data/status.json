@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T14:55:24.845Z",
+  "updatedAt": "2026-07-23T15:00:48.581Z",
   "live": [
     {
       "memberKey": "aogiri:音霊魂子",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GLlNZbdnSrw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=GLlNZbdnSrw",
-      "checkedAt": "2026-07-23T14:55:24.829Z",
+      "checkedAt": "2026-07-23T15:00:48.563Z",
       "status": "live"
     },
     {
@@ -30,23 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bthdYj6sPCU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=bthdYj6sPCU",
-      "checkedAt": "2026-07-23T14:55:24.829Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "aogiri:月赴ゐぶき",
-      "name": "月赴ゐぶき",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCxy3KNlLQiN64tikKipnQNg",
-      "handle": "ibuki0831",
-      "videoId": "d0IdWGitMjA",
-      "title": "【Minecraft】 姫を守れる気がしないエンドラ討伐【我部りえる/月赴ゐぶき/あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/d0IdWGitMjA/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=d0IdWGitMjA",
-      "checkedAt": "2026-07-23T14:55:24.829Z",
+      "checkedAt": "2026-07-23T15:00:48.564Z",
       "status": "live"
     },
     {
@@ -62,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JsIc5Ke02C4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:05:00Z",
       "url": "https://www.youtube.com/watch?v=JsIc5Ke02C4",
-      "checkedAt": "2026-07-23T14:55:24.828Z",
+      "checkedAt": "2026-07-23T15:00:48.564Z",
       "status": "live"
     },
     {
@@ -78,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/slVKwHrhiW8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=slVKwHrhiW8",
-      "checkedAt": "2026-07-23T14:55:24.829Z",
+      "checkedAt": "2026-07-23T15:00:48.564Z",
       "status": "live"
     }
   ],
@@ -96,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-23T14:55:24.828Z",
+      "checkedAt": "2026-07-23T15:00:48.564Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-23T14:55:24.829Z",
+      "checkedAt": "2026-07-23T15:00:48.564Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-23T14:55:24.829Z",
+      "checkedAt": "2026-07-23T15:00:48.564Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-23T14:55:24.829Z",
+      "checkedAt": "2026-07-23T15:00:48.564Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-23T14:55:24.829Z",
+      "checkedAt": "2026-07-23T15:00:48.564Z",
       "status": "upcoming"
     }
   ]
