@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-07-23T14:10:26.824Z",
+  "updatedAt": "2026-07-23T14:15:29.496Z",
   "live": [
+    {
+      "memberKey": "aogiri:音霊魂子",
+      "name": "音霊魂子",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCt7_srJeiw55kTcK7M9ID6g",
+      "handle": "tamako0212",
+      "videoId": "GLlNZbdnSrw",
+      "title": "【らーめんシミュレーター】好物を作り上げて気持ち良くなるのだ💜",
+      "thumbnail": "https://i.ytimg.com/vi/GLlNZbdnSrw/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=GLlNZbdnSrw",
+      "checkedAt": "2026-07-23T14:15:29.482Z",
+      "status": "live"
+    },
     {
       "memberKey": "aogiri:山黒音玄",
       "name": "山黒音玄",
@@ -14,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bthdYj6sPCU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=bthdYj6sPCU",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.482Z",
       "status": "live"
     },
     {
@@ -30,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JxENR3anleo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=JxENR3anleo",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "live"
     },
     {
@@ -46,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LCDSpHU0nwA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=LCDSpHU0nwA",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "live"
     },
     {
@@ -62,23 +78,7 @@
       "thumbnail": "https://i.ytimg.com/vi/d0IdWGitMjA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=d0IdWGitMjA",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "aogiri:音霊魂子",
-      "name": "音霊魂子",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCt7_srJeiw55kTcK7M9ID6g",
-      "handle": "tamako0212",
-      "videoId": "GLlNZbdnSrw",
-      "title": "【らーめんシミュレーター】好物を作り上げて気持ち良くなるのだ💜",
-      "thumbnail": "https://i.ytimg.com/vi/GLlNZbdnSrw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=GLlNZbdnSrw",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "live"
     },
     {
@@ -94,7 +94,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JsIc5Ke02C4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:05:00Z",
       "url": "https://www.youtube.com/watch?v=JsIc5Ke02C4",
-      "checkedAt": "2026-07-23T14:10:26.809Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "live"
     },
     {
@@ -110,7 +110,7 @@
       "thumbnail": "https://i.ytimg.com/vi/slVKwHrhiW8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=slVKwHrhiW8",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "live"
     },
     {
@@ -126,7 +126,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cA-sFBrzkwc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=cA-sFBrzkwc",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "live"
     },
     {
@@ -142,7 +142,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "live"
     }
   ],
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-23T14:10:26.810Z",
+      "checkedAt": "2026-07-23T14:15:29.483Z",
       "status": "upcoming"
     }
   ]
