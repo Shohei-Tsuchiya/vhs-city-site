@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T16:05:24.127Z",
+  "updatedAt": "2026-07-23T16:10:30.175Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,11 +14,27 @@
       "thumbnail": "https://i.ytimg.com/vi/bthdYj6sPCU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=bthdYj6sPCU",
-      "checkedAt": "2026-07-23T16:05:24.127Z",
+      "checkedAt": "2026-07-23T16:10:30.175Z",
       "status": "live"
     }
   ],
   "upcoming": [
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "v2XN-Ge95Ww",
+      "title": "【雑談】数寄屋bar開店！【 #数寄屋橋れんげ / VTuber 】",
+      "thumbnail": "https://i.ytimg.com/vi/v2XN-Ge95Ww/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-24T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=v2XN-Ge95Ww",
+      "checkedAt": "2026-07-23T16:10:30.174Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "goraku:落乃いなほ",
       "name": "落乃いなほ",
@@ -32,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-23T16:05:24.127Z",
+      "checkedAt": "2026-07-23T16:10:30.175Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-23T16:05:24.127Z",
+      "checkedAt": "2026-07-23T16:10:30.175Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-23T16:05:24.127Z",
+      "checkedAt": "2026-07-23T16:10:30.175Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-23T16:05:24.127Z",
+      "checkedAt": "2026-07-23T16:10:30.175Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-23T16:05:24.127Z",
+      "checkedAt": "2026-07-23T16:10:30.175Z",
       "status": "upcoming"
     }
   ]
