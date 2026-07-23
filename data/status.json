@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T22:40:25.621Z",
+  "updatedAt": "2026-07-23T22:45:25.943Z",
   "live": [
     {
       "memberKey": "bebop:泡喰はわこ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5i1jzlLGHBU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T19:45:00Z",
       "url": "https://www.youtube.com/watch?v=5i1jzlLGHBU",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "live"
     }
   ],
@@ -32,23 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ORJPSc7_ymk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=ORJPSc7_ymk",
-      "checkedAt": "2026-07-23T22:40:25.620Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:数寄屋橋れんげ",
-      "name": "数寄屋橋れんげ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
-      "handle": "renge_morinyan",
-      "videoId": "v2XN-Ge95Ww",
-      "title": "【雑談】数寄屋bar開店！【 #数寄屋橋れんげ / VTuber 】",
-      "thumbnail": "https://i.ytimg.com/vi/v2XN-Ge95Ww/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-24T09:00:00Z",
-      "url": "https://www.youtube.com/watch?v=v2XN-Ge95Ww",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +48,23 @@
       "thumbnail": "https://i.ytimg.com/vi/f46SOTgsO7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=f46SOTgsO7s",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "v2XN-Ge95Ww",
+      "title": "【雑談】数寄屋bar開店！【 #数寄屋橋れんげ / VTuber 】",
+      "thumbnail": "https://i.ytimg.com/vi/v2XN-Ge95Ww/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-24T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=v2XN-Ge95Ww",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-23T22:40:25.621Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-23T22:40:25.620Z",
+      "checkedAt": "2026-07-23T22:45:25.943Z",
       "status": "upcoming"
     }
   ]
