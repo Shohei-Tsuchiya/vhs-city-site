@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-07-23T09:30:33.839Z",
+  "updatedAt": "2026-07-23T09:35:25.278Z",
   "live": [
-    {
-      "memberKey": "bebop:微睡いちの",
-      "name": "微睡いちの",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
-      "handle": "ichino_morinyan",
-      "videoId": "MXCgAvZzOzo",
-      "title": "【FF6】完全初見🔰.ᐟ.ᐟ幻獣の谷から🐱👉 【微睡いちの /#雑談】※ネタバレ注意",
-      "thumbnail": "https://i.ytimg.com/vi/MXCgAvZzOzo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T08:00:00Z",
-      "url": "https://www.youtube.com/watch?v=MXCgAvZzOzo",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
-      "status": "live"
-    },
     {
       "memberKey": "bebop:泡喰はわこ",
       "name": "泡喰はわこ",
@@ -30,11 +14,43 @@
       "thumbnail": "https://i.ytimg.com/vi/L4g3XQqD97k/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T07:30:00Z",
       "url": "https://www.youtube.com/watch?v=L4g3XQqD97k",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "bebop:微睡いちの",
+      "name": "微睡いちの",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
+      "handle": "ichino_morinyan",
+      "videoId": "MXCgAvZzOzo",
+      "title": "【FF6】完全初見🔰.ᐟ.ᐟ幻獣の谷から🐱👉 【微睡いちの /#雑談】※ネタバレ注意",
+      "thumbnail": "https://i.ytimg.com/vi/MXCgAvZzOzo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T08:00:00Z",
+      "url": "https://www.youtube.com/watch?v=MXCgAvZzOzo",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "live"
     }
   ],
   "upcoming": [
+    {
+      "memberKey": "yugiri:篠崎シャノン",
+      "name": "篠崎シャノン",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UChrnxv-6qAikn3_oUwysZWg",
+      "handle": "ShinozakiShanon",
+      "videoId": "9BmpDgWLKQQ",
+      "title": "【歌枠】誰かに感謝したくなる歌枠˚💐﹏Singing Stream 【ゆうぎり高校 / 篠崎シャノン】#vtuber #vsinger",
+      "thumbnail": "https://i.ytimg.com/vi/9BmpDgWLKQQ/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=9BmpDgWLKQQ",
+      "checkedAt": "2026-07-23T09:35:25.261Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "aogiri:山黒音玄",
       "name": "山黒音玄",
@@ -48,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jGtgbC19XT0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=jGtgbC19XT0",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -64,23 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4sEvMTedfoY/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=4sEvMTedfoY",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:篠崎シャノン",
-      "name": "篠崎シャノン",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UChrnxv-6qAikn3_oUwysZWg",
-      "handle": "ShinozakiShanon",
-      "videoId": "9BmpDgWLKQQ",
-      "title": "【歌枠】誰かに感謝したくなる歌枠˚💐﹏Singing Stream 【ゆうぎり高校 / 篠崎シャノン】#vtuber #vsinger",
-      "thumbnail": "https://i.ytimg.com/vi/9BmpDgWLKQQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=9BmpDgWLKQQ",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bthdYj6sPCU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=bthdYj6sPCU",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FFKD4eU7xTE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=FFKD4eU7xTE",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JxENR3anleo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=JxENR3anleo",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/d0IdWGitMjA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=d0IdWGitMjA",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/slVKwHrhiW8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=slVKwHrhiW8",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.261Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.261Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.262Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-23T09:30:33.820Z",
+      "checkedAt": "2026-07-23T09:35:25.261Z",
       "status": "upcoming"
     }
   ]
