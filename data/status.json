@@ -1,7 +1,6 @@
 {
-  "updatedAt": "2026-07-23T23:30:34.996Z",
-  "live": [],
-  "upcoming": [
+  "updatedAt": "2026-07-23T23:35:22.905Z",
+  "live": [
     {
       "memberKey": "goraku:壱神ふらん",
       "name": "壱神ふらん",
@@ -15,9 +14,11 @@
       "thumbnail": "https://i.ytimg.com/vi/50_Af5OKcYA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T23:30:00Z",
       "url": "https://www.youtube.com/watch?v=50_Af5OKcYA",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
-      "status": "upcoming"
-    },
+      "checkedAt": "2026-07-23T23:35:22.905Z",
+      "status": "live"
+    }
+  ],
+  "upcoming": [
     {
       "memberKey": "bebop:微睡いちの",
       "name": "微睡いちの",
@@ -31,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ORJPSc7_ymk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=ORJPSc7_ymk",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/f46SOTgsO7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=f46SOTgsO7s",
-      "checkedAt": "2026-07-23T23:30:34.995Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/v2XN-Ge95Ww/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=v2XN-Ge95Ww",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.904Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-23T23:30:34.996Z",
+      "checkedAt": "2026-07-23T23:35:22.905Z",
       "status": "upcoming"
     }
   ]
