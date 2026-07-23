@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T13:10:25.410Z",
+  "updatedAt": "2026-07-23T13:15:31.242Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bthdYj6sPCU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=bthdYj6sPCU",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -30,7 +30,23 @@
       "thumbnail": "https://i.ytimg.com/vi/JxENR3anleo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=JxENR3anleo",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "aogiri:春雨麗女",
+      "name": "春雨麗女",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
+      "handle": "urame0711",
+      "videoId": "LCDSpHU0nwA",
+      "title": "【めっちゃカメレオン】皆さんには今から命がけのかくれんぼをしてもらいます、っていう導入【春雨麗女/甘葛すもあ/常勝無敗ぐぬぬ/柚原いづみ/天開司/歌衣メイカ #あおぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/LCDSpHU0nwA/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=LCDSpHU0nwA",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -46,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/d0IdWGitMjA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=d0IdWGitMjA",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -62,7 +78,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FFKD4eU7xTE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=FFKD4eU7xTE",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -78,7 +94,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JsIc5Ke02C4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:05:00Z",
       "url": "https://www.youtube.com/watch?v=JsIc5Ke02C4",
-      "checkedAt": "2026-07-23T13:10:25.396Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -94,7 +110,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cA-sFBrzkwc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=cA-sFBrzkwc",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -110,7 +126,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tx0xQVDfHpE/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=tx0xQVDfHpE",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -126,7 +142,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9BmpDgWLKQQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=9BmpDgWLKQQ",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -142,7 +158,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xnVOAEh_HXo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=xnVOAEh_HXo",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     },
     {
@@ -158,25 +174,25 @@
       "thumbnail": "https://i.ytimg.com/vi/SOz_5uxkHj0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T11:00:43Z",
       "url": "https://www.youtube.com/watch?v=SOz_5uxkHj0",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "live"
     }
   ],
   "upcoming": [
     {
-      "memberKey": "aogiri:春雨麗女",
-      "name": "春雨麗女",
+      "memberKey": "aogiri:音霊魂子",
+      "name": "音霊魂子",
       "groupId": "aogiri",
       "groupName": "あおぎり高校",
       "groupColor": "#7db8ff",
-      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
-      "handle": "urame0711",
-      "videoId": "LCDSpHU0nwA",
-      "title": "【めっちゃカメレオン】皆さんには今から命がけのかくれんぼをしてもらいます、っていう導入【春雨麗女/甘葛すもあ/常勝無敗ぐぬぬ/柚原いづみ/天開司/歌衣メイカ #あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/LCDSpHU0nwA/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=LCDSpHU0nwA",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "channelId": "UCt7_srJeiw55kTcK7M9ID6g",
+      "handle": "tamako0212",
+      "videoId": "GLlNZbdnSrw",
+      "title": "【らーめんシミュレーター】好物を作り上げて気持ち良くなるのだ💜",
+      "thumbnail": "https://i.ytimg.com/vi/GLlNZbdnSrw/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-23T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=GLlNZbdnSrw",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "upcoming"
     },
     {
@@ -192,23 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/slVKwHrhiW8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-23T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=slVKwHrhiW8",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:音霊魂子",
-      "name": "音霊魂子",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCt7_srJeiw55kTcK7M9ID6g",
-      "handle": "tamako0212",
-      "videoId": "GLlNZbdnSrw",
-      "title": "【らーめんシミュレーター】好物を作り上げて気持ち良くなるのだ💜",
-      "thumbnail": "https://i.ytimg.com/vi/GLlNZbdnSrw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=GLlNZbdnSrw",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-23T13:10:25.397Z",
+      "checkedAt": "2026-07-23T13:15:31.198Z",
       "status": "upcoming"
     }
   ]
