@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T08:25:23.886Z",
+  "updatedAt": "2026-07-24T08:30:34.864Z",
   "live": [
     {
       "memberKey": "bebop:微睡いちの",
@@ -14,27 +14,11 @@
       "thumbnail": "https://i.ytimg.com/vi/ORJPSc7_ymk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=ORJPSc7_ymk",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "bebop:数寄屋橋れんげ",
-      "name": "数寄屋橋れんげ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
-      "handle": "renge_morinyan",
-      "videoId": "v2XN-Ge95Ww",
-      "title": "【雑談】数寄屋bar開店！【 #数寄屋橋れんげ / VTuber 】",
-      "thumbnail": "https://i.ytimg.com/vi/v2XN-Ge95Ww/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-24T09:00:00Z",
-      "url": "https://www.youtube.com/watch?v=v2XN-Ge95Ww",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "aogiri:山黒音玄",
       "name": "山黒音玄",
@@ -48,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/f46SOTgsO7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=f46SOTgsO7s",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +48,23 @@
       "thumbnail": "https://i.ytimg.com/vi/zH59Mhq7-WQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=zH59Mhq7-WQ",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:数寄屋橋れんげ",
+      "name": "数寄屋橋れんげ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCBxgYX7hJy6TZVvLXOEQrWw",
+      "handle": "renge_morinyan",
+      "videoId": "v2XN-Ge95Ww",
+      "title": "【雑談】数寄屋bar開店！【 #数寄屋橋れんげ / VTuber 】",
+      "thumbnail": "https://i.ytimg.com/vi/v2XN-Ge95Ww/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-24T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=v2XN-Ge95Ww",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -80,23 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x6L4-QZmiG4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=x6L4-QZmiG4",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:落乃いなほ",
-      "name": "落乃いなほ",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
-      "handle": "落乃いなほ",
-      "videoId": "4KO0sU3HHgo",
-      "title": "Hal yang agak sulit diterima VtuberJP di Indonesia 😭",
-      "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-24T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Nl93aVm4w-8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=Nl93aVm4w-8",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pzml374mzeg/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=pzml374mzeg",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RuLEtX_haAA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=RuLEtX_haAA",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sfv0QUQGtGU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=sfv0QUQGtGU",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0lV3McQ1R74/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=0lV3McQ1R74",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +176,23 @@
       "thumbnail": "https://i.ytimg.com/vi/q8AzQLUy6UI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=q8AzQLUy6UI",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:落乃いなほ",
+      "name": "落乃いなほ",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
+      "handle": "落乃いなほ",
+      "videoId": "4KO0sU3HHgo",
+      "title": "Hal yang agak sulit diterima VtuberJP di Indonesia 😭",
+      "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-24T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     },
     {
@@ -288,7 +288,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-24T08:25:23.886Z",
+      "checkedAt": "2026-07-24T08:30:34.864Z",
       "status": "upcoming"
     }
   ]
