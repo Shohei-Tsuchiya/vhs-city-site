@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-07-24T01:15:25.398Z",
-  "live": [
-    {
-      "memberKey": "goraku:壱神ふらん",
-      "name": "壱神ふらん",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxo7YTxJQq0dGeLjm4kZKEQ",
-      "handle": "Isshin_Fran",
-      "videoId": "50_Af5OKcYA",
-      "title": "【#家スロ/#防振り】おはスロ配信‼#雑談 しながら防振り設定6をぶん回す‼【#壱神ふらん/#新人Vtuber】",
-      "thumbnail": "https://i.ytimg.com/vi/50_Af5OKcYA/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-23T23:30:00Z",
-      "url": "https://www.youtube.com/watch?v=50_Af5OKcYA",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
-      "status": "live"
-    }
-  ],
+  "updatedAt": "2026-07-24T01:20:27.451Z",
+  "live": [],
   "upcoming": [
     {
       "memberKey": "bebop:微睡いちの",
@@ -32,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ORJPSc7_ymk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=ORJPSc7_ymk",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/f46SOTgsO7s/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=f46SOTgsO7s",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/v2XN-Ge95Ww/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=v2XN-Ge95Ww",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4KO0sU3HHgo/mqdefault_live.jpg",
       "scheduledStart": "2026-07-24T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=4KO0sU3HHgo",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pVVaelj9V_A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=pVVaelj9V_A",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-24T01:15:25.397Z",
+      "checkedAt": "2026-07-24T01:20:27.451Z",
       "status": "upcoming"
     }
   ]
