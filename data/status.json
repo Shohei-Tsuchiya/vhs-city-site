@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T10:45:25.106Z",
+  "updatedAt": "2026-07-25T10:50:27.350Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BerWS2rvH_g/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=BerWS2rvH_g",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Pkaz-hgIfgA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=Pkaz-hgIfgA",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "live"
     },
     {
@@ -46,27 +46,11 @@
       "thumbnail": "https://i.ytimg.com/vi/wNz-S2RbR8Q/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=wNz-S2RbR8Q",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "aogiri:栗駒こまる",
-      "name": "栗駒こまる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCXXnWssOLdB2jg-4CznteAA",
-      "handle": "komaru0814",
-      "videoId": "SGvR0hkyDpA",
-      "title": "【実写】どの子を攻略する❓【たまこま #音霊魂子 #栗駒こまる #ぷわぷわぽぷら #月赴ゐぶき  #八十科むじな  #あおぎり高校 #vtuber 】",
-      "thumbnail": "https://i.ytimg.com/vi/SGvR0hkyDpA/mqdefault.jpg",
-      "scheduledStart": "2026-07-25T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=SGvR0hkyDpA",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "bebop:甘葛すもあ",
       "name": "甘葛すもあ",
@@ -80,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/DapyLR67zUU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=DapyLR67zUU",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:栗駒こまる",
+      "name": "栗駒こまる",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCXXnWssOLdB2jg-4CznteAA",
+      "handle": "komaru0814",
+      "videoId": "SGvR0hkyDpA",
+      "title": "【実写】どの子を攻略する❓【たまこま #音霊魂子 #栗駒こまる #ぷわぷわぽぷら #月赴ゐぶき  #八十科むじな  #あおぎり高校 #vtuber 】",
+      "thumbnail": "https://i.ytimg.com/vi/SGvR0hkyDpA/mqdefault.jpg",
+      "scheduledStart": "2026-07-25T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=SGvR0hkyDpA",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7xP3Q_ORbsc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=7xP3Q_ORbsc",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i7KE2CefT3w/mqdefault_live.jpg",
       "scheduledStart": "2026-07-25T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=i7KE2CefT3w",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6q13VgJJLU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=l6q13VgJJLU",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/g3mQQyyqMBI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=g3mQQyyqMBI",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-25T10:45:25.087Z",
+      "checkedAt": "2026-07-25T10:50:27.173Z",
       "status": "upcoming"
     }
   ]
