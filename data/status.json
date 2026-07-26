@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T17:00:41.859Z",
+  "updatedAt": "2026-07-26T17:05:22.519Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6AVjGSPz6Uc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T17:00:00Z",
       "url": "https://www.youtube.com/watch?v=6AVjGSPz6Uc",
-      "checkedAt": "2026-07-26T17:00:41.725Z",
+      "checkedAt": "2026-07-26T17:05:22.394Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nlKQpntj3wI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-26T13:50:00Z",
       "url": "https://www.youtube.com/watch?v=nlKQpntj3wI",
-      "checkedAt": "2026-07-26T17:00:41.725Z",
+      "checkedAt": "2026-07-26T17:05:22.394Z",
       "status": "live"
     }
   ],
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-26T17:00:41.725Z",
+      "checkedAt": "2026-07-26T17:05:22.394Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-26T17:00:41.725Z",
+      "checkedAt": "2026-07-26T17:05:22.394Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-26T17:00:41.725Z",
+      "checkedAt": "2026-07-26T17:05:22.394Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-26T17:00:41.725Z",
+      "checkedAt": "2026-07-26T17:05:22.394Z",
       "status": "upcoming"
     }
   ]
