@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T20:20:23.568Z",
+  "updatedAt": "2026-07-26T20:25:20.231Z",
   "live": [],
   "upcoming": [
     {
@@ -15,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Kmy2SjYQ17o/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=Kmy2SjYQ17o",
-      "checkedAt": "2026-07-26T20:20:23.567Z",
+      "checkedAt": "2026-07-26T20:25:20.230Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-26T20:20:23.568Z",
+      "checkedAt": "2026-07-26T20:25:20.230Z",
       "status": "upcoming"
     },
     {
@@ -47,23 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-26T20:20:23.568Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:石狩あかり",
-      "name": "石狩あかり",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
-      "handle": "akari0415",
-      "videoId": "iu-WsYcF4ts",
-      "title": "【サブノーティカ２】イカってまだ倒せないの…？？？？？？【石狩あかり/猫乃ユキノ】",
-      "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-28T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-26T20:20:23.568Z",
+      "checkedAt": "2026-07-26T20:25:20.230Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +63,23 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-26T20:20:23.568Z",
+      "checkedAt": "2026-07-26T20:25:20.230Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:石狩あかり",
+      "name": "石狩あかり",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
+      "handle": "akari0415",
+      "videoId": "iu-WsYcF4ts",
+      "title": "【サブノーティカ２】イカってまだ倒せないの…？？？？？？【石狩あかり/猫乃ユキノ】",
+      "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-28T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
+      "checkedAt": "2026-07-26T20:25:20.230Z",
       "status": "upcoming"
     }
   ]
