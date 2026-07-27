@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T15:45:29.478Z",
+  "updatedAt": "2026-07-27T15:50:29.424Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vJwK4TwBm6A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T15:00:00Z",
       "url": "https://www.youtube.com/watch?v=vJwK4TwBm6A",
-      "checkedAt": "2026-07-27T15:45:29.478Z",
+      "checkedAt": "2026-07-27T15:50:29.424Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-27T15:45:29.478Z",
+      "checkedAt": "2026-07-27T15:50:29.424Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-27T15:45:29.478Z",
+      "checkedAt": "2026-07-27T15:50:29.424Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-27T15:45:29.478Z",
+      "checkedAt": "2026-07-27T15:50:29.424Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-27T15:45:29.478Z",
+      "checkedAt": "2026-07-27T15:50:29.424Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-27T15:45:29.478Z",
+      "checkedAt": "2026-07-27T15:50:29.424Z",
       "status": "upcoming"
     }
   ]
