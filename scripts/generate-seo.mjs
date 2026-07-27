@@ -349,16 +349,23 @@ ${sections}
 }
 
 function buildSitemap(urls) {
-  const body = urls
-    .map(
-      (loc) => `  <url>
+  const lastmod = new Date().toISOString().slice(0, 10);
+  const uniqueUrls = [...new Set(urls)];
+  const body = uniqueUrls
+    .map((loc) => {
+      const isHome = loc.endsWith('/') || loc.endsWith('/index.html');
+      const isMember = loc.includes('/members/');
+      const priority = isHome ? '1.0' : isMember ? '0.8' : '0.9';
+      return `  <url>
     <loc>${escapeHtml(loc)}</loc>
-    <changefreq>hourly</changefreq>
-    <priority>${loc.endsWith('/') || loc.endsWith('/index.html') ? '1.0' : loc.includes('/members/') ? '0.8' : '0.9'}</priority>
-  </url>`
-    )
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>${priority}</priority>
+  </url>`;
+    })
     .join('\n');
 
+  // UTF-8 without BOM — GitHub Pages / Googlebot 互換性のため
   writeFileSync(
     join(ROOT, 'sitemap.xml'),
     `<?xml version="1.0" encoding="UTF-8"?>
@@ -368,6 +375,9 @@ ${body}
 `,
     'utf8'
   );
+
+  // Search Console が XML を取れない場合の代替（Google はテキスト sitemap も受理）
+  writeFileSync(join(ROOT, 'sitemap.txt'), `${uniqueUrls.join('\n')}\n`, 'utf8');
 }
 
 function buildRobotsTxt() {
@@ -377,6 +387,7 @@ function buildRobotsTxt() {
 Allow: /
 
 Sitemap: ${BASE_URL}/sitemap.xml
+Sitemap: ${BASE_URL}/sitemap.txt
 `,
     'utf8'
   );
