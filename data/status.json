@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-27T20:50:25.320Z",
+  "updatedAt": "2026-07-27T20:55:24.996Z",
   "live": [],
   "upcoming": [
+    {
+      "memberKey": "bebop:微睡いちの",
+      "name": "微睡いちの",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
+      "handle": "ichino_morinyan",
+      "videoId": "zx9LJNXoCvw",
+      "title": "【誕生日】？【微睡いちの】",
+      "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-28T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
+      "checkedAt": "2026-07-27T20:55:24.995Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "aogiri:石狩あかり",
       "name": "石狩あかり",
@@ -15,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     },
     {
@@ -31,39 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avH1R0MmlIk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=avH1R0MmlIk",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:微睡いちの",
-      "name": "微睡いちの",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
-      "handle": "ichino_morinyan",
-      "videoId": "zx9LJNXoCvw",
-      "title": "【誕生日】？【微睡いちの】",
-      "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-28T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "jbhgcQoHaA8",
-      "title": "【雑談】収録にも行ったし、〇〇〇先輩とごはん行った、充実",
-      "thumbnail": "https://i.ytimg.com/vi/jbhgcQoHaA8/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-29T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=jbhgcQoHaA8",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +63,23 @@
       "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.995Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:LN_へるぷ.exe",
+      "name": "LN_へるぷ.exe",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
+      "handle": "LN_Help_exe",
+      "videoId": "jbhgcQoHaA8",
+      "title": "【雑談】収録にも行ったし、〇〇〇先輩とごはん行った、充実",
+      "thumbnail": "https://i.ytimg.com/vi/jbhgcQoHaA8/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-29T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=jbhgcQoHaA8",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IShUOpG46hw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=IShUOpG46hw",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qH1CgOU88n4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=qH1CgOU88n4",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OMr24SpXwgE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=OMr24SpXwgE",
-      "checkedAt": "2026-07-27T20:50:25.320Z",
+      "checkedAt": "2026-07-27T20:55:24.996Z",
       "status": "upcoming"
     }
   ]
