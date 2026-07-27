@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-07-27T16:00:43.166Z",
-  "live": [
-    {
-      "memberKey": "aogiri:山黒音玄",
-      "name": "山黒音玄",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
-      "handle": "nekuro0412",
-      "videoId": "vJwK4TwBm6A",
-      "title": "【広告なしASMR/KU100】ゼロ距離で⋯ぬるぬる♡トロトロ♡ふぅふぅ♡【ねくろ/Ear Cleaning/耳朵治愈】",
-      "thumbnail": "https://i.ytimg.com/vi/vJwK4TwBm6A/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-27T15:00:00Z",
-      "url": "https://www.youtube.com/watch?v=vJwK4TwBm6A",
-      "checkedAt": "2026-07-27T16:00:43.165Z",
-      "status": "live"
-    }
-  ],
+  "updatedAt": "2026-07-27T16:05:24.390Z",
+  "live": [],
   "upcoming": [
     {
       "memberKey": "aogiri:石狩あかり",
@@ -32,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-27T16:00:43.165Z",
+      "checkedAt": "2026-07-27T16:05:24.390Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-27T16:00:43.166Z",
+      "checkedAt": "2026-07-27T16:05:24.390Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-27T16:00:43.166Z",
+      "checkedAt": "2026-07-27T16:05:24.390Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-27T16:00:43.166Z",
+      "checkedAt": "2026-07-27T16:05:24.389Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-27T16:00:43.166Z",
+      "checkedAt": "2026-07-27T16:05:24.389Z",
       "status": "upcoming"
     }
   ]
