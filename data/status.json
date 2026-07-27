@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T16:30:35.668Z",
+  "updatedAt": "2026-07-27T16:35:24.807Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I5QfyFbUeNM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T15:00:00Z",
       "url": "https://www.youtube.com/watch?v=I5QfyFbUeNM",
-      "checkedAt": "2026-07-27T16:30:35.667Z",
+      "checkedAt": "2026-07-27T16:35:24.806Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-27T16:30:35.667Z",
+      "checkedAt": "2026-07-27T16:35:24.807Z",
       "status": "upcoming"
     },
     {
@@ -48,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-27T16:30:35.668Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "AxLX7DZDFWk",
-      "title": "〖 ASMR 〗  今月のご褒美ゼロ距離♡お姉さんが君を気持ちよくしてあげる♡【耳かき/とんとん/吐息】",
-      "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-29T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-27T16:30:35.668Z",
+      "checkedAt": "2026-07-27T16:35:24.807Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,39 @@
       "thumbnail": "https://i.ytimg.com/vi/jbhgcQoHaA8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=jbhgcQoHaA8",
-      "checkedAt": "2026-07-27T16:30:35.668Z",
+      "checkedAt": "2026-07-27T16:35:24.806Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "AxLX7DZDFWk",
+      "title": "〖 ASMR 〗  今月のご褒美ゼロ距離♡お姉さんが君を気持ちよくしてあげる♡【耳かき/とんとん/吐息】",
+      "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-29T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
+      "checkedAt": "2026-07-27T16:35:24.807Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:運命メイナ",
+      "name": "運命メイナ",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCbsgSnDh12vTloogn0g6lPQ",
+      "handle": "DestinyMeina",
+      "videoId": "avMqUIyDc-g",
+      "title": "【ゆうぎり歌枠リレー】夏だ！ゆうぎりだ！デスティニーだ！【運命メイナ/ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-01T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
+      "checkedAt": "2026-07-27T16:35:24.806Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-27T16:30:35.668Z",
+      "checkedAt": "2026-07-27T16:35:24.806Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-27T16:30:35.668Z",
+      "checkedAt": "2026-07-27T16:35:24.806Z",
       "status": "upcoming"
     }
   ]
