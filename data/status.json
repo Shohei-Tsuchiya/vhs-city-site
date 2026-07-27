@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T13:25:22.814Z",
+  "updatedAt": "2026-07-27T13:30:40.968Z",
   "live": [
     {
       "memberKey": "aogiri:千代浦蝶美",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
+      "checkedAt": "2026-07-27T13:30:40.943Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RsUK7wQlvKM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=RsUK7wQlvKM",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "live"
     },
     {
@@ -46,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZkTBVUOQLbg/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T13:01:07Z",
       "url": "https://www.youtube.com/watch?v=ZkTBVUOQLbg",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "live"
     },
     {
@@ -62,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/E-KSuQR_YEM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=E-KSuQR_YEM",
-      "checkedAt": "2026-07-27T13:25:22.799Z",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "live"
     }
   ],
@@ -80,23 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vJwK4TwBm6A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=vJwK4TwBm6A",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:微睡いちの",
-      "name": "微睡いちの",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
-      "handle": "ichino_morinyan",
-      "videoId": "S2vYxzE5UiA",
-      "title": "【誕生日カウントダウン】0時まで一緒に！花火で迎えるお誕生日🐱👉 【微睡いちの / #オンライン線香花火】",
-      "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-27T14:30:00Z",
-      "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-27T13:25:22.799Z",
+      "checkedAt": "2026-07-27T13:30:40.943Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RgyvvnB-ofw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=RgyvvnB-ofw",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "upcoming"
     },
     {
@@ -123,12 +107,12 @@
       "groupColor": "#6ee7aa",
       "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
       "handle": "ichino_morinyan",
-      "videoId": "zx9LJNXoCvw",
-      "title": "【誕生日】？【微睡いちの】",
-      "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-28T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-27T13:25:22.799Z",
+      "videoId": "S2vYxzE5UiA",
+      "title": "【誕生日カウントダウン】0時まで一緒に！花火で迎えるお誕生日🐱👉 【微睡いちの / #オンライン線香花火】",
+      "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-27T14:30:00Z",
+      "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,23 @@
       "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
+      "checkedAt": "2026-07-27T13:30:40.943Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:微睡いちの",
+      "name": "微睡いちの",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
+      "handle": "ichino_morinyan",
+      "videoId": "zx9LJNXoCvw",
+      "title": "【誕生日】？【微睡いちの】",
+      "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-28T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-27T13:25:22.800Z",
+      "checkedAt": "2026-07-27T13:30:40.944Z",
       "status": "upcoming"
     }
   ]
