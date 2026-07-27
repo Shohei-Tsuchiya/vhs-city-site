@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-27T10:20:24.413Z",
+  "updatedAt": "2026-07-27T10:25:22.710Z",
   "live": [],
   "upcoming": [
+    {
+      "memberKey": "partner:従井ノラ",
+      "name": "従井ノラ",
+      "groupId": "partner",
+      "groupName": "パートナークリエイター",
+      "groupColor": "#f5db6e",
+      "channelId": "UCQYy35PowPpc6ImRH1TQgcw",
+      "handle": "nora_shitagai",
+      "videoId": "RsUK7wQlvKM",
+      "title": "【スト6初心者】地底杯敗北者、0から始めるスト６生活【スト6／従井ノラ】",
+      "thumbnail": "https://i.ytimg.com/vi/RsUK7wQlvKM/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-27T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=RsUK7wQlvKM",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "aogiri:千代浦蝶美",
       "name": "千代浦蝶美",
@@ -15,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bHknldXW5go/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=bHknldXW5go",
-      "checkedAt": "2026-07-27T10:20:24.413Z",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/E-KSuQR_YEM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=E-KSuQR_YEM",
-      "checkedAt": "2026-07-27T10:20:24.413Z",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vJwK4TwBm6A/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=vJwK4TwBm6A",
-      "checkedAt": "2026-07-27T10:20:24.413Z",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
       "status": "upcoming"
     },
     {
@@ -63,23 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S2vYxzE5UiA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-27T14:30:00Z",
       "url": "https://www.youtube.com/watch?v=S2vYxzE5UiA",
-      "checkedAt": "2026-07-27T10:20:24.413Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:石狩あかり",
-      "name": "石狩あかり",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
-      "handle": "akari0415",
-      "videoId": "iu-WsYcF4ts",
-      "title": "【サブノーティカ２】イカってまだ倒せないの…？？？？？？【石狩あかり/猫乃ユキノ】",
-      "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-28T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-27T10:20:24.413Z",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +95,23 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-27T10:20:24.413Z",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:石狩あかり",
+      "name": "石狩あかり",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
+      "handle": "akari0415",
+      "videoId": "iu-WsYcF4ts",
+      "title": "【サブノーティカ２】イカってまだ倒せないの…？？？？？？【石狩あかり/猫乃ユキノ】",
+      "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-28T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-27T10:20:24.413Z",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +143,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-27T10:20:24.413Z",
+      "checkedAt": "2026-07-27T10:25:22.710Z",
       "status": "upcoming"
     }
   ]
