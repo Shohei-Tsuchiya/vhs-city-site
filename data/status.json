@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T14:00:51.566Z",
+  "updatedAt": "2026-07-28T14:05:25.348Z",
   "live": [
     {
       "memberKey": "aogiri:石狩あかり",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-28T14:00:51.539Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mYJJBi0xiyk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=mYJJBi0xiyk",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "live"
     },
     {
@@ -46,27 +46,11 @@
       "thumbnail": "https://i.ytimg.com/vi/BhxLeG45rFA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=BhxLeG45rFA",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "AxLX7DZDFWk",
-      "title": "〖 ASMR 〗  今月のご褒美ゼロ距離♡お姉さんが君を気持ちよくしてあげる♡【耳かき/とんとん/吐息】",
-      "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-29T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "yugiri:LN_へるぷ.exe",
       "name": "LN_へるぷ.exe",
@@ -80,7 +64,39 @@
       "thumbnail": "https://i.ytimg.com/vi/jbhgcQoHaA8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=jbhgcQoHaA8",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "AxLX7DZDFWk",
+      "title": "〖 ASMR 〗  今月のご褒美ゼロ距離♡お姉さんが君を気持ちよくしてあげる♡【耳かき/とんとん/吐息】",
+      "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-29T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:アカシ・ニコ",
+      "name": "アカシ・ニコ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
+      "handle": "niko_brdc",
+      "videoId": "ymM1USXlFF4",
+      "title": "ASMR｜波音×グラスタッピング🫧涼を感じる睡眠導入.。o○🎧｜tapping｜海｜relax｜EarCleaning【アカシ・ニコ☻ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/ymM1USXlFF4/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-29T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=ymM1USXlFF4",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o2ZWrNKprG0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-30T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=o2ZWrNKprG0",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IShUOpG46hw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=IShUOpG46hw",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xr29iTQgeKk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T23:00:00Z",
       "url": "https://www.youtube.com/watch?v=xr29iTQgeKk",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.334Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qH1CgOU88n4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=qH1CgOU88n4",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OMr24SpXwgE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=OMr24SpXwgE",
-      "checkedAt": "2026-07-28T14:00:51.540Z",
+      "checkedAt": "2026-07-28T14:05:25.335Z",
       "status": "upcoming"
     }
   ]
