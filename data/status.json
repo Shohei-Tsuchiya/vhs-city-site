@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T12:25:29.908Z",
+  "updatedAt": "2026-07-28T12:30:44.470Z",
   "live": [
     {
       "memberKey": "aogiri:石狩あかり",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iu-WsYcF4ts/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=iu-WsYcF4ts",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZsK5u7doTjs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=ZsK5u7doTjs",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "live"
     },
     {
@@ -46,75 +46,11 @@
       "thumbnail": "https://i.ytimg.com/vi/BhxLeG45rFA/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=BhxLeG45rFA",
-      "checkedAt": "2026-07-28T12:25:29.754Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "aogiri:月赴ゐぶき",
-      "name": "月赴ゐぶき",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCxy3KNlLQiN64tikKipnQNg",
-      "handle": "ibuki0831",
-      "videoId": "avH1R0MmlIk",
-      "title": "初めまして、あおぎり高校の月赴ゐぶきです【Among Us 3D】",
-      "thumbnail": "https://i.ytimg.com/vi/avH1R0MmlIk/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-28T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=avH1R0MmlIk",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:栗駒こまる",
-      "name": "栗駒こまる",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCXXnWssOLdB2jg-4CznteAA",
-      "handle": "komaru0814",
-      "videoId": "3_P8oRsS2uA",
-      "title": "#amongus 3D　【  お・・・お友達、できるかな！？  】 #あおぎり高校  #栗駒こまる  #vtuber",
-      "thumbnail": "https://i.ytimg.com/vi/3_P8oRsS2uA/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-28T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=3_P8oRsS2uA",
-      "checkedAt": "2026-07-28T11:40:27.482Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:音霊魂子",
-      "name": "音霊魂子",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCt7_srJeiw55kTcK7M9ID6g",
-      "handle": "tamako0212",
-      "videoId": "pQ0R5BgTq7I",
-      "title": "【Among Us 3D】あっ…こんにちは…！よろしくお願いしますっ…【あおぎり高校/音霊魂子】",
-      "thumbnail": "https://i.ytimg.com/vi/pQ0R5BgTq7I/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-28T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=pQ0R5BgTq7I",
-      "checkedAt": "2026-07-28T09:50:29.224Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:微睡いちの",
-      "name": "微睡いちの",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
-      "handle": "ichino_morinyan",
-      "videoId": "zx9LJNXoCvw",
-      "title": "【生誕記念配信】みなさまにご報告があります【微睡いちの】",
-      "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-28T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-28T08:25:24.090Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "aogiri:山黒音玄",
       "name": "山黒音玄",
@@ -128,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mYJJBi0xiyk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-28T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=mYJJBi0xiyk",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jbhgcQoHaA8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=jbhgcQoHaA8",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o2ZWrNKprG0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-30T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=o2ZWrNKprG0",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IShUOpG46hw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=IShUOpG46hw",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xr29iTQgeKk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T23:00:00Z",
       "url": "https://www.youtube.com/watch?v=xr29iTQgeKk",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qH1CgOU88n4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=qH1CgOU88n4",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     },
     {
@@ -288,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OMr24SpXwgE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=OMr24SpXwgE",
-      "checkedAt": "2026-07-28T12:25:29.755Z",
+      "checkedAt": "2026-07-28T12:30:44.323Z",
       "status": "upcoming"
     }
   ]
