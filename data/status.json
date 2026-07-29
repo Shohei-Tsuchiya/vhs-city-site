@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-07-29T12:25:25.654Z",
+  "updatedAt": "2026-07-29T12:30:36.620Z",
   "live": [
-    {
-      "memberKey": "aogiri:八十科むじな",
-      "name": "八十科むじな",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCXXlhNCp1EPbDQ2pzmmy9aw",
-      "handle": "mujina0831",
-      "videoId": "iZnDr8vFzRI",
-      "title": "むじながいない間お前らが浮気してないか、確認するから。【#あおぎり高校 ／#八十科むじな】",
-      "thumbnail": "https://i.ytimg.com/vi/iZnDr8vFzRI/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-29T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=iZnDr8vFzRI",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
-      "status": "live"
-    },
     {
       "memberKey": "aogiri:石狩あかり",
       "name": "石狩あかり",
@@ -30,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zyExkW_BhIk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zyExkW_BhIk",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "live"
     },
     {
@@ -46,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3fr7YxgJIxw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=3fr7YxgJIxw",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "live"
     },
     {
@@ -62,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_xmISqCTdyc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=_xmISqCTdyc",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "live"
     },
     {
@@ -78,7 +62,23 @@
       "thumbnail": "https://i.ytimg.com/vi/r75kse32bLk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T12:15:00Z",
       "url": "https://www.youtube.com/watch?v=r75kse32bLk",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "aogiri:八十科むじな",
+      "name": "八十科むじな",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCXXlhNCp1EPbDQ2pzmmy9aw",
+      "handle": "mujina0831",
+      "videoId": "iZnDr8vFzRI",
+      "title": "むじながいない間お前らが浮気してないか、確認するから。【#あおぎり高校 ／#八十科むじな】",
+      "thumbnail": "https://i.ytimg.com/vi/iZnDr8vFzRI/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-29T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=iZnDr8vFzRI",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "live"
     },
     {
@@ -94,7 +94,7 @@
       "thumbnail": "https://i.ytimg.com/vi/evWpyqqPuFI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=evWpyqqPuFI",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "live"
     },
     {
@@ -110,7 +110,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gkjUkmc9-Tw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=gkjUkmc9-Tw",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "live"
     },
     {
@@ -126,7 +126,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Pyw8yXM6yAs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=Pyw8yXM6yAs",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "live"
     }
   ],
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -160,23 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jbhgcQoHaA8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=jbhgcQoHaA8",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:アカシ・ニコ",
-      "name": "アカシ・ニコ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
-      "handle": "niko_brdc",
-      "videoId": "ymM1USXlFF4",
-      "title": "ASMR｜波音×グラスタッピング🫧涼を感じる睡眠導入.。o○🎧｜tapping｜海｜relax｜EarCleaning【アカシ・ニコ☻ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/ymM1USXlFF4/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-29T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=ymM1USXlFF4",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +176,23 @@
       "thumbnail": "https://i.ytimg.com/vi/m0OPAtYExBs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=m0OPAtYExBs",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:アカシ・ニコ",
+      "name": "アカシ・ニコ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
+      "handle": "niko_brdc",
+      "videoId": "ymM1USXlFF4",
+      "title": "ASMR｜波音×グラスタッピング🫧涼を感じる睡眠導入.。o○🎧｜tapping｜海｜relax｜EarCleaning【アカシ・ニコ☻ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/ymM1USXlFF4/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-29T14:00:00Z",
+      "url": "https://www.youtube.com/watch?v=ymM1USXlFF4",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o2ZWrNKprG0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-30T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=o2ZWrNKprG0",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zx9LJNXoCvw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-30T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=zx9LJNXoCvw",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IShUOpG46hw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=IShUOpG46hw",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xr29iTQgeKk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T23:00:00Z",
       "url": "https://www.youtube.com/watch?v=xr29iTQgeKk",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -288,7 +288,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -304,7 +304,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qH1CgOU88n4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=qH1CgOU88n4",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -320,7 +320,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     },
     {
@@ -336,7 +336,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OMr24SpXwgE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=OMr24SpXwgE",
-      "checkedAt": "2026-07-29T12:25:25.639Z",
+      "checkedAt": "2026-07-29T12:30:36.476Z",
       "status": "upcoming"
     }
   ]
