@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-07-29T07:05:35.831Z",
-  "live": [],
+  "updatedAt": "2026-07-29T07:10:25.667Z",
+  "live": [
+    {
+      "memberKey": "partner:従井ノラ",
+      "name": "従井ノラ",
+      "groupId": "partner",
+      "groupName": "パートナークリエイター",
+      "groupColor": "#f5db6e",
+      "channelId": "UCQYy35PowPpc6ImRH1TQgcw",
+      "handle": "nora_shitagai",
+      "videoId": "Ka4RuKdZp8c",
+      "title": "【スト6初心者】地底杯敗北者、0から始めるスト６生活【スト6／従井ノラ】",
+      "thumbnail": "https://i.ytimg.com/vi/Ka4RuKdZp8c/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-29T05:00:00Z",
+      "url": "https://www.youtube.com/watch?v=Ka4RuKdZp8c",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
+      "status": "live"
+    }
+  ],
   "upcoming": [
     {
       "memberKey": "aogiri:八十科むじな",
@@ -15,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iZnDr8vFzRI/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=iZnDr8vFzRI",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -31,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_xmISqCTdyc/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=_xmISqCTdyc",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:LN_へるぷ.exe",
-      "name": "LN_へるぷ.exe",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
-      "handle": "LN_Help_exe",
-      "videoId": "jbhgcQoHaA8",
-      "title": "【雑談】収録にも行ったし、〇〇〇先輩とごはん行った、充実",
-      "thumbnail": "https://i.ytimg.com/vi/jbhgcQoHaA8/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-29T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=jbhgcQoHaA8",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/AxLX7DZDFWk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=AxLX7DZDFWk",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:LN_へるぷ.exe",
+      "name": "LN_へるぷ.exe",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCzvizEAhqHm0D1fEa-hNiLg",
+      "handle": "LN_Help_exe",
+      "videoId": "jbhgcQoHaA8",
+      "title": "【雑談】収録にも行ったし、〇〇〇先輩とごはん行った、充実",
+      "thumbnail": "https://i.ytimg.com/vi/jbhgcQoHaA8/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-29T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=jbhgcQoHaA8",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ymM1USXlFF4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=ymM1USXlFF4",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/m0OPAtYExBs/mqdefault_live.jpg",
       "scheduledStart": "2026-07-29T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=m0OPAtYExBs",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o2ZWrNKprG0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-30T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=o2ZWrNKprG0",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -127,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IShUOpG46hw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=IShUOpG46hw",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xr29iTQgeKk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T23:00:00Z",
       "url": "https://www.youtube.com/watch?v=xr29iTQgeKk",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qH1CgOU88n4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=qH1CgOU88n4",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -207,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     },
     {
@@ -223,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OMr24SpXwgE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=OMr24SpXwgE",
-      "checkedAt": "2026-07-29T07:05:35.831Z",
+      "checkedAt": "2026-07-29T07:10:25.666Z",
       "status": "upcoming"
     }
   ]
