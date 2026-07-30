@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T19:20:27.719Z",
+  "updatedAt": "2026-07-30T19:25:23.201Z",
   "live": [
     {
       "memberKey": "bebop:泡喰はわこ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/U0LjZfBt3ns/mqdefault_live.jpg",
       "scheduledStart": "2026-07-30T19:10:00Z",
       "url": "https://www.youtube.com/watch?v=U0LjZfBt3ns",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "live"
     }
   ],
@@ -32,23 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dz5eq1-nUz8/mqdefault_live.jpg",
       "scheduledStart": "2026-07-30T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=dz5eq1-nUz8",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:八十科むじな",
-      "name": "八十科むじな",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCXXlhNCp1EPbDQ2pzmmy9aw",
-      "handle": "mujina0831",
-      "videoId": "nYyHedftSEQ",
-      "title": "性別不明妖怪、声をはかるの段【#あおぎり高校 ／#八十科むじな】",
-      "thumbnail": "https://i.ytimg.com/vi/nYyHedftSEQ/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-31T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=nYyHedftSEQ",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +48,23 @@
       "thumbnail": "https://i.ytimg.com/vi/dGu3rn9zjh0/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=dGu3rn9zjh0",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:八十科むじな",
+      "name": "八十科むじな",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCXXlhNCp1EPbDQ2pzmmy9aw",
+      "handle": "mujina0831",
+      "videoId": "nYyHedftSEQ",
+      "title": "性別不明妖怪、声をはかるの段【#あおぎり高校 ／#八十科むじな】",
+      "thumbnail": "https://i.ytimg.com/vi/nYyHedftSEQ/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-31T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=nYyHedftSEQ",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IShUOpG46hw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=IShUOpG46hw",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xr29iTQgeKk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T23:00:00Z",
       "url": "https://www.youtube.com/watch?v=xr29iTQgeKk",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qH1CgOU88n4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=qH1CgOU88n4",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OMr24SpXwgE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=OMr24SpXwgE",
-      "checkedAt": "2026-07-30T19:20:27.719Z",
+      "checkedAt": "2026-07-30T19:25:23.201Z",
       "status": "upcoming"
     }
   ]
