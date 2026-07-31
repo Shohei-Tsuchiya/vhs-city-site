@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T09:15:35.236Z",
+  "updatedAt": "2026-07-31T09:20:29.059Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,43 +14,11 @@
       "thumbnail": "https://i.ytimg.com/vi/QfW2_ecDHPU/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=QfW2_ecDHPU",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "aogiri:石狩あかり",
-      "name": "石狩あかり",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
-      "handle": "akari0415",
-      "videoId": "T4sktrfA1lo",
-      "title": "【ストリートファイター6】ダイヤ目指してちょっとずつ",
-      "thumbnail": "https://i.ytimg.com/vi/T4sktrfA1lo/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-31T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=T4sktrfA1lo",
-      "checkedAt": "2026-07-31T09:15:35.235Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "partner:従井ノラ",
-      "name": "従井ノラ",
-      "groupId": "partner",
-      "groupName": "パートナークリエイター",
-      "groupColor": "#f5db6e",
-      "channelId": "UCQYy35PowPpc6ImRH1TQgcw",
-      "handle": "nora_shitagai",
-      "videoId": "dGu3rn9zjh0",
-      "title": "【スパンキング除霊師】団地妻の幽霊（自分）のケツをスパンキングして解決しちゃいます！【従井ノラ】",
-      "thumbnail": "https://i.ytimg.com/vi/dGu3rn9zjh0/mqdefault_live.jpg",
-      "scheduledStart": "2026-07-31T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=dGu3rn9zjh0",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "aogiri:八十科むじな",
       "name": "八十科むじな",
@@ -64,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nYyHedftSEQ/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=nYyHedftSEQ",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.058Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +48,39 @@
       "thumbnail": "https://i.ytimg.com/vi/rYnwUZoqWV4/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=rYnwUZoqWV4",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "aogiri:石狩あかり",
+      "name": "石狩あかり",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UC7wZb5INldbGweowOhBIs8Q",
+      "handle": "akari0415",
+      "videoId": "T4sktrfA1lo",
+      "title": "【ストリートファイター6】ダイヤ目指してちょっとずつ",
+      "thumbnail": "https://i.ytimg.com/vi/T4sktrfA1lo/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-31T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=T4sktrfA1lo",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "partner:従井ノラ",
+      "name": "従井ノラ",
+      "groupId": "partner",
+      "groupName": "パートナークリエイター",
+      "groupColor": "#f5db6e",
+      "channelId": "UCQYy35PowPpc6ImRH1TQgcw",
+      "handle": "nora_shitagai",
+      "videoId": "dGu3rn9zjh0",
+      "title": "【スパンキング除霊師】団地妻の幽霊（自分）のケツをスパンキングして解決しちゃいます！【従井ノラ】",
+      "thumbnail": "https://i.ytimg.com/vi/dGu3rn9zjh0/mqdefault_live.jpg",
+      "scheduledStart": "2026-07-31T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=dGu3rn9zjh0",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DzbisqNkbgg/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=DzbisqNkbgg",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fP6STWmpmoM/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=fP6STWmpmoM",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IShUOpG46hw/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=IShUOpG46hw",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xr29iTQgeKk/mqdefault_live.jpg",
       "scheduledStart": "2026-07-31T23:00:00Z",
       "url": "https://www.youtube.com/watch?v=xr29iTQgeKk",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qH1CgOU88n4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=qH1CgOU88n4",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LgS3Zs0qFSk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=LgS3Zs0qFSk",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OMr24SpXwgE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=OMr24SpXwgE",
-      "checkedAt": "2026-07-31T09:15:35.236Z",
+      "checkedAt": "2026-07-31T09:20:29.059Z",
       "status": "upcoming"
     }
   ]
