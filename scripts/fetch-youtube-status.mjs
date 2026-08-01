@@ -16,7 +16,7 @@ const API_KEY = process.env.YOUTUBE_API_KEY;
 const RSS_ENTRIES_PER_CHANNEL = Number(process.env.RSS_ENTRIES_PER_CHANNEL || 10);
 const RSS_CONCURRENCY = Number(process.env.RSS_CONCURRENCY || 1);
 const RSS_RETRY_COUNT = Number(process.env.RSS_RETRY_COUNT || 3);
-const RSS_CHANNELS_PER_RUN = Number(process.env.RSS_CHANNELS_PER_RUN || 12);
+const RSS_CHANNELS_PER_RUN = Number(process.env.RSS_CHANNELS_PER_RUN || 40);
 const RSS_DELAY_MS = Number(process.env.RSS_DELAY_MS || 500);
 const STATUS_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const ENTRY_RECENT_MS = 30 * 60 * 1000;
@@ -212,7 +212,11 @@ function buildCarryOver(previous) {
 }
 
 function selectChannelsForRun(channelIds) {
+  // 全チャンネルを毎回見る（RSS は API クォータを消費しない）。
+  // チャンネル数が上限を超える場合のみローテーション。
   const perRun = Math.min(RSS_CHANNELS_PER_RUN, channelIds.length);
+  if (perRun >= channelIds.length) return [...channelIds];
+
   const bucket = Math.floor(Date.now() / (5 * 60 * 1000));
   const offset = (bucket * perRun) % channelIds.length;
   const selected = [];
