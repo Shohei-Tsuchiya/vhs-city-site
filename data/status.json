@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:05:24.215Z",
+  "updatedAt": "2026-08-01T08:10:33.824Z",
   "live": [
     {
       "memberKey": "aogiri:うる虎がーる",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/uryf5AbxJ_0/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T03:00:00Z",
       "url": "https://www.youtube.com/watch?v=uryf5AbxJ_0",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "live"
     },
     {
@@ -30,23 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/26T1jbDTR80/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=26T1jbDTR80",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:常勝無敗ぐぬぬ",
-      "name": "常勝無敗ぐぬぬ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
-      "handle": "gununu_meiwaku",
-      "videoId": "JmzYLAolxSk",
-      "title": "【 #雑談 】勝手に考察するけどいいよね所属タレントだし【常勝無敗ぐぬぬ】",
-      "thumbnail": "https://i.ytimg.com/vi/JmzYLAolxSk/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-01T08:00:00Z",
-      "url": "https://www.youtube.com/watch?v=JmzYLAolxSk",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "live"
     },
     {
@@ -62,7 +46,23 @@
       "thumbnail": "https://i.ytimg.com/vi/dyVMlg02Ovs/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=dyVMlg02Ovs",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.659Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "bebop:常勝無敗ぐぬぬ",
+      "name": "常勝無敗ぐぬぬ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
+      "handle": "gununu_meiwaku",
+      "videoId": "JmzYLAolxSk",
+      "title": "【 #雑談 】勝手に考察するけどいいよね所属タレントだし【常勝無敗ぐぬぬ】",
+      "thumbnail": "https://i.ytimg.com/vi/JmzYLAolxSk/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-01T08:00:00Z",
+      "url": "https://www.youtube.com/watch?v=JmzYLAolxSk",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "live"
     }
   ],
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zMmAKBPa8wI/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T08:15:00Z",
       "url": "https://www.youtube.com/watch?v=zMmAKBPa8wI",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.659Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PoeDvE1iW9g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T08:45:00Z",
       "url": "https://www.youtube.com/watch?v=PoeDvE1iW9g",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mscHMra7iZg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=mscHMra7iZg",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/avMqUIyDc-g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=avMqUIyDc-g",
-      "checkedAt": "2026-08-01T08:05:24.198Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qP-H4TpFCgQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T10:30:00Z",
       "url": "https://www.youtube.com/watch?v=qP-H4TpFCgQ",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qH1CgOU88n4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=qH1CgOU88n4",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LFufSSjfUQE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=LFufSSjfUQE",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/r6cJawDuRQk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T11:30:00Z",
       "url": "https://www.youtube.com/watch?v=r6cJawDuRQk",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LgS3Zs0qFSk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=LgS3Zs0qFSk",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nY-vZQc3XqI/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=nY-vZQc3XqI",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ECtGNCEUScM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-01T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=ECtGNCEUScM",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ysrOjlwhWh4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T04:00:00Z",
       "url": "https://www.youtube.com/watch?v=ysrOjlwhWh4",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OY7_jyPmNEk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T05:00:00Z",
       "url": "https://www.youtube.com/watch?v=OY7_jyPmNEk",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -288,7 +288,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OMr24SpXwgE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=OMr24SpXwgE",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -304,7 +304,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Wg5A4J7z9s4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=Wg5A4J7z9s4",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.660Z",
       "status": "upcoming"
     },
     {
@@ -320,7 +320,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-01T08:05:24.199Z",
+      "checkedAt": "2026-08-01T08:10:33.659Z",
       "status": "upcoming"
     }
   ]
