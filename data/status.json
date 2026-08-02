@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-08-02T19:40:45.978Z",
-  "live": [],
+  "updatedAt": "2026-08-02T19:45:55.023Z",
+  "live": [
+    {
+      "memberKey": "bebop:泡喰はわこ",
+      "name": "泡喰はわこ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
+      "handle": "hawako_meiwaku",
+      "videoId": "5nirOiNSMM0",
+      "title": "【Minecraft 】マイクラで夏の思い出作り🌻はわこ、家を作る10日目🫧🐥【泡喰はわこ/ビバップ高校 /迷電ワークス】",
+      "thumbnail": "https://i.ytimg.com/vi/5nirOiNSMM0/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-02T19:35:00Z",
+      "url": "https://www.youtube.com/watch?v=5nirOiNSMM0",
+      "checkedAt": "2026-08-02T19:45:55.022Z",
+      "status": "live"
+    }
+  ],
   "upcoming": [
     {
       "memberKey": "aogiri:春雨麗女",
@@ -15,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0zTt-gvctm4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=0zTt-gvctm4",
-      "checkedAt": "2026-08-02T19:40:45.977Z",
+      "checkedAt": "2026-08-02T19:45:55.022Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
-      "checkedAt": "2026-08-02T19:40:45.978Z",
+      "checkedAt": "2026-08-02T19:45:55.022Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
-      "checkedAt": "2026-08-02T19:40:45.978Z",
+      "checkedAt": "2026-08-02T19:45:55.022Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-02T19:40:45.978Z",
+      "checkedAt": "2026-08-02T19:45:55.022Z",
       "status": "upcoming"
     }
   ]
