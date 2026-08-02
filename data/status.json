@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T15:01:06.485Z",
+  "updatedAt": "2026-08-02T15:05:37.755Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vWeD4gbvG3U/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=vWeD4gbvG3U",
-      "checkedAt": "2026-08-02T15:01:06.450Z",
+      "checkedAt": "2026-08-02T15:05:37.739Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DmuaCKYmmEg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=DmuaCKYmmEg",
-      "checkedAt": "2026-08-02T15:01:06.450Z",
+      "checkedAt": "2026-08-02T15:05:37.740Z",
       "status": "live"
     },
     {
@@ -46,23 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T7X-Lc6f0so/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T12:15:00Z",
       "url": "https://www.youtube.com/watch?v=T7X-Lc6f0so",
-      "checkedAt": "2026-08-02T15:01:06.450Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "goraku:回胴てん",
-      "name": "回胴てん",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCcuJiXr5imCUjFCHhFm1WmA",
-      "handle": "回胴てん",
-      "videoId": "zQECzdPQzOc",
-      "title": "【ASMR】全肯定でよしよし、してあげるね【娯楽組/回胴てん】",
-      "thumbnail": "https://i.ytimg.com/vi/zQECzdPQzOc/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-02T14:00:19Z",
-      "url": "https://www.youtube.com/watch?v=zQECzdPQzOc",
-      "checkedAt": "2026-08-02T15:01:06.450Z",
+      "checkedAt": "2026-08-02T15:05:37.740Z",
       "status": "live"
     }
   ],
@@ -80,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0zTt-gvctm4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=0zTt-gvctm4",
-      "checkedAt": "2026-08-02T15:01:06.450Z",
+      "checkedAt": "2026-08-02T15:05:37.740Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
-      "checkedAt": "2026-08-02T15:01:06.450Z",
+      "checkedAt": "2026-08-02T15:05:37.740Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
-      "checkedAt": "2026-08-02T15:01:06.450Z",
+      "checkedAt": "2026-08-02T15:05:37.740Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-02T15:01:06.450Z",
+      "checkedAt": "2026-08-02T15:05:37.740Z",
       "status": "upcoming"
     }
   ]
