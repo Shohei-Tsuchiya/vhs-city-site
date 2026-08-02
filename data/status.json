@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T14:45:43.056Z",
+  "updatedAt": "2026-08-02T14:50:40.966Z",
   "live": [
     {
       "memberKey": "aogiri:山黒音玄",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vWeD4gbvG3U/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=vWeD4gbvG3U",
-      "checkedAt": "2026-08-02T14:45:43.036Z",
+      "checkedAt": "2026-08-02T14:50:40.961Z",
       "status": "live"
     },
     {
@@ -30,23 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DmuaCKYmmEg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T12:30:00Z",
       "url": "https://www.youtube.com/watch?v=DmuaCKYmmEg",
-      "checkedAt": "2026-08-02T14:45:43.037Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "aogiri:萌実",
-      "name": "萌実",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCIwHOJn_3QjBTwQ_gNj7WRA",
-      "handle": "Moemi_chan",
-      "videoId": "he-f3W8pKLY",
-      "title": "【飲酒雑談】マシュマロもぐりながらまったりと雑談【#萌実 #あおぎり高校   】",
-      "thumbnail": "https://i.ytimg.com/vi/he-f3W8pKLY/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-02T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=he-f3W8pKLY",
-      "checkedAt": "2026-08-02T14:45:43.037Z",
+      "checkedAt": "2026-08-02T14:50:40.961Z",
       "status": "live"
     },
     {
@@ -62,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T7X-Lc6f0so/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T12:15:00Z",
       "url": "https://www.youtube.com/watch?v=T7X-Lc6f0so",
-      "checkedAt": "2026-08-02T14:45:43.037Z",
+      "checkedAt": "2026-08-02T14:50:40.962Z",
       "status": "live"
     },
     {
@@ -78,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zQECzdPQzOc/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T14:00:19Z",
       "url": "https://www.youtube.com/watch?v=zQECzdPQzOc",
-      "checkedAt": "2026-08-02T14:45:43.037Z",
+      "checkedAt": "2026-08-02T14:50:40.962Z",
       "status": "live"
     }
   ],
@@ -96,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0zTt-gvctm4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=0zTt-gvctm4",
-      "checkedAt": "2026-08-02T14:45:43.037Z",
+      "checkedAt": "2026-08-02T14:50:40.962Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
-      "checkedAt": "2026-08-02T14:45:43.037Z",
+      "checkedAt": "2026-08-02T14:50:40.962Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
-      "checkedAt": "2026-08-02T14:45:43.037Z",
+      "checkedAt": "2026-08-02T14:50:40.962Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-02T14:45:43.037Z",
+      "checkedAt": "2026-08-02T14:50:40.962Z",
       "status": "upcoming"
     }
   ]
