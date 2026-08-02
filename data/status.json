@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T20:35:36.451Z",
+  "updatedAt": "2026-08-02T20:40:43.411Z",
   "live": [
     {
       "memberKey": "bebop:泡喰はわこ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5nirOiNSMM0/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T19:35:00Z",
       "url": "https://www.youtube.com/watch?v=5nirOiNSMM0",
-      "checkedAt": "2026-08-02T20:35:36.450Z",
+      "checkedAt": "2026-08-02T20:40:43.411Z",
       "status": "live"
     }
   ],
@@ -32,7 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0zTt-gvctm4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-02T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=0zTt-gvctm4",
-      "checkedAt": "2026-08-02T20:35:36.450Z",
+      "checkedAt": "2026-08-02T20:40:43.410Z",
       "status": "upcoming"
     },
     {
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
-      "checkedAt": "2026-08-02T20:35:36.450Z",
+      "checkedAt": "2026-08-02T20:40:43.411Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
-      "checkedAt": "2026-08-02T20:35:36.450Z",
+      "checkedAt": "2026-08-02T20:40:43.411Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:運命メイナ",
+      "name": "運命メイナ",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCbsgSnDh12vTloogn0g6lPQ",
+      "handle": "DestinyMeina",
+      "videoId": "Oty_QzGQhfk",
+      "title": "【雑談】ひと夏の恋でもしとく？【運命メイナ/ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-05T09:30:00Z",
+      "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
+      "checkedAt": "2026-08-02T20:40:43.411Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-02T20:35:36.450Z",
+      "checkedAt": "2026-08-02T20:40:43.411Z",
       "status": "upcoming"
     }
   ]
