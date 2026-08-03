@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T08:10:44.034Z",
+  "updatedAt": "2026-08-03T08:16:19.923Z",
   "live": [
     {
       "memberKey": "partner:従井ノラ",
@@ -14,11 +14,9 @@
       "thumbnail": "https://i.ytimg.com/vi/OKQsQIiX7Ek/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T06:30:00Z",
       "url": "https://www.youtube.com/watch?v=OKQsQIiX7Ek",
-      "checkedAt": "2026-08-03T08:10:44.034Z",
+      "checkedAt": "2026-08-03T08:16:19.910Z",
       "status": "live"
-    }
-  ],
-  "upcoming": [
+    },
     {
       "memberKey": "bebop:微睡いちの",
       "name": "微睡いちの",
@@ -32,9 +30,11 @@
       "thumbnail": "https://i.ytimg.com/vi/AfBHgac3gFU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T08:05:00Z",
       "url": "https://www.youtube.com/watch?v=AfBHgac3gFU",
-      "checkedAt": "2026-08-03T08:10:44.034Z",
-      "status": "upcoming"
-    },
+      "checkedAt": "2026-08-03T08:16:19.909Z",
+      "status": "live"
+    }
+  ],
+  "upcoming": [
     {
       "memberKey": "bebop:漆八ぷてら",
       "name": "漆八ぷてら",
@@ -48,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/R8Tom0w98DE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=R8Tom0w98DE",
-      "checkedAt": "2026-08-03T08:10:44.034Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:アカシ・ニコ",
-      "name": "アカシ・ニコ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
-      "handle": "niko_brdc",
-      "videoId": "2kYmZ0_z_4Y",
-      "title": "【 #さまとん 】タイムマシーン作って未来から絵日記取り寄せてみた📚｜SUMMER TONCHIKI Fes 2026｜アカシ・ニコ☻ビバップ高校",
-      "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-03T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
-      "checkedAt": "2026-08-03T08:10:44.034Z",
+      "checkedAt": "2026-08-03T08:16:19.909Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
-      "checkedAt": "2026-08-03T08:10:44.034Z",
+      "checkedAt": "2026-08-03T08:16:19.909Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:アカシ・ニコ",
+      "name": "アカシ・ニコ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCV5jFxqHWDppyzznOBJbvVg",
+      "handle": "niko_brdc",
+      "videoId": "2kYmZ0_z_4Y",
+      "title": "【 #さまとん 】タイムマシーン作って未来から絵日記取り寄せてみた📚｜SUMMER TONCHIKI Fes 2026｜アカシ・ニコ☻ビバップ高校",
+      "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-03T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
+      "checkedAt": "2026-08-03T08:16:19.910Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-03T08:10:44.033Z",
+      "checkedAt": "2026-08-03T08:16:19.910Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-03T08:10:44.034Z",
+      "checkedAt": "2026-08-03T08:16:19.909Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-03T08:10:44.034Z",
+      "checkedAt": "2026-08-03T08:16:19.909Z",
       "status": "upcoming"
     }
   ]
