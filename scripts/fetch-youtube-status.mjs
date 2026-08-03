@@ -320,7 +320,47 @@ async function fetchUploadsPlaylistVideoIds(channelId) {
     .filter(Boolean);
 }
 
-/** /live ページから現在の配信（または枠）videoId を取得。最終判定は videos.list に任せる。 */
+/**
+ * /live HTML から「この channelId の」配信 videoId だけを抽出する。
+ * 推奨枠・他チャンネルの videoId を拾わない（誤帰属防止）。
+ */
+function extractOwnedLiveVideoId(html, channelId) {
+  if (!html || !channelId) return null;
+
+  const pairPatterns = [
+    new RegExp(
+      `"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"\\s*,\\s*"channelId"\\s*:\\s*"${channelId}"`
+    ),
+    new RegExp(
+      `"channelId"\\s*:\\s*"${channelId}"\\s*,\\s*"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"`
+    ),
+    new RegExp(
+      `"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"[\\s\\S]{0,200}?"channelId"\\s*:\\s*"${channelId}"`
+    ),
+    new RegExp(
+      `"channelId"\\s*:\\s*"${channelId}"[\\s\\S]{0,200}?"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"`
+    ),
+  ];
+  for (const re of pairPatterns) {
+    const m = html.match(re);
+    if (m?.[1]) return m[1];
+  }
+
+  const canonical = html.match(
+    /<link[^>]+rel="canonical"[^>]+href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"/i
+  ) || html.match(
+    /href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"[^>]*rel="canonical"/i
+  );
+  if (!canonical) return null;
+
+  // canonical はページ内で channelId が確認できるときだけ採用
+  const ownedCanonical = new RegExp(
+    `"videoId"\\s*:\\s*"${canonical[1]}"[\\s\\S]{0,240}"channelId"\\s*:\\s*"${channelId}"|"channelId"\\s*:\\s*"${channelId}"[\\s\\S]{0,240}"videoId"\\s*:\\s*"${canonical[1]}"`
+  );
+  return ownedCanonical.test(html) ? canonical[1] : null;
+}
+
+/** /live ページから現在の配信 videoId を取得。最終判定は videos.list + channelId 一致で行う。 */
 async function fetchCurrentLiveVideoId(channelId, handle = null) {
   const candidates = [];
   if (handle && /^[A-Za-z0-9._-]+$/.test(handle)) {
@@ -337,31 +377,21 @@ async function fetchCurrentLiveVideoId(channelId, handle = null) {
       });
       if (!res.ok) continue;
 
-      const finalUrl = res.url || '';
-      const fromUrl = finalUrl.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
-      if (fromUrl) return fromUrl[1];
-
       const html = await res.text();
-      // オフライン専用ページはスキップ（canonical がチャンネルURLのまま）
-      if (
-        /LIVE_STREAM_OFFLINE/.test(html) &&
-        !/"isLiveNow"\s*:\s*true/.test(html) &&
-        !/<link[^>]+rel="canonical"[^>]+watch\?v=/i.test(html)
-      ) {
+      if (/LIVE_STREAM_OFFLINE/.test(html) && !/"isLiveNow"\s*:\s*true/.test(html)) {
         continue;
       }
 
-      const canonical = html.match(
-        /<link[^>]+rel="canonical"[^>]+href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"/i
-      ) || html.match(
-        /href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"[^>]*rel="canonical"/i
-      );
-      if (canonical) return canonical[1];
+      const owned = extractOwnedLiveVideoId(html, channelId);
+      if (owned) return owned;
 
-      // isLiveNow / isLive があるときだけ JSON 内 videoId を採用
-      if (/"isLiveNow"\s*:\s*true/.test(html) || /"isLive"\s*:\s*true/.test(html)) {
-        const fromHtml = html.match(/"videoId"\s*:\s*"([a-zA-Z0-9_-]{11})"/);
-        if (fromHtml) return fromHtml[1];
+      const finalUrl = res.url || '';
+      const fromUrl = finalUrl.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
+      if (fromUrl) {
+        const ownedRedirect = new RegExp(
+          `"videoId"\\s*:\\s*"${fromUrl[1]}"[\\s\\S]{0,240}"channelId"\\s*:\\s*"${channelId}"|"channelId"\\s*:\\s*"${channelId}"[\\s\\S]{0,240}"videoId"\\s*:\\s*"${fromUrl[1]}"`
+        );
+        if (ownedRedirect.test(html)) return fromUrl[1];
       }
     } catch {
       /* try next candidate */
@@ -652,6 +682,14 @@ async function main() {
       refreshedVideoIds.add(video.id);
       const mapping = videoToMember.get(video.id);
       if (!mapping) continue;
+
+      const ownerChannelId = video.snippet?.channelId;
+      if (ownerChannelId && ownerChannelId !== mapping.channelId) {
+        console.warn(
+          `Skip channel mismatch: video=${video.id} owner=${ownerChannelId} mapped=${mapping.channelId} (${mapping.member.name})`
+        );
+        continue;
+      }
 
       const broadcast = video.snippet?.liveBroadcastContent;
       if (broadcast !== 'live' && broadcast !== 'upcoming') continue;
