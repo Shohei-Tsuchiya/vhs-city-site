@@ -16,8 +16,10 @@ const API_KEY = process.env.YOUTUBE_API_KEY;
 const RSS_ENTRIES_PER_CHANNEL = Number(process.env.RSS_ENTRIES_PER_CHANNEL || 10);
 const RSS_CONCURRENCY = Number(process.env.RSS_CONCURRENCY || 1);
 const RSS_RETRY_COUNT = Number(process.env.RSS_RETRY_COUNT || 3);
-const RSS_CHANNELS_PER_RUN = Number(process.env.RSS_CHANNELS_PER_RUN || 40);
-const RSS_DELAY_MS = Number(process.env.RSS_DELAY_MS || 500);
+// GitHub Actions から全件叩くと YouTube RSS が 404/500 になりやすいためローテーション
+const RSS_CHANNELS_PER_RUN = Number(process.env.RSS_CHANNELS_PER_RUN || 18);
+const RSS_DELAY_MS = Number(process.env.RSS_DELAY_MS || 800);
+const LIVE_PROBE_ENABLED = process.env.LIVE_PROBE_ENABLED !== '0';
 const STATUS_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const ENTRY_RECENT_MS = 30 * 60 * 1000;
 const LIVE_DISPLAY_TTL_MS = 20 * 60 * 1000;
@@ -28,8 +30,9 @@ const VIDEOS_LIST_CHUNK = 50;
 
 const RSS_HEADERS = {
   'User-Agent':
-    'Mozilla/5.0 (compatible; VHS-City-Site/1.0; +https://github.com/Shohei-Tsuchiya/vhs-city-site)',
-  Accept: 'application/atom+xml, application/xml, text/xml',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+  Accept: 'application/atom+xml, application/xml, text/xml, */*',
+  'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
 };
 
 if (!API_KEY) {
@@ -304,6 +307,43 @@ async function fetchRssVideoIds(channelId) {
   throw lastError;
 }
 
+/** uploads プレイリストから最新動画 ID を取得（RSS 失敗時の API フォールバック、1 unit） */
+async function fetchUploadsPlaylistVideoIds(channelId) {
+  const playlistId = `UU${channelId.slice(2)}`;
+  const data = await apiGet('playlistItems', {
+    part: 'contentDetails',
+    playlistId,
+    maxResults: String(Math.min(RSS_ENTRIES_PER_CHANNEL, 10)),
+  });
+  return (data.items || [])
+    .map((item) => item.contentDetails?.videoId)
+    .filter(Boolean);
+}
+
+/** 配信中のみ検出（RSS 対象外チャンネルの取りこぼし防止） */
+async function fetchCurrentLiveVideoId(channelId) {
+  const url = `https://www.youtube.com/channel/${channelId}/live`;
+  try {
+    const res = await fetch(url, {
+      headers: RSS_HEADERS,
+      redirect: 'follow',
+      signal: AbortSignal.timeout(12000),
+    });
+    if (!res.ok) return null;
+
+    const finalUrl = res.url || '';
+    const fromUrl = finalUrl.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
+    if (fromUrl) return fromUrl[1];
+
+    const html = await res.text();
+    if (!/"isLiveNow"\s*:\s*true/.test(html)) return null;
+    const fromHtml = html.match(/"videoId"\s*:\s*"([a-zA-Z0-9_-]{11})"/);
+    return fromHtml?.[1] || null;
+  } catch {
+    return null;
+  }
+}
+
 async function mapPool(items, concurrency, mapper) {
   const results = [];
   for (let i = 0; i < items.length; i += concurrency) {
@@ -505,6 +545,8 @@ async function main() {
   const rssTargetIds = selectChannelsForRun(channelIds);
   console.log(`RSS batch: ${rssTargetIds.length}/${channelIds.length} channel(s)`);
 
+  let playlistFallbackCalls = 0;
+  let liveProbeHits = 0;
   const rssResults = await mapPool(rssTargetIds, RSS_CONCURRENCY, async (channelId) => {
     const member = memberByChannel.get(channelId);
     try {
@@ -514,7 +556,15 @@ async function main() {
     } catch (error) {
       rssFailed += 1;
       console.warn(`RSS failed for ${member.name}: ${error.message}`);
-      return { channelId, member, videoIds: [] };
+      try {
+        const videoIds = await fetchUploadsPlaylistVideoIds(channelId);
+        playlistFallbackCalls += 1;
+        console.log(`API fallback OK for ${member.name}: ${videoIds.length} video(s)`);
+        return { channelId, member, videoIds };
+      } catch (fallbackError) {
+        console.warn(`API fallback failed for ${member.name}: ${fallbackError.message}`);
+        return { channelId, member, videoIds: [] };
+      }
     }
   });
 
@@ -540,8 +590,29 @@ async function main() {
     }
   }
 
+  // RSS 対象外チャンネルは /live で配信中だけ追加検出（ローテーション待ちの取りこぼし防止）
+  if (LIVE_PROBE_ENABLED) {
+    const rssSet = new Set(rssTargetIds);
+    const probeTargets = channelIds.filter((id) => !rssSet.has(id));
+    for (const channelId of probeTargets) {
+      const member = memberByChannel.get(channelId);
+      const liveVideoId = await fetchCurrentLiveVideoId(channelId);
+      if (liveVideoId) {
+        liveProbeHits += 1;
+        console.log(`Live probe hit: ${member.name} -> ${liveVideoId}`);
+        if (!videoToMember.has(liveVideoId)) {
+          videoToMember.set(liveVideoId, { member, channelId });
+        }
+        if (!allVideoIds.includes(liveVideoId)) {
+          allVideoIds.push(liveVideoId);
+        }
+      }
+      if (RSS_DELAY_MS > 0) await sleep(Math.min(RSS_DELAY_MS, 400));
+    }
+  }
+
   console.log(
-    `RSS: ok=${rssOk}, failed=${rssFailed}, videoIds=${allVideoIds.length}`
+    `RSS: ok=${rssOk}, failed=${rssFailed}, playlistFallback=${playlistFallbackCalls}, liveProbeHits=${liveProbeHits}, videoIds=${allVideoIds.length}`
   );
 
   const live = [];
@@ -583,9 +654,9 @@ async function main() {
   writeJson(join(DATA, 'channel-cache.json'), channelCache);
   writeJson(join(DATA, 'status.json'), status);
 
-  const queriesThisRun = channelResolveCalls + videosListCalls;
+  const queriesThisRun = channelResolveCalls + videosListCalls + playlistFallbackCalls;
   console.log(
-    `Done. live=${status.live.length}, upcoming=${status.upcoming.length}, apiCalls=${queriesThisRun} (channels=${channelResolveCalls}, videos.list=${videosListCalls}), merged=${Boolean(previousStatus)}`
+    `Done. live=${status.live.length}, upcoming=${status.upcoming.length}, apiCalls=${queriesThisRun} (channels=${channelResolveCalls}, videos.list=${videosListCalls}, playlistFallback=${playlistFallbackCalls}), merged=${Boolean(previousStatus)}`
   );
 }
 
