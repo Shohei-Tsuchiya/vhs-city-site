@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T14:25:45.448Z",
+  "updatedAt": "2026-08-03T14:30:57.173Z",
   "live": [
     {
       "memberKey": "aogiri:春雨麗女",
@@ -14,7 +14,23 @@
       "thumbnail": "https://i.ytimg.com/vi/bMrJ22EHwmc/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:20:22Z",
       "url": "https://www.youtube.com/watch?v=bMrJ22EHwmc",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.155Z",
+      "status": "live"
+    },
+    {
+      "memberKey": "aogiri:音霊魂子",
+      "name": "音霊魂子",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCt7_srJeiw55kTcK7M9ID6g",
+      "handle": "tamako0212",
+      "videoId": "0jW6o-XR1e8",
+      "title": "【深夜雑談】ほら～土日の夜更かし癖まだ抜けてないんでしょ～",
+      "thumbnail": "https://i.ytimg.com/vi/0jW6o-XR1e8/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-03T14:30:00Z",
+      "url": "https://www.youtube.com/watch?v=0jW6o-XR1e8",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "live"
     },
     {
@@ -30,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/j-zeQQidyPw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T13:30:00Z",
       "url": "https://www.youtube.com/watch?v=j-zeQQidyPw",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "live"
     },
     {
@@ -46,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/uAfkqjuw5gU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=uAfkqjuw5gU",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "live"
     },
     {
@@ -62,59 +78,11 @@
       "thumbnail": "https://i.ytimg.com/vi/13WNGF7rn-c/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=13WNGF7rn-c",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "-prP_1aVgEM",
-      "title": "【 禁煙外来 】他人にも禁煙を押し付ける医者",
-      "thumbnail": "https://i.ytimg.com/vi/-prP_1aVgEM/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-03T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=-prP_1aVgEM",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "bebop:甘葛すもあ",
-      "name": "甘葛すもあ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCAflRAT6B_7nvxAK72ztN3A",
-      "handle": "sumoa_meiwaku",
-      "videoId": "htNiJyF-QWY",
-      "title": "【重大告知あったね】近況報告しつ・２（ツー）ボカコレプレイリストの話もしたい【甘葛すもあ/ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/htNiJyF-QWY/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-03T14:00:00Z",
-      "url": "https://www.youtube.com/watch?v=htNiJyF-QWY",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "aogiri:音霊魂子",
-      "name": "音霊魂子",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCt7_srJeiw55kTcK7M9ID6g",
-      "handle": "tamako0212",
-      "videoId": "0jW6o-XR1e8",
-      "title": "【深夜雑談】ほら～土日の夜更かし癖まだ抜けてないんでしょ～",
-      "thumbnail": "https://i.ytimg.com/vi/0jW6o-XR1e8/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-03T14:30:00Z",
-      "url": "https://www.youtube.com/watch?v=0jW6o-XR1e8",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "yugiri:篠崎シャノン",
       "name": "篠崎シャノン",
@@ -128,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/owTbH35LQX0/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=owTbH35LQX0",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wnPJGeWSmTM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=wnPJGeWSmTM",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CRtq-WsJSHM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=CRtq-WsJSHM",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TGK26AiVWpg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=TGK26AiVWpg",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YPeyk_aJmAQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=YPeyk_aJmAQ",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rq521VruTiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rq521VruTiw",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-03T14:25:45.273Z",
+      "checkedAt": "2026-08-03T14:30:57.156Z",
       "status": "upcoming"
     }
   ]
