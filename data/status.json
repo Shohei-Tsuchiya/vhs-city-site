@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T08:05:58.841Z",
+  "updatedAt": "2026-08-03T08:10:44.034Z",
   "live": [
     {
       "memberKey": "partner:従井ノラ",
@@ -14,11 +14,27 @@
       "thumbnail": "https://i.ytimg.com/vi/OKQsQIiX7Ek/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T06:30:00Z",
       "url": "https://www.youtube.com/watch?v=OKQsQIiX7Ek",
-      "checkedAt": "2026-08-03T08:05:58.840Z",
+      "checkedAt": "2026-08-03T08:10:44.034Z",
       "status": "live"
     }
   ],
   "upcoming": [
+    {
+      "memberKey": "bebop:微睡いちの",
+      "name": "微睡いちの",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCvCks1oVZfBuG1VXicOr5aw",
+      "handle": "ichino_morinyan",
+      "videoId": "AfBHgac3gFU",
+      "title": "【FF6】完全初見🔰.ᐟ.ᐟ幻獣を引き連れて魔法習得.ᐟ.ᐟ🐱👉 【微睡いちの /#雑談】※ネタバレ注意",
+      "thumbnail": "https://i.ytimg.com/vi/AfBHgac3gFU/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-03T08:05:00Z",
+      "url": "https://www.youtube.com/watch?v=AfBHgac3gFU",
+      "checkedAt": "2026-08-03T08:10:44.034Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "bebop:漆八ぷてら",
       "name": "漆八ぷてら",
@@ -32,23 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/R8Tom0w98DE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=R8Tom0w98DE",
-      "checkedAt": "2026-08-03T08:05:58.840Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:落乃いなほ",
-      "name": "落乃いなほ",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
-      "handle": "落乃いなほ",
-      "videoId": "Q24jZ2NBi8w",
-      "title": "【hololive Dreams】Kolaborasi bersama para idol ID yang aku kagumi!?",
-      "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-03T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
-      "checkedAt": "2026-08-03T08:05:58.840Z",
+      "checkedAt": "2026-08-03T08:10:44.034Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,23 @@
       "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
-      "checkedAt": "2026-08-03T08:05:58.840Z",
+      "checkedAt": "2026-08-03T08:10:44.034Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:落乃いなほ",
+      "name": "落乃いなほ",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
+      "handle": "落乃いなほ",
+      "videoId": "Q24jZ2NBi8w",
+      "title": "【hololive Dreams】Kolaborasi bersama para idol ID yang aku kagumi!?",
+      "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-03T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
+      "checkedAt": "2026-08-03T08:10:44.034Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-03T08:05:58.840Z",
+      "checkedAt": "2026-08-03T08:10:44.033Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-03T08:05:58.840Z",
+      "checkedAt": "2026-08-03T08:10:44.034Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-03T08:05:58.840Z",
+      "checkedAt": "2026-08-03T08:10:44.034Z",
       "status": "upcoming"
     }
   ]
