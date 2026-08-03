@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-03T22:05:39.724Z",
+  "updatedAt": "2026-08-03T22:10:47.592Z",
   "live": [
+    {
+      "memberKey": "aogiri:春雨麗女",
+      "name": "春雨麗女",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
+      "handle": "urame0711",
+      "videoId": "aeK2tjIUG2E",
+      "title": "【#なつもん~20世紀の夏休み~】4日目 | お金稼がせてください！！！親にそう言われたんです！！！【#春雨麗女  #あおぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/aeK2tjIUG2E/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-03T22:00:00Z",
+      "url": "https://www.youtube.com/watch?v=aeK2tjIUG2E",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
+      "status": "live"
+    },
     {
       "memberKey": "aogiri:月赴ゐぶき",
       "name": "月赴ゐぶき",
@@ -14,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6LbVbAV2C9Y/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T20:30:00Z",
       "url": "https://www.youtube.com/watch?v=6LbVbAV2C9Y",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "live"
     },
     {
@@ -30,7 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cnVlfRj84jQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=cnVlfRj84jQ",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "live"
     },
     {
@@ -46,27 +62,11 @@
       "thumbnail": "https://i.ytimg.com/vi/owTbH35LQX0/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=owTbH35LQX0",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "aogiri:春雨麗女",
-      "name": "春雨麗女",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCmiYJycZXBGc4s_zjIRUHhQ",
-      "handle": "urame0711",
-      "videoId": "aeK2tjIUG2E",
-      "title": "【#なつもん~20世紀の夏休み~】4日目 | お金稼がせてください！！！親にそう言われたんです！！！【#春雨麗女  #あおぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/aeK2tjIUG2E/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-03T22:00:00Z",
-      "url": "https://www.youtube.com/watch?v=aeK2tjIUG2E",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "bebop:常勝無敗ぐぬぬ",
       "name": "常勝無敗ぐぬぬ",
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/exEMZUuXkuA/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=exEMZUuXkuA",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wnPJGeWSmTM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=wnPJGeWSmTM",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.572Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CRtq-WsJSHM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=CRtq-WsJSHM",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-03T22:05:39.499Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xujKKHaDaXc/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=xujKKHaDaXc",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TGK26AiVWpg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=TGK26AiVWpg",
-      "checkedAt": "2026-08-03T22:05:39.499Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YPeyk_aJmAQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=YPeyk_aJmAQ",
-      "checkedAt": "2026-08-03T22:05:39.499Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=llNmrll11wU",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rq521VruTiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rq521VruTiw",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-03T22:05:39.500Z",
+      "checkedAt": "2026-08-03T22:10:47.573Z",
       "status": "upcoming"
     }
   ]
