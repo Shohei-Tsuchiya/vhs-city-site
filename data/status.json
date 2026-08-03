@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T08:41:14.760Z",
+  "updatedAt": "2026-08-03T08:45:43.204Z",
   "live": [
     {
       "memberKey": "partner:従井ノラ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OKQsQIiX7Ek/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T06:30:00Z",
       "url": "https://www.youtube.com/watch?v=OKQsQIiX7Ek",
-      "checkedAt": "2026-08-03T08:41:14.627Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "live"
     },
     {
@@ -30,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AfBHgac3gFU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T08:05:00Z",
       "url": "https://www.youtube.com/watch?v=AfBHgac3gFU",
-      "checkedAt": "2026-08-03T08:41:14.627Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "live"
     }
   ],
@@ -48,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/R8Tom0w98DE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=R8Tom0w98DE",
-      "checkedAt": "2026-08-03T08:41:14.627Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "upcoming"
     },
     {
@@ -64,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GUH1_rQD9oI/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=GUH1_rQD9oI",
-      "checkedAt": "2026-08-03T08:41:14.626Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "upcoming"
     },
     {
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
-      "checkedAt": "2026-08-03T08:41:14.627Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "upcoming"
     },
     {
@@ -96,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
-      "checkedAt": "2026-08-03T08:41:14.627Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-03T08:41:14.627Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-03T08:41:14.627Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-03T08:41:14.627Z",
+      "checkedAt": "2026-08-03T08:45:43.198Z",
       "status": "upcoming"
     }
   ]
