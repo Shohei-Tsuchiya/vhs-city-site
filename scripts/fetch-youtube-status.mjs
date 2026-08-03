@@ -333,12 +333,23 @@ async function fetchCurrentLiveVideoId(channelId) {
 
     const finalUrl = res.url || '';
     const fromUrl = finalUrl.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
-    if (fromUrl) return fromUrl[1];
-
     const html = await res.text();
-    if (!/"isLiveNow"\s*:\s*true/.test(html)) return null;
-    const fromHtml = html.match(/"videoId"\s*:\s*"([a-zA-Z0-9_-]{11})"/);
-    return fromHtml?.[1] || null;
+
+    // 現行 YouTube は /live でリダイレクトしないことがあるため HTML を見る
+    const isLiveNow = /"isLiveNow"\s*:\s*true/.test(html);
+    if (!isLiveNow && !fromUrl) return null;
+    if (/LIVE_STREAM_OFFLINE/.test(html) && !isLiveNow) return null;
+
+    if (isLiveNow || fromUrl) {
+      if (fromUrl) return fromUrl[1];
+      const canonical = html.match(
+        /<link\s+rel="canonical"\s+href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"/i
+      );
+      if (canonical) return canonical[1];
+      const fromHtml = html.match(/"videoId"\s*:\s*"([a-zA-Z0-9_-]{11})"/);
+      return fromHtml?.[1] || null;
+    }
+    return null;
   } catch {
     return null;
   }
