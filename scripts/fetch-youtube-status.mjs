@@ -320,39 +320,54 @@ async function fetchUploadsPlaylistVideoIds(channelId) {
     .filter(Boolean);
 }
 
-/** 配信中のみ検出（RSS 対象外チャンネルの取りこぼし防止） */
-async function fetchCurrentLiveVideoId(channelId) {
-  const url = `https://www.youtube.com/channel/${channelId}/live`;
-  try {
-    const res = await fetch(url, {
-      headers: RSS_HEADERS,
-      redirect: 'follow',
-      signal: AbortSignal.timeout(12000),
-    });
-    if (!res.ok) return null;
+/** /live ページから現在の配信（または枠）videoId を取得。最終判定は videos.list に任せる。 */
+async function fetchCurrentLiveVideoId(channelId, handle = null) {
+  const candidates = [];
+  if (handle && /^[A-Za-z0-9._-]+$/.test(handle)) {
+    candidates.push(`https://www.youtube.com/@${handle.replace(/^@/, '')}/live`);
+  }
+  candidates.push(`https://www.youtube.com/channel/${channelId}/live`);
 
-    const finalUrl = res.url || '';
-    const fromUrl = finalUrl.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
-    const html = await res.text();
+  for (const url of candidates) {
+    try {
+      const res = await fetch(url, {
+        headers: RSS_HEADERS,
+        redirect: 'follow',
+        signal: AbortSignal.timeout(12000),
+      });
+      if (!res.ok) continue;
 
-    // 現行 YouTube は /live でリダイレクトしないことがあるため HTML を見る
-    const isLiveNow = /"isLiveNow"\s*:\s*true/.test(html);
-    if (!isLiveNow && !fromUrl) return null;
-    if (/LIVE_STREAM_OFFLINE/.test(html) && !isLiveNow) return null;
-
-    if (isLiveNow || fromUrl) {
+      const finalUrl = res.url || '';
+      const fromUrl = finalUrl.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
       if (fromUrl) return fromUrl[1];
+
+      const html = await res.text();
+      // オフライン専用ページはスキップ（canonical がチャンネルURLのまま）
+      if (
+        /LIVE_STREAM_OFFLINE/.test(html) &&
+        !/"isLiveNow"\s*:\s*true/.test(html) &&
+        !/<link[^>]+rel="canonical"[^>]+watch\?v=/i.test(html)
+      ) {
+        continue;
+      }
+
       const canonical = html.match(
-        /<link\s+rel="canonical"\s+href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"/i
+        /<link[^>]+rel="canonical"[^>]+href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"/i
+      ) || html.match(
+        /href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"[^>]*rel="canonical"/i
       );
       if (canonical) return canonical[1];
-      const fromHtml = html.match(/"videoId"\s*:\s*"([a-zA-Z0-9_-]{11})"/);
-      return fromHtml?.[1] || null;
+
+      // isLiveNow / isLive があるときだけ JSON 内 videoId を採用
+      if (/"isLiveNow"\s*:\s*true/.test(html) || /"isLive"\s*:\s*true/.test(html)) {
+        const fromHtml = html.match(/"videoId"\s*:\s*"([a-zA-Z0-9_-]{11})"/);
+        if (fromHtml) return fromHtml[1];
+      }
+    } catch {
+      /* try next candidate */
     }
-    return null;
-  } catch {
-    return null;
   }
+  return null;
 }
 
 async function mapPool(items, concurrency, mapper) {
@@ -601,13 +616,11 @@ async function main() {
     }
   }
 
-  // RSS 対象外チャンネルは /live で配信中だけ追加検出（ローテーション待ちの取りこぼし防止）
+  // 全チャンネルを /live で追加検出（RSS ローテーション外の配信中取りこぼし防止）
   if (LIVE_PROBE_ENABLED) {
-    const rssSet = new Set(rssTargetIds);
-    const probeTargets = channelIds.filter((id) => !rssSet.has(id));
-    for (const channelId of probeTargets) {
+    for (const channelId of channelIds) {
       const member = memberByChannel.get(channelId);
-      const liveVideoId = await fetchCurrentLiveVideoId(channelId);
+      const liveVideoId = await fetchCurrentLiveVideoId(channelId, member.handle);
       if (liveVideoId) {
         liveProbeHits += 1;
         console.log(`Live probe hit: ${member.name} -> ${liveVideoId}`);
@@ -618,7 +631,7 @@ async function main() {
           allVideoIds.push(liveVideoId);
         }
       }
-      if (RSS_DELAY_MS > 0) await sleep(Math.min(RSS_DELAY_MS, 400));
+      if (RSS_DELAY_MS > 0) await sleep(Math.min(RSS_DELAY_MS, 300));
     }
   }
 
