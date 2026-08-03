@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-08-03T06:12:15.273Z",
+  "updatedAt": "2026-08-03T06:17:13.973Z",
   "live": [],
   "upcoming": [
+    {
+      "memberKey": "bebop:漆八ぷてら",
+      "name": "漆八ぷてら",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCE7AsnCoT5-je_fob9MAEqw",
+      "handle": "ShichihachiPutera",
+      "videoId": "R8Tom0w98DE",
+      "title": "【MainMinecraft】まずは装備から固めようか【漆八ぷてら/ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/R8Tom0w98DE/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-03T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=R8Tom0w98DE",
+      "checkedAt": "2026-08-03T06:17:13.973Z",
+      "status": "upcoming"
+    },
     {
       "memberKey": "bebop:アカシ・ニコ",
       "name": "アカシ・ニコ",
@@ -15,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kYmZ0_z_4Y/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=2kYmZ0_z_4Y",
-      "checkedAt": "2026-08-03T06:12:15.273Z",
+      "checkedAt": "2026-08-03T06:17:13.973Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Q24jZ2NBi8w/mqdefault_live.jpg",
       "scheduledStart": "2026-08-03T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=Q24jZ2NBi8w",
-      "checkedAt": "2026-08-03T06:12:15.273Z",
+      "checkedAt": "2026-08-03T06:17:13.973Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-03T06:12:15.273Z",
+      "checkedAt": "2026-08-03T06:17:13.973Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-03T06:12:15.273Z",
+      "checkedAt": "2026-08-03T06:17:13.973Z",
       "status": "upcoming"
     }
   ]
