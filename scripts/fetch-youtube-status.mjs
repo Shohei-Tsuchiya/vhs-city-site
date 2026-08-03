@@ -321,46 +321,9 @@ async function fetchUploadsPlaylistVideoIds(channelId) {
 }
 
 /**
- * /live HTML から「この channelId の」配信 videoId だけを抽出する。
- * 推奨枠・他チャンネルの videoId を拾わない（誤帰属防止）。
+ * /live HTML / リダイレクトから候補 videoId を取る。
+ * 最終的なメンバー帰属は videos.list の snippet.channelId で行う（ここは候補集めのみ）。
  */
-function extractOwnedLiveVideoId(html, channelId) {
-  if (!html || !channelId) return null;
-
-  const pairPatterns = [
-    new RegExp(
-      `"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"\\s*,\\s*"channelId"\\s*:\\s*"${channelId}"`
-    ),
-    new RegExp(
-      `"channelId"\\s*:\\s*"${channelId}"\\s*,\\s*"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"`
-    ),
-    new RegExp(
-      `"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"[\\s\\S]{0,200}?"channelId"\\s*:\\s*"${channelId}"`
-    ),
-    new RegExp(
-      `"channelId"\\s*:\\s*"${channelId}"[\\s\\S]{0,200}?"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"`
-    ),
-  ];
-  for (const re of pairPatterns) {
-    const m = html.match(re);
-    if (m?.[1]) return m[1];
-  }
-
-  const canonical = html.match(
-    /<link[^>]+rel="canonical"[^>]+href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"/i
-  ) || html.match(
-    /href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"[^>]*rel="canonical"/i
-  );
-  if (!canonical) return null;
-
-  // canonical はページ内で channelId が確認できるときだけ採用
-  const ownedCanonical = new RegExp(
-    `"videoId"\\s*:\\s*"${canonical[1]}"[\\s\\S]{0,240}"channelId"\\s*:\\s*"${channelId}"|"channelId"\\s*:\\s*"${channelId}"[\\s\\S]{0,240}"videoId"\\s*:\\s*"${canonical[1]}"`
-  );
-  return ownedCanonical.test(html) ? canonical[1] : null;
-}
-
-/** /live ページから現在の配信 videoId を取得。最終判定は videos.list + channelId 一致で行う。 */
 async function fetchCurrentLiveVideoId(channelId, handle = null) {
   const candidates = [];
   if (handle && /^[A-Za-z0-9._-]+$/.test(handle)) {
@@ -370,11 +333,21 @@ async function fetchCurrentLiveVideoId(channelId, handle = null) {
 
   for (const url of candidates) {
     try {
+      // リダイレクト先は GHA から別chの配信に飛ぶことがあるため follow しない
       const res = await fetch(url, {
-        headers: RSS_HEADERS,
-        redirect: 'follow',
+        headers: {
+          ...RSS_HEADERS,
+          Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        },
+        redirect: 'manual',
         signal: AbortSignal.timeout(12000),
       });
+
+      const location = res.headers.get('location') || '';
+      const fromLocation = location.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
+      if (fromLocation) return fromLocation[1];
+
+      if (res.status >= 300 && res.status < 400) continue;
       if (!res.ok) continue;
 
       const html = await res.text();
@@ -382,17 +355,19 @@ async function fetchCurrentLiveVideoId(channelId, handle = null) {
         continue;
       }
 
-      const owned = extractOwnedLiveVideoId(html, channelId);
-      if (owned) return owned;
+      const ownedPair = html.match(
+        new RegExp(
+          `"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"\\s*,\\s*"channelId"\\s*:\\s*"${channelId}"|"channelId"\\s*:\\s*"${channelId}"\\s*,\\s*"videoId"\\s*:\\s*"([a-zA-Z0-9_-]{11})"`
+        )
+      );
+      if (ownedPair?.[1] || ownedPair?.[2]) return ownedPair[1] || ownedPair[2];
 
-      const finalUrl = res.url || '';
-      const fromUrl = finalUrl.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
-      if (fromUrl) {
-        const ownedRedirect = new RegExp(
-          `"videoId"\\s*:\\s*"${fromUrl[1]}"[\\s\\S]{0,240}"channelId"\\s*:\\s*"${channelId}"|"channelId"\\s*:\\s*"${channelId}"[\\s\\S]{0,240}"videoId"\\s*:\\s*"${fromUrl[1]}"`
-        );
-        if (ownedRedirect.test(html)) return fromUrl[1];
-      }
+      const canonical = html.match(
+        /<link[^>]+rel="canonical"[^>]+href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"/i
+      ) || html.match(
+        /href="https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})"[^>]*rel="canonical"/i
+      );
+      if (canonical) return canonical[1];
     } catch {
       /* try next candidate */
     }
@@ -646,23 +621,37 @@ async function main() {
     }
   }
 
-  // 全チャンネルを /live で追加検出（RSS ローテーション外の配信中取りこぼし防止）
-  if (LIVE_PROBE_ENABLED) {
-    for (const channelId of channelIds) {
-      const member = memberByChannel.get(channelId);
-      const liveVideoId = await fetchCurrentLiveVideoId(channelId, member.handle);
-      if (liveVideoId) {
-        liveProbeHits += 1;
-        console.log(`Live probe hit: ${member.name} -> ${liveVideoId}`);
-        if (!videoToMember.has(liveVideoId)) {
-          videoToMember.set(liveVideoId, { member, channelId });
-        }
-        if (!allVideoIds.includes(liveVideoId)) {
-          allVideoIds.push(liveVideoId);
+  // RSS 対象外は uploads プレイリストで補完（/live リダイレクトは GHA から別chに飛ぶため非信頼）
+  const rssSet = new Set(rssTargetIds);
+  const offBatchIds = channelIds.filter((id) => !rssSet.has(id));
+  for (const channelId of offBatchIds) {
+    const member = memberByChannel.get(channelId);
+    try {
+      const videoIds = await fetchUploadsPlaylistVideoIds(channelId);
+      playlistFallbackCalls += 1;
+      for (const videoId of videoIds) {
+        allVideoIds.push(videoId);
+        if (!videoToMember.has(videoId)) {
+          videoToMember.set(videoId, { member, channelId });
         }
       }
-      if (RSS_DELAY_MS > 0) await sleep(Math.min(RSS_DELAY_MS, 300));
+    } catch (error) {
+      console.warn(`Off-batch playlist failed for ${member.name}: ${error.message}`);
+      if (LIVE_PROBE_ENABLED) {
+        const liveVideoId = await fetchCurrentLiveVideoId(channelId, member.handle);
+        if (liveVideoId) {
+          liveProbeHits += 1;
+          console.log(`Live probe hit: ${member.name} -> ${liveVideoId}`);
+          if (!videoToMember.has(liveVideoId)) {
+            videoToMember.set(liveVideoId, { member, channelId });
+          }
+          if (!allVideoIds.includes(liveVideoId)) {
+            allVideoIds.push(liveVideoId);
+          }
+        }
+      }
     }
+    if (RSS_DELAY_MS > 0) await sleep(Math.min(RSS_DELAY_MS, 200));
   }
 
   console.log(
@@ -680,21 +669,23 @@ async function main() {
 
     for (const video of videos) {
       refreshedVideoIds.add(video.id);
-      const mapping = videoToMember.get(video.id);
-      if (!mapping) continue;
-
       const ownerChannelId = video.snippet?.channelId;
-      if (ownerChannelId && ownerChannelId !== mapping.channelId) {
-        console.warn(
-          `Skip channel mismatch: video=${video.id} owner=${ownerChannelId} mapped=${mapping.channelId} (${mapping.member.name})`
-        );
+      // 動画の実際の所有者チャンネルで帰属（プローブ誤検出の取り違え防止）
+      const member = ownerChannelId ? memberByChannel.get(ownerChannelId) : null;
+      if (!member) {
+        const mapping = videoToMember.get(video.id);
+        if (mapping && ownerChannelId && ownerChannelId !== mapping.channelId) {
+          console.warn(
+            `Skip channel mismatch: video=${video.id} owner=${ownerChannelId} mapped=${mapping.channelId} (${mapping.member.name})`
+          );
+        }
         continue;
       }
 
       const broadcast = video.snippet?.liveBroadcastContent;
       if (broadcast !== 'live' && broadcast !== 'upcoming') continue;
 
-      const entry = buildStreamEntry(mapping.member, mapping.channelId, video);
+      const entry = buildStreamEntry(member, ownerChannelId, video);
       entry.status = broadcast;
 
       if (broadcast === 'live' && isValidLive(video)) {
