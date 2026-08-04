@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T05:11:21.234Z",
+  "updatedAt": "2026-08-04T05:16:21.162Z",
   "live": [
     {
       "memberKey": "partner:従井ノラ",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-ldX-mDgCko/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T05:00:00Z",
       "url": "https://www.youtube.com/watch?v=-ldX-mDgCko",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "live"
     }
   ],
@@ -32,39 +32,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EN6lELH2uo0/mqdefault.jpg",
       "scheduledStart": "2026-08-04T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=EN6lELH2uo0",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:落乃いなほ",
-      "name": "落乃いなほ",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
-      "handle": "落乃いなほ",
-      "videoId": "_bs4LyyzbkM",
-      "title": "【Happy-Free-Talk】Ngobrol gratis sama orang Jepang asli!",
-      "thumbnail": "https://i.ytimg.com/vi/_bs4LyyzbkM/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-04T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=_bs4LyyzbkM",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:常勝無敗ぐぬぬ",
-      "name": "常勝無敗ぐぬぬ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
-      "handle": "gununu_meiwaku",
-      "videoId": "exEMZUuXkuA",
-      "title": "【めっちゃカメレオン】堂々したプロです【常勝無敗ぐぬぬ】 #ビバップ高校",
-      "thumbnail": "https://i.ytimg.com/vi/exEMZUuXkuA/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-04T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=exEMZUuXkuA",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -80,23 +48,39 @@
       "thumbnail": "https://i.ytimg.com/vi/bWi-imlfAnw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=bWi-imlfAnw",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.161Z",
       "status": "upcoming"
     },
     {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
+      "memberKey": "goraku:落乃いなほ",
+      "name": "落乃いなほ",
       "groupId": "goraku",
       "groupName": "娯楽組",
       "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "wnPJGeWSmTM",
-      "title": "〖 歌枠 〗  本日は懐かしのボカロ曲で決まり💛熱い夜は歌で楽しもう【 #娯楽組 】",
-      "thumbnail": "https://i.ytimg.com/vi/wnPJGeWSmTM/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-04T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=wnPJGeWSmTM",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
+      "handle": "落乃いなほ",
+      "videoId": "_bs4LyyzbkM",
+      "title": "【Happy-Free-Talk】Ngobrol gratis sama orang Jepang asli!",
+      "thumbnail": "https://i.ytimg.com/vi/_bs4LyyzbkM/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-04T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=_bs4LyyzbkM",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:常勝無敗ぐぬぬ",
+      "name": "常勝無敗ぐぬぬ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
+      "handle": "gununu_meiwaku",
+      "videoId": "exEMZUuXkuA",
+      "title": "【めっちゃカメレオン】堂々したプロです【常勝無敗ぐぬぬ】 #ビバップ高校",
+      "thumbnail": "https://i.ytimg.com/vi/exEMZUuXkuA/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-04T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=exEMZUuXkuA",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +96,23 @@
       "thumbnail": "https://i.ytimg.com/vi/_5ZH9BffPwE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=_5ZH9BffPwE",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "wnPJGeWSmTM",
+      "title": "〖 歌枠 〗  本日は懐かしのボカロ曲で決まり💛熱い夜は歌で楽しもう【 #娯楽組 】",
+      "thumbnail": "https://i.ytimg.com/vi/wnPJGeWSmTM/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-04T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=wnPJGeWSmTM",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CRtq-WsJSHM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=CRtq-WsJSHM",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/s4ABZx1WTcY/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=s4ABZx1WTcY",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xujKKHaDaXc/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=xujKKHaDaXc",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TGK26AiVWpg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=TGK26AiVWpg",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YPeyk_aJmAQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=YPeyk_aJmAQ",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=llNmrll11wU",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rq521VruTiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rq521VruTiw",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-04T05:11:21.233Z",
+      "checkedAt": "2026-08-04T05:16:21.162Z",
       "status": "upcoming"
     }
   ]
