@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-04T11:35:49.711Z",
+  "updatedAt": "2026-08-04T11:40:41.264Z",
   "live": [
+    {
+      "memberKey": "aogiri:山黒音玄",
+      "name": "山黒音玄",
+      "groupId": "aogiri",
+      "groupName": "あおぎり高校",
+      "groupColor": "#7db8ff",
+      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
+      "handle": "nekuro0412",
+      "videoId": "8U52M2mXSHc",
+      "title": "ボス全制覇も船もやりたい事ぜーんぶやる【 VCR Rust 3 / 15日目 】#山黒音玄",
+      "thumbnail": "https://i.ytimg.com/vi/8U52M2mXSHc/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-04T09:00:00Z",
+      "url": "https://www.youtube.com/watch?v=8U52M2mXSHc",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
+      "status": "live"
+    },
     {
       "memberKey": "aogiri:我部りえる",
       "name": "我部りえる",
@@ -14,7 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bWi-imlfAnw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=bWi-imlfAnw",
-      "checkedAt": "2026-08-04T11:35:49.542Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "live"
     },
     {
@@ -30,23 +46,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-XtGeJOFVEI/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=-XtGeJOFVEI",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "aogiri:山黒音玄",
-      "name": "山黒音玄",
-      "groupId": "aogiri",
-      "groupName": "あおぎり高校",
-      "groupColor": "#7db8ff",
-      "channelId": "UCs-lYkwb-NYKE9_ssTRDK3Q",
-      "handle": "nekuro0412",
-      "videoId": "8U52M2mXSHc",
-      "title": "ボス全制覇も船もやりたい事ぜーんぶやる【 VCR Rust 3 / 15日目 】#山黒音玄",
-      "thumbnail": "https://i.ytimg.com/vi/8U52M2mXSHc/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-04T09:00:00Z",
-      "url": "https://www.youtube.com/watch?v=8U52M2mXSHc",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "live"
     },
     {
@@ -62,7 +62,7 @@
       "thumbnail": "https://i.ytimg.com/vi/exEMZUuXkuA/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=exEMZUuXkuA",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "live"
     },
     {
@@ -78,7 +78,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k_Dy96zBwIM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=k_Dy96zBwIM",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "live"
     },
     {
@@ -94,7 +94,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ttyTZvKZGFs/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=ttyTZvKZGFs",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "live"
     },
     {
@@ -110,27 +110,11 @@
       "thumbnail": "https://i.ytimg.com/vi/_bs4LyyzbkM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=_bs4LyyzbkM",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "live"
     }
   ],
   "upcoming": [
-    {
-      "memberKey": "bebop:明鏡止水ふわり",
-      "name": "明鏡止水ふわり",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCV1is8yPGubl7J7vG7K45Hg",
-      "handle": "fuwari_coisqa",
-      "videoId": "_5ZH9BffPwE",
-      "title": "【復帰記念】かいぬち、ただいま！本日より活動再開します！✨【#ビバップ高校/#明鏡止水ふわり】",
-      "thumbnail": "https://i.ytimg.com/vi/_5ZH9BffPwE/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-04T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=_5ZH9BffPwE",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
-      "status": "upcoming"
-    },
     {
       "memberKey": "goraku:与璃つづく",
       "name": "与璃つづく",
@@ -144,7 +128,23 @@
       "thumbnail": "https://i.ytimg.com/vi/wnPJGeWSmTM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=wnPJGeWSmTM",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:明鏡止水ふわり",
+      "name": "明鏡止水ふわり",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCV1is8yPGubl7J7vG7K45Hg",
+      "handle": "fuwari_coisqa",
+      "videoId": "_5ZH9BffPwE",
+      "title": "【復帰記念】かいぬち、ただいま！本日より活動再開します！✨【#ビバップ高校/#明鏡止水ふわり】",
+      "thumbnail": "https://i.ytimg.com/vi/_5ZH9BffPwE/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-04T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=_5ZH9BffPwE",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CRtq-WsJSHM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=CRtq-WsJSHM",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/s4ABZx1WTcY/mqdefault_live.jpg",
       "scheduledStart": "2026-08-04T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=s4ABZx1WTcY",
-      "checkedAt": "2026-08-04T11:35:49.542Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +192,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +208,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xujKKHaDaXc/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=xujKKHaDaXc",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "upcoming"
     },
     {
@@ -224,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TGK26AiVWpg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=TGK26AiVWpg",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.259Z",
       "status": "upcoming"
     },
     {
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YPeyk_aJmAQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=YPeyk_aJmAQ",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.259Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=llNmrll11wU",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rq521VruTiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rq521VruTiw",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.259Z",
       "status": "upcoming"
     },
     {
@@ -288,7 +288,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.259Z",
       "status": "upcoming"
     },
     {
@@ -304,7 +304,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-04T11:35:49.543Z",
+      "checkedAt": "2026-08-04T11:40:41.258Z",
       "status": "upcoming"
     }
   ]
