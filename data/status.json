@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T18:20:42.704Z",
+  "updatedAt": "2026-08-05T18:25:39.045Z",
   "live": [],
   "upcoming": [
     {
@@ -15,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YSTpqHTXzAI/mqdefault_live.jpg",
       "scheduledStart": "2026-08-06T03:00:00Z",
       "url": "https://www.youtube.com/watch?v=YSTpqHTXzAI",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Y4XQycR8ecU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-06T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=Y4XQycR8ecU",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vCAmvoMEj24/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=vCAmvoMEj24",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -63,7 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5qZgpdE_HK4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=5qZgpdE_HK4",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -79,7 +79,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TGK26AiVWpg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=TGK26AiVWpg",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -95,23 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CKU56I7PyuM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=CKU56I7PyuM",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:漆八ぷてら",
-      "name": "漆八ぷてら",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCE7AsnCoT5-je_fob9MAEqw",
-      "handle": "ShichihachiPutera",
-      "videoId": "lha9uSBEMWk",
-      "title": "【マシュマロ】デビュー１週間だけど質問ある？【#漆八ぷてら/#ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/lha9uSBEMWk/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-08T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=lha9uSBEMWk",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -127,23 +111,23 @@
       "thumbnail": "https://i.ytimg.com/vi/YPeyk_aJmAQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=YPeyk_aJmAQ",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
-      "memberKey": "bebop:常勝無敗ぐぬぬ",
-      "name": "常勝無敗ぐぬぬ",
+      "memberKey": "bebop:漆八ぷてら",
+      "name": "漆八ぷてら",
       "groupId": "bebop",
       "groupName": "ビバップ高校",
       "groupColor": "#6ee7aa",
-      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
-      "handle": "gununu_meiwaku",
-      "videoId": "llNmrll11wU",
-      "title": "【 #歌枠 】涼しいおうちから夏を感じませう🔥　【常勝無敗ぐぬぬ / ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-08T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=llNmrll11wU",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "channelId": "UCE7AsnCoT5-je_fob9MAEqw",
+      "handle": "ShichihachiPutera",
+      "videoId": "lha9uSBEMWk",
+      "title": "【マシュマロ】デビュー１週間だけど質問ある？【#漆八ぷてら/#ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/lha9uSBEMWk/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-08T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=lha9uSBEMWk",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +143,23 @@
       "thumbnail": "https://i.ytimg.com/vi/hIWX-7P7CP0/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=hIWX-7P7CP0",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:常勝無敗ぐぬぬ",
+      "name": "常勝無敗ぐぬぬ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
+      "handle": "gununu_meiwaku",
+      "videoId": "llNmrll11wU",
+      "title": "【 #歌枠 】涼しいおうちから夏を感じませう🔥　【常勝無敗ぐぬぬ / ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-08T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=llNmrll11wU",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kYpgvOWkRuw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T05:30:00Z",
       "url": "https://www.youtube.com/watch?v=kYpgvOWkRuw",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +191,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rq521VruTiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rq521VruTiw",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     },
     {
@@ -223,7 +223,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-05T18:20:42.703Z",
+      "checkedAt": "2026-08-05T18:25:39.044Z",
       "status": "upcoming"
     }
   ]
