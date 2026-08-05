@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T07:31:03.632Z",
+  "updatedAt": "2026-08-05T07:35:40.993Z",
   "live": [],
   "upcoming": [
     {
@@ -15,7 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3FlmG9LbXbM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=3FlmG9LbXbM",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -31,7 +31,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DBewZZ5tbQY/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T08:00:00Z",
       "url": "https://www.youtube.com/watch?v=DBewZZ5tbQY",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +47,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ug_sXhZLF2M/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=Ug_sXhZLF2M",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -63,71 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oty_QzGQhfk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T09:30:00Z",
       "url": "https://www.youtube.com/watch?v=Oty_QzGQhfk",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "yugiri:天羅洲テラス",
-      "name": "天羅洲テラス",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw",
-      "handle": "AmarasuTerasu",
-      "videoId": "ybYsFpyMYPk",
-      "title": "【Euro Truck Simulator 2】暴言吐いたら即終了⁉自分、やれます【天羅洲テラス/ゆうぎり高校】",
-      "thumbnail": "https://i.ytimg.com/vi/ybYsFpyMYPk/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-05T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=ybYsFpyMYPk",
-      "checkedAt": "2026-08-05T07:31:03.631Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:泡喰はわこ",
-      "name": "泡喰はわこ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
-      "handle": "hawako_meiwaku",
-      "videoId": "aoNihdKlutk",
-      "title": "【Minecraft 】迷電ワークスで宝探し！！大海原へ冒険だ🫧🐥【泡喰はわこ/ビバップ高校 /迷電ワークス】",
-      "thumbnail": "https://i.ytimg.com/vi/aoNihdKlutk/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-05T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=aoNihdKlutk",
-      "checkedAt": "2026-08-05T07:31:03.631Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:常勝無敗ぐぬぬ",
-      "name": "常勝無敗ぐぬぬ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
-      "handle": "gununu_meiwaku",
-      "videoId": "xujKKHaDaXc",
-      "title": "【 #VHSマイクラ 】迷ワク、この夏の目標とは＿＿＿＿【常勝無敗ぐぬぬ】",
-      "thumbnail": "https://i.ytimg.com/vi/xujKKHaDaXc/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-05T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=xujKKHaDaXc",
-      "checkedAt": "2026-08-05T07:31:03.631Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:落乃いなほ",
-      "name": "落乃いなほ",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
-      "handle": "落乃いなほ",
-      "videoId": "U2kXuZM8QdM",
-      "title": "【hololive Dreams】Kolaborasi bersama para idol ID yang aku kagumi!?",
-      "thumbnail": "https://i.ytimg.com/vi/U2kXuZM8QdM/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-05T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=U2kXuZM8QdM",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -143,7 +79,71 @@
       "thumbnail": "https://i.ytimg.com/vi/V8Rf81uUaQA/mqdefault_live.jpg",
       "scheduledStart": "2026-08-05T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=V8Rf81uUaQA",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "yugiri:天羅洲テラス",
+      "name": "天羅洲テラス",
+      "groupId": "yugiri",
+      "groupName": "ゆうぎり高校",
+      "groupColor": "#ffb070",
+      "channelId": "UCpgG-Ff5fSId2zoRW4O5dsw",
+      "handle": "AmarasuTerasu",
+      "videoId": "ybYsFpyMYPk",
+      "title": "【Euro Truck Simulator 2】暴言吐いたら即終了⁉自分、やれます【天羅洲テラス/ゆうぎり高校】",
+      "thumbnail": "https://i.ytimg.com/vi/ybYsFpyMYPk/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-05T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=ybYsFpyMYPk",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:泡喰はわこ",
+      "name": "泡喰はわこ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
+      "handle": "hawako_meiwaku",
+      "videoId": "aoNihdKlutk",
+      "title": "【Minecraft 】迷電ワークスで宝探し！！大海原へ冒険だ🫧🐥【泡喰はわこ/ビバップ高校 /迷電ワークス】",
+      "thumbnail": "https://i.ytimg.com/vi/aoNihdKlutk/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-05T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=aoNihdKlutk",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:常勝無敗ぐぬぬ",
+      "name": "常勝無敗ぐぬぬ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
+      "handle": "gununu_meiwaku",
+      "videoId": "xujKKHaDaXc",
+      "title": "【 #VHSマイクラ 】迷ワク、この夏の目標とは＿＿＿＿【常勝無敗ぐぬぬ】",
+      "thumbnail": "https://i.ytimg.com/vi/xujKKHaDaXc/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-05T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=xujKKHaDaXc",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:落乃いなほ",
+      "name": "落乃いなほ",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCxk-xk9E_GS8Z5qJ-iBYLyw",
+      "handle": "落乃いなほ",
+      "videoId": "U2kXuZM8QdM",
+      "title": "【hololive Dreams】Kolaborasi bersama para idol ID yang aku kagumi!?",
+      "thumbnail": "https://i.ytimg.com/vi/U2kXuZM8QdM/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-05T12:00:00Z",
+      "url": "https://www.youtube.com/watch?v=U2kXuZM8QdM",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YSTpqHTXzAI/mqdefault_live.jpg",
       "scheduledStart": "2026-08-06T02:00:00Z",
       "url": "https://www.youtube.com/watch?v=YSTpqHTXzAI",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vCAmvoMEj24/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=vCAmvoMEj24",
-      "checkedAt": "2026-08-05T07:31:03.631Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +191,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5qZgpdE_HK4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=5qZgpdE_HK4",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TGK26AiVWpg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=TGK26AiVWpg",
-      "checkedAt": "2026-08-05T07:31:03.631Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -223,7 +223,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CKU56I7PyuM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=CKU56I7PyuM",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -239,7 +239,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lha9uSBEMWk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=lha9uSBEMWk",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -255,7 +255,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YPeyk_aJmAQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=YPeyk_aJmAQ",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -271,7 +271,7 @@
       "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=llNmrll11wU",
-      "checkedAt": "2026-08-05T07:31:03.631Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -287,7 +287,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rq521VruTiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rq521VruTiw",
-      "checkedAt": "2026-08-05T07:31:03.631Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -303,7 +303,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-05T07:31:03.631Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     },
     {
@@ -319,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-05T07:31:03.632Z",
+      "checkedAt": "2026-08-05T07:35:40.992Z",
       "status": "upcoming"
     }
   ]
