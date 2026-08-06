@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T13:30:24.807Z",
+  "updatedAt": "2026-08-06T13:41:21.765Z",
   "live": [
     {
       "memberKey": "bebop:明鏡止水ふわり",
@@ -14,7 +14,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NBAvE202iiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-06T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=NBAvE202iiw",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "live"
     },
     {
@@ -30,55 +30,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EyaVBhffKK0/mqdefault_live.jpg",
       "scheduledStart": "2026-08-06T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=EyaVBhffKK0",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:泡喰はわこ",
-      "name": "泡喰はわこ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCQjIXLk6lridUCQIBHaLMDw",
-      "handle": "hawako_meiwaku",
-      "videoId": "4XyvFqwErDE",
-      "title": "【ぴよ丸お気に召す🐥】二藍しぃあ🪻♍️様のおすすめは？【 泡喰はわこ/ビバップ高校 /迷電ワークス 】",
-      "thumbnail": "https://i.ytimg.com/vi/4XyvFqwErDE/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-06T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=4XyvFqwErDE",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "bebop:常勝無敗ぐぬぬ",
-      "name": "常勝無敗ぐぬぬ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
-      "handle": "gununu_meiwaku",
-      "videoId": "lAhcfjvFRsA",
-      "title": "【たいまん歌会合】ガチタイマン始まりそうなサムネで最高 #春雨麗女【常勝無敗ぐぬぬ】",
-      "thumbnail": "https://i.ytimg.com/vi/lAhcfjvFRsA/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-06T12:00:00Z",
-      "url": "https://www.youtube.com/watch?v=lAhcfjvFRsA",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
-      "status": "live"
-    },
-    {
-      "memberKey": "yugiri:篠崎シャノン",
-      "name": "篠崎シャノン",
-      "groupId": "yugiri",
-      "groupName": "ゆうぎり高校",
-      "groupColor": "#ffb070",
-      "channelId": "UChrnxv-6qAikn3_oUwysZWg",
-      "handle": "ShinozakiShanon",
-      "videoId": "O78YPDl3uQ0",
-      "title": "【歌枠】何曲知ってる!? 2026年上半期ヒット曲♪  Singing Stream【ゆうぎり高校 / 篠崎シャノン】#vtuber",
-      "thumbnail": "https://i.ytimg.com/vi/O78YPDl3uQ0/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-06T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=O78YPDl3uQ0",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "live"
     }
   ],
@@ -96,7 +48,7 @@
       "thumbnail": "https://i.ytimg.com/vi/a5WrsQ9s_vk/mqdefault.jpg",
       "scheduledStart": "2026-08-07T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=a5WrsQ9s_vk",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -112,7 +64,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vCAmvoMEj24/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=vCAmvoMEj24",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -128,7 +80,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5qZgpdE_HK4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=5qZgpdE_HK4",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -144,7 +96,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FK9XgTk3Dbk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=FK9XgTk3Dbk",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -160,7 +112,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cijpfntGENE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=cijpfntGENE",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -176,7 +128,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TGK26AiVWpg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=TGK26AiVWpg",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -192,7 +144,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CKU56I7PyuM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=CKU56I7PyuM",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -208,7 +160,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lha9uSBEMWk/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=lha9uSBEMWk",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -224,23 +176,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YPeyk_aJmAQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=YPeyk_aJmAQ",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:常勝無敗ぐぬぬ",
-      "name": "常勝無敗ぐぬぬ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
-      "handle": "gununu_meiwaku",
-      "videoId": "llNmrll11wU",
-      "title": "【 #歌枠 】涼しいおうちから夏を感じませう🔥　【常勝無敗ぐぬぬ / ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-08T11:00:00Z",
-      "url": "https://www.youtube.com/watch?v=llNmrll11wU",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -256,7 +192,23 @@
       "thumbnail": "https://i.ytimg.com/vi/hIWX-7P7CP0/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=hIWX-7P7CP0",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:常勝無敗ぐぬぬ",
+      "name": "常勝無敗ぐぬぬ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCIOUnOw74BcQZzskbjK3f8w",
+      "handle": "gununu_meiwaku",
+      "videoId": "llNmrll11wU",
+      "title": "【 #歌枠 】涼しいおうちから夏を感じませう🔥　【常勝無敗ぐぬぬ / ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-08T11:00:00Z",
+      "url": "https://www.youtube.com/watch?v=llNmrll11wU",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -272,7 +224,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kYpgvOWkRuw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T05:30:00Z",
       "url": "https://www.youtube.com/watch?v=kYpgvOWkRuw",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.747Z",
       "status": "upcoming"
     },
     {
@@ -288,7 +240,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rq521VruTiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rq521VruTiw",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -304,7 +256,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     },
     {
@@ -320,7 +272,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-06T13:30:24.790Z",
+      "checkedAt": "2026-08-06T13:41:21.748Z",
       "status": "upcoming"
     }
   ]
