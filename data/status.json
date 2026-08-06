@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T15:09:04.377Z",
+  "updatedAt": "2026-08-06T15:20:44.895Z",
   "live": [],
   "upcoming": [
     {
@@ -15,23 +15,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3spBsa7T89g/mqdefault_live.jpg",
       "scheduledStart": "2026-08-06T22:00:00Z",
       "url": "https://www.youtube.com/watch?v=3spBsa7T89g",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:甘葛すもあ",
-      "name": "甘葛すもあ",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCAflRAT6B_7nvxAK72ztN3A",
-      "handle": "sumoa_meiwaku",
-      "videoId": "a5WrsQ9s_vk",
-      "title": "2026.08.07. 19：00～",
-      "thumbnail": "https://i.ytimg.com/vi/a5WrsQ9s_vk/mqdefault.jpg",
-      "scheduledStart": "2026-08-07T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=a5WrsQ9s_vk",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -47,7 +31,23 @@
       "thumbnail": "https://i.ytimg.com/vi/vCAmvoMEj24/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=vCAmvoMEj24",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:甘葛すもあ",
+      "name": "甘葛すもあ",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCAflRAT6B_7nvxAK72ztN3A",
+      "handle": "sumoa_meiwaku",
+      "videoId": "a5WrsQ9s_vk",
+      "title": "2026.08.07. 19：00～",
+      "thumbnail": "https://i.ytimg.com/vi/a5WrsQ9s_vk/mqdefault.jpg",
+      "scheduledStart": "2026-08-07T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=a5WrsQ9s_vk",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -63,23 +63,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5qZgpdE_HK4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T12:00:00Z",
       "url": "https://www.youtube.com/watch?v=5qZgpdE_HK4",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "goraku:与璃つづく",
-      "name": "与璃つづく",
-      "groupId": "goraku",
-      "groupName": "娯楽組",
-      "groupColor": "#c49bff",
-      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
-      "handle": "与璃つづく",
-      "videoId": "FK9XgTk3Dbk",
-      "title": "エ○くないのになんかヱロく聞こえる言葉決定戦【＃娯楽組】",
-      "thumbnail": "https://i.ytimg.com/vi/FK9XgTk3Dbk/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-07T13:00:00Z",
-      "url": "https://www.youtube.com/watch?v=FK9XgTk3Dbk",
-      "checkedAt": "2026-08-06T15:09:04.376Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -95,7 +79,23 @@
       "thumbnail": "https://i.ytimg.com/vi/cijpfntGENE/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T13:00:00Z",
       "url": "https://www.youtube.com/watch?v=cijpfntGENE",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.894Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "goraku:与璃つづく",
+      "name": "与璃つづく",
+      "groupId": "goraku",
+      "groupName": "娯楽組",
+      "groupColor": "#c49bff",
+      "channelId": "UCNaO1bNGrA5f5mYcmTAZkzQ",
+      "handle": "与璃つづく",
+      "videoId": "FK9XgTk3Dbk",
+      "title": "エ○くないのになんかヱロく聞こえる言葉決定戦【＃娯楽組】",
+      "thumbnail": "https://i.ytimg.com/vi/FK9XgTk3Dbk/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-07T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=FK9XgTk3Dbk",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -111,7 +111,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TGK26AiVWpg/mqdefault_live.jpg",
       "scheduledStart": "2026-08-07T14:00:00Z",
       "url": "https://www.youtube.com/watch?v=TGK26AiVWpg",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -127,23 +127,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CKU56I7PyuM/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T09:00:00Z",
       "url": "https://www.youtube.com/watch?v=CKU56I7PyuM",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
-      "status": "upcoming"
-    },
-    {
-      "memberKey": "bebop:漆八ぷてら",
-      "name": "漆八ぷてら",
-      "groupId": "bebop",
-      "groupName": "ビバップ高校",
-      "groupColor": "#6ee7aa",
-      "channelId": "UCE7AsnCoT5-je_fob9MAEqw",
-      "handle": "ShichihachiPutera",
-      "videoId": "lha9uSBEMWk",
-      "title": "【マシュマロ】デビュー１週間だけど質問ある？【#漆八ぷてら/#ビバップ高校】",
-      "thumbnail": "https://i.ytimg.com/vi/lha9uSBEMWk/mqdefault_live.jpg",
-      "scheduledStart": "2026-08-08T10:00:00Z",
-      "url": "https://www.youtube.com/watch?v=lha9uSBEMWk",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -159,7 +143,23 @@
       "thumbnail": "https://i.ytimg.com/vi/YPeyk_aJmAQ/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=YPeyk_aJmAQ",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
+      "status": "upcoming"
+    },
+    {
+      "memberKey": "bebop:漆八ぷてら",
+      "name": "漆八ぷてら",
+      "groupId": "bebop",
+      "groupName": "ビバップ高校",
+      "groupColor": "#6ee7aa",
+      "channelId": "UCE7AsnCoT5-je_fob9MAEqw",
+      "handle": "ShichihachiPutera",
+      "videoId": "lha9uSBEMWk",
+      "title": "【マシュマロ】デビュー１週間だけど質問ある？【#漆八ぷてら/#ビバップ高校】",
+      "thumbnail": "https://i.ytimg.com/vi/lha9uSBEMWk/mqdefault_live.jpg",
+      "scheduledStart": "2026-08-08T10:00:00Z",
+      "url": "https://www.youtube.com/watch?v=lha9uSBEMWk",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -175,7 +175,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hIWX-7P7CP0/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=hIWX-7P7CP0",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -191,7 +191,7 @@
       "thumbnail": "https://i.ytimg.com/vi/llNmrll11wU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-08T11:00:00Z",
       "url": "https://www.youtube.com/watch?v=llNmrll11wU",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kYpgvOWkRuw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T05:30:00Z",
       "url": "https://www.youtube.com/watch?v=kYpgvOWkRuw",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -223,7 +223,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rq521VruTiw/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T06:00:00Z",
       "url": "https://www.youtube.com/watch?v=rq521VruTiw",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -239,7 +239,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p8BsmPU1Ki4/mqdefault_live.jpg",
       "scheduledStart": "2026-08-09T10:00:00Z",
       "url": "https://www.youtube.com/watch?v=p8BsmPU1Ki4",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     },
     {
@@ -255,7 +255,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7jXiGipFKnU/mqdefault_live.jpg",
       "scheduledStart": "2026-08-12T19:30:00Z",
       "url": "https://www.youtube.com/watch?v=7jXiGipFKnU",
-      "checkedAt": "2026-08-06T15:09:04.377Z",
+      "checkedAt": "2026-08-06T15:20:44.895Z",
       "status": "upcoming"
     }
   ]
