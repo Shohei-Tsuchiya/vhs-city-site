@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://shohei-tsuchiya.github.io/vhs-city-site/sitemap.xml
-Sitemap: https://shohei-tsuchiya.github.io/vhs-city-site/sitemap.txt
+# 本サイトは移転済みです
+# https://vhs-city-site-cf.pages.dev/

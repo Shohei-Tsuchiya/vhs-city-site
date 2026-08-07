@@ -7,27 +7,54 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-MF18GPN7LV');
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VHS City 配信ダッシュボード | あおぎり高校・ゆうぎり高校 配信予定一覧</title>
-  <meta name="description" content="VHS City（Vtuber High School City）メンバーの YouTube 配信中・配信予定を一覧表示。あおぎり高校、ゆうぎり高校、ビバップ高校、娯楽組、従井ノラの配信スケジュールを非公式ファンサイトで確認。">
+  <title>VHS City 配信ダッシュボードは移転しました</title>
+  <meta name="description" content="VHS City 非公式配信ダッシュボードは Cloudflare 版へ移転しました。">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://vhs-city-site-cf.pages.dev/">
+  <meta http-equiv="refresh" content="5;url=https://vhs-city-site-cf.pages.dev/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <meta name="keywords" content="VHS City, VHS CITY, Vtuber High School City, 配信予定, 配信中, YouTube, VTuber, 非公式ファンサイト, あおぎり高校, ゆうぎり高校, ビバップ高校, 娯楽組, 従井ノラ, 音霊魂子, メンバー一覧">
-  <link rel="canonical" href="https://shohei-tsuchiya.github.io/vhs-city-site/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="ja_JP">
-  <meta property="og:title" content="VHS City 配信ダッシュボード | 配信予定・配信中一覧">
-  <meta property="og:description" content="VHS City（Vtuber High School City）メンバーの YouTube 配信予定・配信中を一覧表示する非公式ファンサイト">
-  <meta property="og:url" content="https://shohei-tsuchiya.github.io/vhs-city-site/">
-  <meta property="og:site_name" content="VHS City 配信ダッシュボード">
-  <meta name="twitter:card" content="summary">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"VHS City 配信ダッシュボード","alternateName":["VHS CITY","Vtuber High School City"],"url":"https://shohei-tsuchiya.github.io/vhs-city-site/","description":"VHS City メンバーの YouTube 配信予定・配信中を一覧表示する非公式ファンサイト","inLanguage":"ja"}</script>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .migrate-main {
+      max-width: 40rem;
+      margin: 4rem auto;
+      padding: 0 1.25rem 4rem;
+      text-align: center;
+    }
+    .migrate-main h1 {
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      margin-bottom: 0.75rem;
+    }
+    .migrate-main p {
+      color: #c8d0dc;
+      line-height: 1.7;
+      margin: 0.75rem 0;
+    }
+    .migrate-cta {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.85rem 1.4rem;
+      border-radius: 999px;
+      background: #7db8ff;
+      color: #0b1220;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .migrate-cta:hover {
+      filter: brightness(1.08);
+    }
+    .migrate-note {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #8b95a8;
+    }
+  </style>
 </head>
 <body>
   <div class="scanlines" aria-hidden="true"></div>
@@ -38,76 +65,29 @@
     <div class="header-main">
       <p class="eyebrow">UNOFFICIAL FAN DASHBOARD</p>
       <h1>VHS CITY <span class="title-sub">配信モニター</span></h1>
-      <p class="tagline">あおぎり高校 / ゆうぎり高校 / ビバップ高校 / 娯楽組 / 従井ノラ</p>
-    </div>
-    <div class="header-meta">
-      <div class="header-meta-updates">
-        <p class="update-notice">配信中・配信予定は約5分ごとに更新されます。YouTube 上の変更が即時反映されるわけではありません。</p>
-        <p id="last-updated" class="timestamp">読み込み中…</p>
-      </div>
-      <button id="refresh-btn" type="button" class="btn-ghost">再読み込み</button>
     </div>
   </header>
 
-  <nav class="filter-nav" aria-label="グループフィルター">
-    <button class="filter-btn is-active" data-filter="all" type="button">すべて</button>
-    <button class="filter-btn" data-filter="aogiri" type="button">あおぎり高校</button>
-    <button class="filter-btn" data-filter="yugiri" type="button">ゆうぎり高校</button>
-    <button class="filter-btn" data-filter="bebop" type="button">ビバップ高校</button>
-    <button class="filter-btn" data-filter="goraku" type="button">娯楽組</button>
-    <button class="filter-btn" data-filter="partner" type="button">従井ノラ</button>
-    <button class="filter-btn" data-filter="official" type="button">公式</button>
-  </nav>
-
-  <main>
-    <section class="panel" aria-labelledby="live-heading">
-      <div class="panel-head">
-        <h2 id="live-heading"><span class="live-pulse"></span> 配信中</h2>
-        <span id="live-count" class="count-badge">0</span>
-      </div>
-      <div id="live-list" class="card-grid"></div>
-    </section>
-
-    <section class="panel" aria-labelledby="upcoming-heading">
-      <div class="panel-head">
-        <h2 id="upcoming-heading">配信予定</h2>
-        <span id="upcoming-count" class="count-badge">0</span>
-      </div>
-      <div id="upcoming-list" class="card-grid"></div>
-    </section>
+  <main class="migrate-main">
+    <h1>サイトを移転しました</h1>
+    <p>
+      この GitHub Pages 版の配信ダッシュボードは運用を終了し、<br>
+      Cloudflare 版へ移管しました。
+    </p>
+    <p>最新の配信中・配信予定は、下のリンク先でご覧ください。</p>
+    <p>
+      <a class="migrate-cta" href="https://vhs-city-site-cf.pages.dev/">
+        新しい配信ダッシュボードへ
+      </a>
+    </p>
+    <p class="migrate-note">
+      5秒後に自動で移動します。<br>
+      <a href="https://vhs-city-site-cf.pages.dev/">https://vhs-city-site-cf.pages.dev/</a>
+    </p>
   </main>
 
   <footer class="site-footer">
     <p>非公式ファンサイトです。viviON / VHS City 公式とは関係ありません。</p>
-    <p>アクセス解析に Google Analytics を使用しています。</p>
-    <p>
-      <a href="https://vhs-city.com/" target="_blank" rel="noopener noreferrer">VHS City 公式</a>
-      ·
-      <a href="https://www.youtube.com/@VtuberHighSchoolCity" target="_blank" rel="noopener noreferrer">VHS Cityの日常</a>
-      ·
-      <a href="members/index.html">メンバー一覧</a>
-      ·
-      <a href="https://github.com/Shohei-Tsuchiya/vhs-city-site" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </p>
   </footer>
-
-  <template id="stream-card-template">
-    <article class="stream-card">
-      <a class="card-link" target="_blank" rel="noopener noreferrer">
-        <div class="thumb-wrap">
-          <img class="thumb" alt="" loading="lazy">
-          <span class="status-chip"></span>
-        </div>
-        <div class="card-body">
-          <p class="group-label"></p>
-          <h3 class="member-name"></h3>
-          <p class="stream-title"></p>
-          <p class="stream-time"></p>
-        </div>
-      </a>
-    </article>
-  </template>
-
-  <script src="js/app.js" type="module"></script>
 </body>
 </html>
